@@ -5,7 +5,8 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".main.MainActivity">
+    tools:context=".main.MainActivity"
+    android:background="?backgroundColor">
 
     <ImageView
         android:layout_width="100dp"
@@ -22,10 +23,11 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        android:fontFamily="@font/opensans_semibold"
-        android:text="@string/app_name"
+        android:fontFamily="@font/iran_sans_medium"
+        android:text="@string/study_with_me"
         android:padding="16dp"
         android:textStyle="bold"
         android:textSize="16dp"
-        android:layout_margin="6dp"/>
+        android:layout_margin="6dp"
+        android:textColor="?colorOnBackground"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
