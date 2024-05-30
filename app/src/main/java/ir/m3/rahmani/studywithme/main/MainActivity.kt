@@ -1,5 +1,6 @@
 package ir.m3.rahmani.studywithme.main
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.View.GONE
 import androidx.appcompat.app.AppCompatActivity
@@ -9,6 +10,7 @@ import ir.m3.rahmani.studywithme.R
 import ir.m3.rahmani.studywithme.StudyWithMeApplication
 import ir.m3.rahmani.studywithme.databinding.ActivityMainBinding
 import ir.m3.rahmani.studywithme.di.Injector
+import ir.m3.rahmani.studywithme.login.onboarding.OnboardingActivity
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
@@ -38,8 +40,10 @@ class MainActivity : AppCompatActivity() {
         if (viewModel.isLogin.value == true) {
             // todo: go to home Screen
         } else {
-            // todo: go to login Screen
+            val onboarding = Intent(this, OnboardingActivity::class.java)
+            startActivity(onboarding)
         }
+        finish()
     }
 
     companion object{

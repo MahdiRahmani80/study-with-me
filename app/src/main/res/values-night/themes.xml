@@ -1,7 +1,18 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="Base.Theme.StudyWithMe" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your dark theme here. -->
-        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <item name="colorPrimary">@color/lightGreen</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/darkGreen</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="colorTertiary">@color/yellow</item>
+        <item name="colorOnTertiary">@color/black</item>
+        <item name="backgroundColor">@color/darkGreen</item>
+        <item name="background">@color/darkGreen</item>
+        <item name="colorOnBackground">@color/white</item>
+
+        <item name="statusBarBackground">@color/darkGreen</item>
+        <item name="android:statusBarColor">@color/darkGreen</item>
+
     </style>
 </resources>

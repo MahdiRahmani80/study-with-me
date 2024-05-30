@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="space_between_onboarding_counter">16dp</dimen>
+    <dimen name="size_onboarding_counter">38sp</dimen>
+    <dimen name="big_btn_radius">15dp</dimen>
+</resources>

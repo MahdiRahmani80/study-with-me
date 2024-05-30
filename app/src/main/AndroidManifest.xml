@@ -14,6 +14,15 @@
         android:theme="@style/Theme.StudyWithMe"
         tools:targetApi="31">
         <activity
+            android:name=".login.register.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".login.signin.SigninActivity"
+            android:exported="false" />
+        <activity
+            android:name=".login.onboarding.OnboardingActivity"
+            android:exported="false" />
+        <activity
             android:name=".main.MainActivity"
             android:exported="true">
             <intent-filter>
