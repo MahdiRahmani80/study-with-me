@@ -55,10 +55,12 @@ dependencies {
 
     dagger()
     lifecycle()
+    retrofit()
 
 
     // modules
     core()
     homeDatastore()
+    userData()
 
 }

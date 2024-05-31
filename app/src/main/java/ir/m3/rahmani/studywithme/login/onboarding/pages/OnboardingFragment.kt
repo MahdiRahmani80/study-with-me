@@ -32,8 +32,9 @@ class OnboardingFragment (
     override fun onAttach(context: Context) {
         super.onAttach(context)
         this.context = context
-        val application = requireActivity().application
-        Injector.inject(application, this)
+        // no need to dagger because nothing to inject
+//        val application = requireActivity().application
+//        Injector.inject(application, this)
     }
 
     override fun onCreateView(
@@ -70,11 +71,11 @@ class OnboardingFragment (
 
     fun clickListener() {
         binding.btnSignup.setOnClickListener {
-            startActivity(Intent(context, SigninActivity::class.java))
+            startActivity(Intent(context, RegisterActivity::class.java))
             activity?.finish()
         }
         binding.tvSignin.setOnClickListener {
-            startActivity(Intent(context, RegisterActivity::class.java))
+            startActivity(Intent(context, SigninActivity::class.java))
             activity?.finish()
         }
     }

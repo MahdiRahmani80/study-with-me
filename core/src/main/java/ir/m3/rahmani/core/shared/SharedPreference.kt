@@ -7,7 +7,6 @@ import androidx.datastore.preferences.core.edit
 import androidx.datastore.preferences.core.intPreferencesKey
 import androidx.datastore.preferences.core.stringPreferencesKey
 import androidx.datastore.preferences.preferencesDataStore
-import ir.m3.rahmani.core.di.CoreScope
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.map
 import javax.inject.Inject
@@ -43,7 +42,7 @@ class UserSharedPreferenceRepository @Inject constructor(
 
     suspend fun setUserData(user: UserSharedPref) {
         context.dataStore.edit { prefs -> prefs[PrefKeys.IS_LOGIN] = user.isLogin }
-        context.dataStore.edit { prefs -> prefs[PrefKeys.ID] = user.id }
+        context.dataStore.edit { prefs -> prefs[PrefKeys.ID] = user.id ?: "" }
         context.dataStore.edit { prefs -> prefs[PrefKeys.USERNAME] = user.username }
         context.dataStore.edit { prefs -> prefs[PrefKeys.PHONE] = user.phone }
         context.dataStore.edit { prefs -> prefs[PrefKeys.LEVEL] = user.level }

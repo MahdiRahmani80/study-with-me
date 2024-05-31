@@ -25,3 +25,4 @@ rootProject.name = "StudyWithMe"
 include(":app")
 include(":core")
 include(":home-datastore")
+include(":user-data")

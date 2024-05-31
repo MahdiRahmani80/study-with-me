@@ -3,4 +3,5 @@
     <dimen name="space_between_onboarding_counter">16dp</dimen>
     <dimen name="size_onboarding_counter">38sp</dimen>
     <dimen name="big_btn_radius">15dp</dimen>
+    <dimen name="home_bnv_icon_size">30dp</dimen>
 </resources>

@@ -20,4 +20,5 @@ dependencies {
 
     dagger()
     sharedDataStore()
+    retrofit()
 }
