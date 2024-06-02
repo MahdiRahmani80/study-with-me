@@ -1,6 +1,6 @@
 package ir.m3.rahmani.user_data
 
-import ir.m3.rahmani.core.shared.UserSharedPref
+import ir.m3.rahmani.core.shared.model.UserSharedPref
 
 data class User(
     val coin: Int = 143,
@@ -18,7 +18,7 @@ fun User.toSharedPref() = UserSharedPref(
     username = username
 )
 
-fun UserSharedPref.toUser() = User(
+fun UserSharedPref.toExternal() = User(
     coin = coin,
     id = id,
     level = level,

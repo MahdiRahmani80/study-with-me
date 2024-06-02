@@ -37,9 +37,15 @@ android {
         jvmTarget = "18"
     }
 
-    buildFeatures{
+    buildFeatures {
         viewBinding = true
     }
+
+    buildFeatures { compose = true }
+    composeOptions {
+        kotlinCompilerExtensionVersion = Dependencies.kotlinCompilerExtensionVersion
+    }
+
 }
 
 dependencies {
@@ -56,6 +62,7 @@ dependencies {
     dagger()
     lifecycle()
     retrofit()
+    compose()
 
 
     // modules

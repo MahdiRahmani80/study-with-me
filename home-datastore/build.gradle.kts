@@ -16,4 +16,5 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
 
     dagger()
+    room()
 }

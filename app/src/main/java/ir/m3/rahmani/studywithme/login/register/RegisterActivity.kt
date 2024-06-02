@@ -1,6 +1,8 @@
 package ir.m3.rahmani.studywithme.login.register
 
+import android.content.Intent
 import android.os.Bundle
+import android.view.View
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -10,6 +12,7 @@ import ir.m3.rahmani.studywithme.R
 import ir.m3.rahmani.studywithme.databinding.ActivityOnboardingBinding
 import ir.m3.rahmani.studywithme.databinding.ActivityRegisterBinding
 import ir.m3.rahmani.studywithme.di.Injector
+import ir.m3.rahmani.studywithme.home.HomeActivity
 import javax.inject.Inject
 
 class RegisterActivity : AppCompatActivity() {
@@ -27,6 +30,7 @@ class RegisterActivity : AppCompatActivity() {
         setContentView(view)
 
         listener()
+        goToHome()
     }
 
     private fun listener() {
@@ -40,6 +44,14 @@ class RegisterActivity : AppCompatActivity() {
         }
     }
 
+    private fun goToHome() {
+        viewModel.isAddUserSuccessful.observe(this) {
+            if (it) {
+                val intent = Intent(this, HomeActivity::class.java)
+                startActivity(intent)
+            }
+        }
+    }
 
     private fun checkRegister(): Boolean {
         val phoneNumberCheck = binding.etPhone.text?.length == 11
@@ -58,6 +70,8 @@ class RegisterActivity : AppCompatActivity() {
 
     private fun showSnackbar(text: String) {
         val view = binding.root
-        Snackbar.make(this, view, text, Snackbar.LENGTH_LONG).show()
+        val snackbar = Snackbar.make(this, view, text, Snackbar.LENGTH_LONG)
+        snackbar.view.layoutDirection = View.LAYOUT_DIRECTION_RTL
+        snackbar.show()
     }
 }

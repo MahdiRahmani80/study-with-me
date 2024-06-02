@@ -1,4 +1,4 @@
-package ir.m3.rahmani.core.shared
+package ir.m3.rahmani.core.shared.model
 
 data class UserSharedPref(
     var isLogin: Boolean = false,

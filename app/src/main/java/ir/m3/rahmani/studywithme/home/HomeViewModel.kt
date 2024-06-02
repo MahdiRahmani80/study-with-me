@@ -1,13 +1,12 @@
 package ir.m3.rahmani.studywithme.home
 
-import android.content.SharedPreferences
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.asLiveData
 import androidx.lifecycle.viewModelScope
 import ir.m3.rahmani.core.shared.UserSharedPreferenceRepository
 import ir.m3.rahmani.user_data.User
-import ir.m3.rahmani.user_data.toUser
+import ir.m3.rahmani.user_data.toExternal
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.launch
 import javax.inject.Inject
@@ -28,7 +27,7 @@ class HomeViewModel @Inject constructor(
     private fun getUserData() {
         viewModelScope.launch {
             userSharedPref.getUserSharedData.collect {user->
-                _userData.value = user.toUser()
+                _userData.value = user.toExternal()
             }
         }
     }

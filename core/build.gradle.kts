@@ -7,6 +7,11 @@ apply<AndroidCommonPlugin>()
 
 android {
     namespace = "ir.m3.rahmani.core"
+    buildFeatures{ compose = true }
+    composeOptions {
+        kotlinCompilerExtensionVersion = Dependencies.kotlinCompilerExtensionVersion
+    }
+
 }
 
 dependencies {
@@ -21,4 +26,5 @@ dependencies {
     dagger()
     sharedDataStore()
     retrofit()
+    compose()
 }

@@ -16,6 +16,11 @@ fun DependencyHandler.androidTest(dependency: String) {
 fun DependencyHandler.debugImplementation(dependency: String) {
     add("debugImplementation", dependency)
 }
+
+fun DependencyHandler.testImplementation(dependency: String) {
+    add("testImplementation", dependency)
+}
+
 fun DependencyHandler.kapt(dependency: String) {
     add("kapt", dependency)
 }

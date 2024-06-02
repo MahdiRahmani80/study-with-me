@@ -14,8 +14,23 @@ object Dependencies {
     const val lottieVersion = "5.0.3"
     const val retrofit_version = "2.9.0"
     const val coroutine_version = "1.5.2"
+    const val room_version = "2.6.1"
+    const val compose_activity_version = "1.9.0"
+    const val compose_version = "1.6.6"
+    const val compose_material3_version = "1.2.1"
+
 
     // dependencies
+    const val kotlinCompilerExtensionVersion = "1.5.14"
+    const val compose_ui = "androidx.compose.ui:ui:$compose_version"
+    const val compose_material = "androidx.compose.material:material:$compose_version"
+    const val compose_material3 = "androidx.compose.material3:material3-android:$compose_material3_version"
+    const val compose_preview = "androidx.compose.ui:ui-tooling-preview:$compose_version"
+    const val compose_activity = "androidx.activity:activity-ktx:$compose_activity_version"
+    const val room_kapt = "androidx.room:room-compiler:$room_version"
+    const val room_ktx = "androidx.room:room-ktx:$room_version"
+    const val room_test_helper = "androidx.room:room-testing:$room_version"
+    const val room_pageing3_iml = "androidx.room:room-paging:$room_version"
     const val coroutine = "org.jetbrains.kotlinx:kotlinx-coroutines-core:$coroutine_version"
     const val collection_android = "org.jetbrains.kotlinx:kotlinx-coroutines-android:$coroutine_version"
     const val converter_gson = "com.squareup.retrofit2:converter-gson:$retrofit_version"
@@ -28,6 +43,21 @@ object Dependencies {
     const val preferences_dataStore =
         "androidx.datastore:datastore-preferences:$preferences_dataStore_version"
 
+}
+
+fun DependencyHandler.compose(){
+    implementation(Dependencies.compose_ui)
+    implementation(Dependencies.compose_material)
+    implementation(Dependencies.compose_material3)
+    implementation(Dependencies.compose_preview)
+    implementation(Dependencies.compose_activity)
+}
+
+fun DependencyHandler.room(){
+    kapt(Dependencies.room_kapt)
+    implementation(Dependencies.room_ktx)
+    testImplementation(Dependencies.room_test_helper)
+    implementation(Dependencies.room_pageing3_iml)
 }
 
 fun DependencyHandler.retrofit(){

@@ -6,6 +6,8 @@ import ir.m3.rahmani.user_data.api.UserApiServiceRepository
 import ir.m3.rahmani.user_data.api.toApiModel
 import ir.m3.rahmani.user_data.api.toExternal
 import kotlinx.coroutines.flow.Flow
+import kotlinx.coroutines.flow.first
+import kotlinx.coroutines.flow.flow
 import kotlinx.coroutines.flow.map
 import javax.inject.Inject
 
@@ -18,11 +20,16 @@ class UserRepository @Inject constructor(
         return repository.getUser(phone).map { it.toExternal() }
     }
 
-    suspend fun addUser(user: User) {
+    suspend fun addUser(user: User): Flow<Boolean> = flow {
         repository.addUser(user.toApiModel()).collect { isSuccess ->
-            val saveSharedPref = user.toSharedPref()
-            saveSharedPref.isLogin = isSuccess
-            if (isSuccess) shared.setUserData(saveSharedPref)
+            if (isSuccess) {
+                val userApi = repository.getUser(user.phone).first()
+                val saveSharedPref = user.toSharedPref()
+                saveSharedPref.isLogin = isSuccess
+                saveSharedPref.id = userApi.id
+                emit(isSuccess)
+                shared.setUserData(saveSharedPref)
+            }
 
         }
     }
