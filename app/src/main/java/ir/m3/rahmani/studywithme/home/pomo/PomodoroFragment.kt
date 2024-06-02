@@ -47,7 +47,8 @@ class PomodoroFragment @Inject constructor() : Fragment() {
     private fun setPomodoroClockCompose() {
         binding.includeComposePomodoro.pomodoroClock.apply {
             setViewCompositionStrategy(ViewCompositionStrategy.DisposeOnViewTreeLifecycleDestroyed)
-            pomodoroViewModel.timeBySec.observe(requireActivity()) { sec ->
+            val application = requireActivity()
+            pomodoroViewModel.timeBySec.observe(application) { sec ->
                 setContent {
                     PomodoroTheme {
                         PomodoroClock(
@@ -73,13 +74,13 @@ class PomodoroFragment @Inject constructor() : Fragment() {
             iconHandler(state, binding, context)
         }
 
-        pomodoroViewModel.pomodoroCount.observe(activity) { count ->
+        pomodoroViewModel.notifyUserInfo.observe(activity) { info ->
             binding.status.text =
                 getString(
                     R.string.your_company_status,
-                    0.toString(), // todo get this from local
-                    count.toString(), // todo update this when new challenge started to 0
-                    count.toString() // todo get this from api server
+                    info.leftToLongBreak.toString(),
+                    info.pomodoroCount.toString(), // todo update this when new challenge started to 0
+                    info.championCount.toString() // todo get this from api server
                 )
         }
 

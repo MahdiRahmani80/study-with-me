@@ -5,6 +5,7 @@ import androidx.lifecycle.asLiveData
 import androidx.lifecycle.viewModelScope
 import ir.m3.rahmani.core.shared.UserSharedPreferenceRepository
 import ir.m3.rahmani.core.utils.timerText
+import ir.m3.rahmani.core.utils.ui.compose.clock.PomodoroConstants.POMODORO_SESSION_COUNT
 import ir.m3.rahmani.core.utils.ui.compose.clock.PomodoroConstants.POMODORO_STUDY_TIME_BY_MINUTES
 import ir.m3.rahmani.core.utils.ui.compose.clock.PomodoroConstants.POMODORO_WHEN_POMODORO_DONE_PRIZE
 import ir.m3.rahmani.core.utils.ui.compose.clock.PomodoroConstants.toSecond
@@ -14,9 +15,11 @@ import ir.m3.rahmani.home_datastore.model.Pomodoro
 import ir.m3.rahmani.user_data.api.UserApiServiceRepository
 import ir.m3.rahmani.user_data.toExternal
 import kotlinx.coroutines.delay
+import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.flow.firstOrNull
+import kotlinx.coroutines.flow.flow
 import kotlinx.coroutines.launch
 import java.util.Date
 import java.util.UUID
@@ -40,11 +43,11 @@ class PomodoroViewModel @Inject constructor(
     }
     val state = _state.asLiveData()
     private var saveStopTime: Int = POMODORO_STUDY_TIME_BY_MINUTES.toSecond()
-    private val _pomodoroCount: MutableStateFlow<Int> by lazy {
-        MutableStateFlow(0)
-    }
-    val pomodoroCount = _pomodoroCount.asLiveData()
 
+    private val _notifyUserInfo: MutableStateFlow<NotifyUserInfo> by lazy {
+        MutableStateFlow(NotifyUserInfo())
+    }
+    val notifyUserInfo = _notifyUserInfo.asLiveData()
 
     init {
         getTodayPomodoros()
@@ -142,8 +145,20 @@ class PomodoroViewModel @Inject constructor(
     private fun getTodayPomodoros() {
         viewModelScope.launch {
             pomodoroLocalRepository.getTodaysPomodorosCount().collect {
-                _pomodoroCount.value = it
+                val leftToLongBreak = howManyLeftToLongBreak(it)
+                _notifyUserInfo.value = _notifyUserInfo.value.copy(
+                    pomodoroCount = it,
+                    leftToLongBreak = leftToLongBreak
+                )
             }
+        }
+    }
+
+    private fun howManyLeftToLongBreak(pomodoroCount: Int): Int {
+        val calculate = pomodoroCount % POMODORO_SESSION_COUNT
+        return when (calculate) {
+            0 -> POMODORO_SESSION_COUNT
+            else -> POMODORO_SESSION_COUNT - calculate
         }
     }
 }
