@@ -21,7 +21,7 @@
     <string name="stats_bnv">وضعیت</string>
     <string name="profile_bnv">پروفایل</string>
     <string name="content_desc_icon_coin">coin</string>
-    <string name="your_company_status">%s تابه استراحت بزرگ مونده\nشما تا حالا %s تا پومو خوندید.\nرقیب شما %s تا پومو خونده، بجنب!\nنابرده رنج گنج میسر نمیشود</string>
+    <string name="your_company_status">%s تا به استراحت بزرگ مونده.\nشما تا حالا %s تا پومو خوندید.\nرقیب شما %s تا پومو خونده، بجنب!\nنابرده رنج گنج میسر نمیشود</string>
     <string name="pomo_status">آماده ای؟</string>
     <string name="pomo_status_study">وی در حال تلاش است.</string>
     <string name="pomo_status_study_pause">خسته کیه؟</string>

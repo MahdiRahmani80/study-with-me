@@ -6,6 +6,7 @@ data class UserSharedPref(
     var username: String = "john due",
     var level: Int = 1,
     var coin: Int = 143,
-    var phone: String = "[+98] 912 (345) 6789"
+    var phone: String = "[+98] 912 (345) 6789",
+    var userLastState:Int =0
 )
 

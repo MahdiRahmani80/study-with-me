@@ -8,9 +8,6 @@ data class PomodoroLocal(
     @PrimaryKey val id: String,
     val startTime: Long,
     val endTime: Long,
-    val state: PomodoroState
+    val state: Int
 )
 
-enum class PomodoroState {
-    SHORT_BREAK, LONG_BREAK, WORK
-}

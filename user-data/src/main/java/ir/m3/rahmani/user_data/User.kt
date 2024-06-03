@@ -3,9 +3,9 @@ package ir.m3.rahmani.user_data
 import ir.m3.rahmani.core.shared.model.UserSharedPref
 
 data class User(
-    val coin: Int = 143,
+    var coin: Int = 143,
     val id: String? = null,
-    val level: Int = 1 ,
+    val level: Int = 1,
     val phone: String,
     val username: String
 )

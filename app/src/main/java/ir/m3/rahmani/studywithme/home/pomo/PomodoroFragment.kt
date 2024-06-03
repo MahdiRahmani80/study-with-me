@@ -14,6 +14,7 @@ import ir.m3.rahmani.studywithme.R
 import ir.m3.rahmani.studywithme.databinding.FragmentPomodoroBinding
 import ir.m3.rahmani.studywithme.di.Injector
 import ir.m3.rahmani.studywithme.home.pomo.PomodoroUiHelper.iconHandler
+import ir.m3.rahmani.studywithme.home.pomo.PomodoroUiHelper.showSanckbarWhenDone
 import javax.inject.Inject
 import javax.inject.Singleton
 
@@ -72,6 +73,10 @@ class PomodoroFragment @Inject constructor() : Fragment() {
         pomodoroViewModel.state.observe(activity) { state ->
             listener(state)
             iconHandler(state, binding, context)
+
+            pomodoroViewModel.userState.observe(activity) {
+                if (it != 0 && state == TimerState.NOT_STARTED) showSanckbarWhenDone(context, binding)
+            }
         }
 
         pomodoroViewModel.notifyUserInfo.observe(activity) { info ->

@@ -27,7 +27,7 @@ class PomodoroLocalRepository @Inject constructor(
             var count = 0
             it.map {
                 val pomoDate = SimpleDateFormat("yyyy-MM-dd").format(it.endTime)
-                if (pomoDate == nowDate) count += 1
+                if (pomoDate == nowDate && it.state ==0 ) count += 1
             }
             emit(count)
 

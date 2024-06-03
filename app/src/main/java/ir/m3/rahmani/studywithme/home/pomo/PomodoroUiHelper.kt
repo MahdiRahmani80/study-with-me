@@ -10,7 +10,11 @@ import ir.m3.rahmani.studywithme.databinding.FragmentPomodoroBinding
 
 object PomodoroUiHelper {
 
-    fun iconHandler(state: TimerState, binding: FragmentPomodoroBinding, context: Context) {
+    fun iconHandler(
+        state: TimerState,
+        binding: FragmentPomodoroBinding,
+        context: Context
+    ) {
         when (state) {
             TimerState.NOT_STARTED -> {
                 binding.imgNext.visibility = View.GONE
@@ -31,7 +35,6 @@ object PomodoroUiHelper {
                 binding.imgStop.visibility = View.GONE
                 binding.imgPlay.setImageResource(R.drawable.play)
                 binding.pomodoroStatus.text = context.getString(R.string.pomo_status)
-                showSanckbarWhenDone(context,binding)
             }
 
             TimerState.PAUSE -> {
@@ -43,7 +46,10 @@ object PomodoroUiHelper {
         }
     }
 
-    private fun showSanckbarWhenDone(context: Context, binding: FragmentPomodoroBinding) {
+    fun showSanckbarWhenDone(
+        context: Context,
+        binding: FragmentPomodoroBinding
+    ) {
         val prizeCount = PomodoroConstants.POMODORO_WHEN_POMODORO_DONE_PRIZE.toString()
         val snackbar = Snackbar.make(
             context, binding.root, context.getString(R.string.snakbar_done_pomo, prizeCount),

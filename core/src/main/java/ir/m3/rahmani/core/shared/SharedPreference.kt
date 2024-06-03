@@ -37,7 +37,8 @@ class UserSharedPreferenceRepository @Inject constructor(
             username = username,
             level = level,
             coin = coin,
-            phone = phone
+            phone = phone,
+
         )
     }
 
