@@ -53,8 +53,8 @@ class PomodoroFragment @Inject constructor() : Fragment() {
                 setContent {
                     PomodoroTheme {
                         PomodoroClock(
-                            timeBySec = sec,
-                            timerText = pomodoroViewModel.setTimerText(sec),
+                            timeBySec = sec.secound,
+                            timerText = sec.time,
                             PomodoroConstants.POMODORO_STUDY_TIME_BY_MINUTES
                         )
                     }

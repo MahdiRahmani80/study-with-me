@@ -37,8 +37,8 @@ class PomodoroViewModel @Inject constructor(
 
     private var startPomodoroTime: Long? = null
     private var endPomodoroTime: Long? = null
-    private val _timeBySec: MutableStateFlow<Int> by lazy {
-        MutableStateFlow(POMODORO_STUDY_TIME_BY_MINUTES.toSecond())
+    private val _timeBySec: MutableStateFlow<NotifyTime> by lazy {
+        MutableStateFlow(NotifyTime())
     }
     val timeBySec get() = _timeBySec.asLiveData()
     private val _state: MutableStateFlow<TimerState> by lazy {
@@ -60,6 +60,11 @@ class PomodoroViewModel @Inject constructor(
         getTodayPomodoros()
         viewModelScope.launch {
             _userLastState.value = UserStateHandler.userLastState(userSharedPref)
+            val time = UserStateHandler.getTimeByState(_userLastState.value)
+            _timeBySec.value = _timeBySec.value.copy(
+                secound = time,
+                time = timerText(time)
+            )
         }
     }
 
@@ -68,7 +73,7 @@ class PomodoroViewModel @Inject constructor(
         var time = UserStateHandler.getTimeByState(_userLastState.value)
         if (_state.value == TimerState.IN_PROGRESS) {
             val timeToCountDown = if (savePauseTime > 0) min(time, savePauseTime) else time
-            counter(timeToCountDown)
+            counter(timeToCountDown)//.toSecond())
         } else if (time == 0) {
             _state.value = TimerState.DONE
         }
@@ -79,11 +84,16 @@ class PomodoroViewModel @Inject constructor(
             for (secondsLeft in timeToCountDown.downTo(0)) {
                 if (_state.value == TimerState.PAUSE) break
                 if (_state.value != TimerState.IN_PROGRESS) {
-                    _timeBySec.value = UserStateHandler.getTimeByState(_userLastState.value)
+                    val time = UserStateHandler.getTimeByState(_userLastState.value)
+                    _timeBySec.value = _timeBySec.value.copy(
+                        secound = time, time = timerText(time)
+                    )
                     break
                 }
-                _timeBySec.value = secondsLeft
-                savePauseTime = _timeBySec.value
+                _timeBySec.value = _timeBySec.value.copy(
+                    secound = secondsLeft, time = timerText(secondsLeft)
+                )
+                savePauseTime = _timeBySec.value.secound
                 delay(1000)
                 if (secondsLeft == 0) {
                     onTimerDone()
@@ -94,11 +104,13 @@ class PomodoroViewModel @Inject constructor(
 
     private suspend fun onTimerDone() {
         savePauseTime = POMODORO_STUDY_TIME_BY_MINUTES.toSecond()
-        _timeBySec.value = UserStateHandler.getTimeByState(_userLastState.value)
+        val time = UserStateHandler.getTimeByState(_userLastState.value)
+        _timeBySec.value =
+            _timeBySec.value.copy(secound = time)
         _state.value = TimerState.DONE
         if (_userLastState.value == 0) {
             saveUserPrize()
-        }else{
+        } else {
             saveNewStateUser()
         }
     }
@@ -107,12 +119,14 @@ class PomodoroViewModel @Inject constructor(
         val user = userSharedPref.getUserSharedData.first()
         savePomodoro(_userLastState.value)
         val newState = UserStateHandler.newStateUser(
-            userSharedPref,
             _userLastState.value,
             _notifyUserInfo.value.leftToLongBreak ?: 0
         )
         _userLastState.value = newState
         saveNewUserSatateToSharedPref(newState, user)
+        _timeBySec.value = _timeBySec.value.copy(
+            time = timerText(UserStateHandler.getTimeByState(newState))
+        )
     }
 
     private fun saveNewUserSatateToSharedPref(newState: Int, user: UserSharedPref) {
@@ -153,11 +167,6 @@ class PomodoroViewModel @Inject constructor(
         startPomodoroTime = Date().time
         _state.value = timerState
         startPomodoroTimer()
-    }
-
-    fun setTimerText(sec: Int): String {
-        val isRunning = _state.value == TimerState.IN_PROGRESS
-        return timerText(sec, isRunning)
     }
 
     private fun savePomodoro(state: Int) {

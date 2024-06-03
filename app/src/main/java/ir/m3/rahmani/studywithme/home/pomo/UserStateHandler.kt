@@ -28,7 +28,6 @@ object UserStateHandler {
 
 
     suspend fun newStateUser(
-        sharedPref: UserSharedPreferenceRepository,
         state: Int,
         leftToLongBreak: Int
     ): Int {

@@ -3,9 +3,7 @@ package ir.m3.rahmani.core.utils
 import ir.m3.rahmani.core.utils.ui.compose.clock.PomodoroConstants.POMODORO_TIME_TEXT
 
 
-fun timerText(sec: Int, inProgress: Boolean = true): String {
-
-    if (!inProgress) return POMODORO_TIME_TEXT
+fun timerText(sec: Int): String {
     val m = sec / 60
     val s = sec % 60
     return "${m.twoDigit()} : ${s.twoDigit()}"

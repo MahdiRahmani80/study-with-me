@@ -30,6 +30,7 @@ class UserSharedPreferenceRepository @Inject constructor(
         val level = prefs[PrefKeys.LEVEL] ?: 1
         val coin = prefs[PrefKeys.COIN] ?: 143
         val phone = prefs[PrefKeys.PHONE].toString()
+        val state = prefs[PrefKeys.STATE] ?: 0
 
         UserSharedPref(
             isLogin = isLogin,
@@ -38,7 +39,7 @@ class UserSharedPreferenceRepository @Inject constructor(
             level = level,
             coin = coin,
             phone = phone,
-
+            userLastState = state
         )
     }
 
@@ -49,9 +50,11 @@ class UserSharedPreferenceRepository @Inject constructor(
         context.dataStore.edit { prefs -> prefs[PrefKeys.PHONE] = user.phone }
         context.dataStore.edit { prefs -> prefs[PrefKeys.LEVEL] = user.level }
         context.dataStore.edit { prefs -> prefs[PrefKeys.COIN] = user.coin }
+        context.dataStore.edit { prefs -> prefs[PrefKeys.STATE] = user.userLastState }
     }
 
     private object PrefKeys {
+        val STATE = intPreferencesKey("state")
         val IS_LOGIN = booleanPreferencesKey("isLogin")
         val ID = stringPreferencesKey("id")
         val USERNAME = stringPreferencesKey("username")
