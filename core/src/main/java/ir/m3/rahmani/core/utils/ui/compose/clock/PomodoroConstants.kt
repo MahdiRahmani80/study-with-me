@@ -2,7 +2,7 @@ package ir.m3.rahmani.core.utils.ui.compose.clock
 
 object PomodoroConstants {
     const val POMODORO_SESSION_COUNT = 4
-    const val POMODORO_STUDY_TIME_BY_MINUTES = 1 // 25
+    const val POMODORO_STUDY_TIME_BY_MINUTES = 25
     const val POMODORO_SHORT_BREAK_TIME_BY_MINUTES = 5
     const val POMODORO_LONG_BREAK_TIME_BY_MINUTES = 15
     const val POMODORO_COUNT_OF_REPETITION = 4

@@ -7,6 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.compose.ui.platform.ViewCompositionStrategy
 import androidx.fragment.app.Fragment
+import androidx.lifecycle.LifecycleOwner
 import ir.m3.rahmani.core.utils.ui.compose.clock.PomodoroClock
 import ir.m3.rahmani.core.utils.ui.compose.PomodoroTheme
 import ir.m3.rahmani.core.utils.ui.compose.clock.PomodoroConstants
@@ -49,14 +50,22 @@ class PomodoroFragment @Inject constructor() : Fragment() {
         binding.includeComposePomodoro.pomodoroClock.apply {
             setViewCompositionStrategy(ViewCompositionStrategy.DisposeOnViewTreeLifecycleDestroyed)
             val application = requireActivity()
-            pomodoroViewModel.timeBySec.observe(application) { sec ->
-                setContent {
-                    PomodoroTheme {
-                        PomodoroClock(
-                            timeBySec = sec.secound,
-                            timerText = sec.time,
-                            PomodoroConstants.POMODORO_STUDY_TIME_BY_MINUTES
-                        )
+            pomodoroViewModel.notifyTimerData.observe(application) { sec ->
+                pomodoroViewModel.userState.observe(application) { state ->
+                    val maxTime = when (state) {
+                        0 -> PomodoroConstants.POMODORO_STUDY_TIME_BY_MINUTES
+                        1 -> PomodoroConstants.POMODORO_SHORT_BREAK_TIME_BY_MINUTES
+                        2 -> PomodoroConstants.POMODORO_LONG_BREAK_TIME_BY_MINUTES
+                        else -> PomodoroConstants.POMODORO_STUDY_TIME_BY_MINUTES
+                    }
+                    setContent {
+                        PomodoroTheme {
+                            PomodoroClock(
+                                timeBySec = sec.second,
+                                timerText = sec.time,
+                                countdownMinutes = maxTime
+                                )
+                        }
                     }
                 }
             }
@@ -75,20 +84,34 @@ class PomodoroFragment @Inject constructor() : Fragment() {
             iconHandler(state, binding, context)
 
             pomodoroViewModel.userState.observe(activity) {
-                if (it != 0 && state == TimerState.NOT_STARTED) showSanckbarWhenDone(context, binding)
+                if (it != 0 && state == TimerState.NOT_STARTED) showSanckbarWhenDone(
+                    context,
+                    binding
+                )
             }
         }
 
+        setUserInfo(activity)
+    }
+
+    private fun setUserInfo(activity: LifecycleOwner) {
         pomodoroViewModel.notifyUserInfo.observe(activity) { info ->
-            binding.status.text =
-                getString(
+            pomodoroViewModel.userState.observe(activity) { state ->
+                val status = when (state) {
+                    0 -> getString(R.string.pomodoro_status_0)
+                    1 -> getString(R.string.pomodoro_status_1)
+                    2 -> getString(R.string.pomodoro_status_2)
+                    else -> getString(R.string.pomodoro_status_0)
+                }
+                binding.status.text = getString(
                     R.string.your_company_status,
+                    status,
                     info.leftToLongBreak.toString(),
                     info.pomodoroCount.toString(), // todo update this when new challenge started to 0
                     info.championCount.toString() // todo get this from api server
                 )
+            }
         }
-
     }
 
     private fun listener(state: TimerState) {

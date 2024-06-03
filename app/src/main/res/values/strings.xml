@@ -21,11 +21,14 @@
     <string name="stats_bnv">وضعیت</string>
     <string name="profile_bnv">پروفایل</string>
     <string name="content_desc_icon_coin">coin</string>
-    <string name="your_company_status">%s تا به استراحت بزرگ مونده.\nشما تا حالا %s تا پومو خوندید.\nرقیب شما %s تا پومو خونده، بجنب!\nنابرده رنج گنج میسر نمیشود</string>
+    <string name="your_company_status">وضعیت: %s\n%s تا به استراحت بزرگ مونده.\nشما تا حالا %s تا پومو خوندید.\nرقیب شما %s تا پومو خونده، بجنب!\nنابرده رنج گنج میسر نمیشود</string>
     <string name="pomo_status">آماده ای؟</string>
     <string name="pomo_status_study">وی در حال تلاش است.</string>
     <string name="pomo_status_study_pause">خسته کیه؟</string>
     <string name="pomo_status_short_brek">چشماتو ببند و نفس عمیق بکش.عا باریکلا</string>
     <string name="pomo_status_long_brek">هی نری دیگه پشت سرت رو نگاه نکنی، ما این جا داریم زحمت میکشیم 😁</string>
     <string name="snakbar_done_pomo">شما بخاطر تلاش و پشتکارتون %s تا سکه جایزه میگیرید.😉💪🤫</string>
+    <string name="pomodoro_status_0">درس خوندن</string>
+    <string name="pomodoro_status_1">استراحت کوتاه،نفس عمیق بکشید😁</string>
+    <string name="pomodoro_status_2">درحال استراحت بلند،کمی نرمش کنید🤪</string>
 </resources>

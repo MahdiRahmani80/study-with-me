@@ -12,17 +12,12 @@ import ir.m3.rahmani.core.utils.ui.compose.clock.PomodoroConstants.POMODORO_WHEN
 import ir.m3.rahmani.core.utils.ui.compose.clock.PomodoroConstants.toSecond
 import ir.m3.rahmani.home_datastore.local.repository.PomodoroLocalRepository
 import ir.m3.rahmani.home_datastore.model.Pomodoro
-import ir.m3.rahmani.user_data.User
 import ir.m3.rahmani.user_data.api.UserApiServiceRepository
 import ir.m3.rahmani.user_data.toExternal
-import ir.m3.rahmani.user_data.toSharedPref
 import kotlinx.coroutines.delay
-import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.flow.firstOrNull
-import kotlinx.coroutines.flow.flow
-import kotlinx.coroutines.flow.last
 import kotlinx.coroutines.launch
 import java.util.Date
 import java.util.UUID
@@ -37,10 +32,10 @@ class PomodoroViewModel @Inject constructor(
 
     private var startPomodoroTime: Long? = null
     private var endPomodoroTime: Long? = null
-    private val _timeBySec: MutableStateFlow<NotifyTime> by lazy {
+    private val _notifyTimerData: MutableStateFlow<NotifyTime> by lazy {
         MutableStateFlow(NotifyTime())
     }
-    val timeBySec get() = _timeBySec.asLiveData()
+    val notifyTimerData get() = _notifyTimerData.asLiveData()
     private val _state: MutableStateFlow<TimerState> by lazy {
         MutableStateFlow(TimerState.NOT_STARTED)
     }
@@ -61,8 +56,8 @@ class PomodoroViewModel @Inject constructor(
         viewModelScope.launch {
             _userLastState.value = UserStateHandler.userLastState(userSharedPref)
             val time = UserStateHandler.getTimeByState(_userLastState.value)
-            _timeBySec.value = _timeBySec.value.copy(
-                secound = time,
+            _notifyTimerData.value = _notifyTimerData.value.copy(
+                second = time,
                 time = timerText(time)
             )
         }
@@ -73,7 +68,7 @@ class PomodoroViewModel @Inject constructor(
         var time = UserStateHandler.getTimeByState(_userLastState.value)
         if (_state.value == TimerState.IN_PROGRESS) {
             val timeToCountDown = if (savePauseTime > 0) min(time, savePauseTime) else time
-            counter(timeToCountDown)//.toSecond())
+            counter(timeToCountDown.toSecond())
         } else if (time == 0) {
             _state.value = TimerState.DONE
         }
@@ -85,16 +80,16 @@ class PomodoroViewModel @Inject constructor(
                 if (_state.value == TimerState.PAUSE) break
                 if (_state.value != TimerState.IN_PROGRESS) {
                     val time = UserStateHandler.getTimeByState(_userLastState.value)
-                    _timeBySec.value = _timeBySec.value.copy(
-                        secound = time, time = timerText(time)
+                    _notifyTimerData.value = _notifyTimerData.value.copy(
+                        second = time, time = timerText(time)
                     )
                     break
                 }
-                _timeBySec.value = _timeBySec.value.copy(
-                    secound = secondsLeft, time = timerText(secondsLeft)
+                _notifyTimerData.value = _notifyTimerData.value.copy(
+                    second = secondsLeft, time = timerText(secondsLeft)
                 )
-                savePauseTime = _timeBySec.value.secound
-                delay(1000)
+                savePauseTime = _notifyTimerData.value.second
+                delay(1000) // wait 1 second
                 if (secondsLeft == 0) {
                     onTimerDone()
                 }
@@ -105,8 +100,8 @@ class PomodoroViewModel @Inject constructor(
     private suspend fun onTimerDone() {
         savePauseTime = POMODORO_STUDY_TIME_BY_MINUTES.toSecond()
         val time = UserStateHandler.getTimeByState(_userLastState.value)
-        _timeBySec.value =
-            _timeBySec.value.copy(secound = time)
+        _notifyTimerData.value =
+            _notifyTimerData.value.copy(second = time)
         _state.value = TimerState.DONE
         if (_userLastState.value == 0) {
             saveUserPrize()
@@ -124,7 +119,7 @@ class PomodoroViewModel @Inject constructor(
         )
         _userLastState.value = newState
         saveNewUserSatateToSharedPref(newState, user)
-        _timeBySec.value = _timeBySec.value.copy(
+        _notifyTimerData.value = _notifyTimerData.value.copy(
             time = timerText(UserStateHandler.getTimeByState(newState))
         )
     }
