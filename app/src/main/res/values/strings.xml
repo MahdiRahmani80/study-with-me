@@ -31,4 +31,6 @@
     <string name="pomodoro_status_0">درس خوندن</string>
     <string name="pomodoro_status_1">استراحت کوتاه،نفس عمیق بکشید😁</string>
     <string name="pomodoro_status_2">درحال استراحت بلند،کمی نرمش کنید🤪</string>
+    <string name="service_notification_title">شما در‌حال تلاش هستید.</string>
+    <string name="service_notification_content">برو جلو یه قهرمان بشو،فقط بجنگ و نا‌امید نشو\nچشم هاتو وا کن، به حریف نگاه کن😅😂🏔</string>
 </resources>

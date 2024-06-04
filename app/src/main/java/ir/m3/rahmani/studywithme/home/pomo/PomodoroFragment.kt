@@ -1,6 +1,7 @@
 package ir.m3.rahmani.studywithme.home.pomo
 
 import android.content.Context
+import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -11,6 +12,7 @@ import androidx.lifecycle.LifecycleOwner
 import ir.m3.rahmani.core.utils.ui.compose.clock.PomodoroClock
 import ir.m3.rahmani.core.utils.ui.compose.PomodoroTheme
 import ir.m3.rahmani.core.utils.ui.compose.clock.PomodoroConstants
+import ir.m3.rahmani.studywithme.PomodoroTimerService
 import ir.m3.rahmani.studywithme.R
 import ir.m3.rahmani.studywithme.databinding.FragmentPomodoroBinding
 import ir.m3.rahmani.studywithme.di.Injector
@@ -19,7 +21,6 @@ import ir.m3.rahmani.studywithme.home.pomo.PomodoroUiHelper.showSanckbarWhenDone
 import javax.inject.Inject
 import javax.inject.Singleton
 
-@Singleton
 class PomodoroFragment @Inject constructor() : Fragment() {
 
     @Inject
@@ -52,19 +53,14 @@ class PomodoroFragment @Inject constructor() : Fragment() {
             val application = requireActivity()
             pomodoroViewModel.notifyTimerData.observe(application) { sec ->
                 pomodoroViewModel.userState.observe(application) { state ->
-                    val maxTime = when (state) {
-                        0 -> PomodoroConstants.POMODORO_STUDY_TIME_BY_MINUTES
-                        1 -> PomodoroConstants.POMODORO_SHORT_BREAK_TIME_BY_MINUTES
-                        2 -> PomodoroConstants.POMODORO_LONG_BREAK_TIME_BY_MINUTES
-                        else -> PomodoroConstants.POMODORO_STUDY_TIME_BY_MINUTES
-                    }
+                    val maxTime = getTimerTimeCountDown(state)
                     setContent {
                         PomodoroTheme {
                             PomodoroClock(
                                 timeBySec = sec.second,
                                 timerText = sec.time,
                                 countdownMinutes = maxTime
-                                )
+                            )
                         }
                     }
                 }
@@ -72,6 +68,14 @@ class PomodoroFragment @Inject constructor() : Fragment() {
         }
     }
 
+    private fun getTimerTimeCountDown(state: Int): Int {
+        return when (state) {
+            0 -> PomodoroConstants.POMODORO_STUDY_TIME_BY_MINUTES
+            1 -> PomodoroConstants.POMODORO_SHORT_BREAK_TIME_BY_MINUTES
+            2 -> PomodoroConstants.POMODORO_LONG_BREAK_TIME_BY_MINUTES
+            else -> PomodoroConstants.POMODORO_STUDY_TIME_BY_MINUTES
+        }
+    }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
@@ -82,16 +86,22 @@ class PomodoroFragment @Inject constructor() : Fragment() {
         pomodoroViewModel.state.observe(activity) { state ->
             listener(state)
             iconHandler(state, binding, context)
-
+            serviceHandler(state)
             pomodoroViewModel.userState.observe(activity) {
-                if (it != 0 && state == TimerState.NOT_STARTED) showSanckbarWhenDone(
-                    context,
-                    binding
-                )
+                if (it != 0 && state == TimerState.NOT_STARTED)
+                    showSanckbarWhenDone(context, binding)
             }
         }
 
         setUserInfo(activity)
+    }
+
+    private fun serviceHandler(state: TimerState) {
+        val serviceIntent = Intent(context, PomodoroTimerService::class.java)
+        when (state) {
+            TimerState.IN_PROGRESS -> context.startService(serviceIntent)
+            else -> context.stopService(serviceIntent)
+        }
     }
 
     private fun setUserInfo(activity: LifecycleOwner) {

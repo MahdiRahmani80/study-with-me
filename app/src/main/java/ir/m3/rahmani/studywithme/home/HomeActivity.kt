@@ -1,5 +1,6 @@
 package ir.m3.rahmani.studywithme.home
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -8,6 +9,7 @@ import androidx.core.view.WindowInsetsCompat
 import androidx.fragment.app.Fragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.google.android.material.navigation.NavigationBarView
+import ir.m3.rahmani.studywithme.PomodoroTimerService
 import ir.m3.rahmani.studywithme.R
 import ir.m3.rahmani.studywithme.databinding.ActivityHomeBinding
 import ir.m3.rahmani.studywithme.di.Injector
@@ -40,6 +42,7 @@ class HomeActivity : AppCompatActivity() {
 
         setUserData()
         setHomeFragments()
+
     }
 
     private fun setUserData() {

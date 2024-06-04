@@ -3,6 +3,10 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+
 
     <application
         android:name=".StudyWithMeApplication"
@@ -16,6 +20,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.StudyWithMe"
         tools:targetApi="31">
+
+        <service
+            android:name=".PomodoroTimerService"
+            android:enabled="true"
+            android:foregroundServiceType="shortService"
+            android:exported="true"/>
+
         <activity
             android:name=".home.HomeActivity"
             android:exported="false" />

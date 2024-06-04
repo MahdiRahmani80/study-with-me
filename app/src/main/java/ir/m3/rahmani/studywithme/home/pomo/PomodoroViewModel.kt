@@ -12,6 +12,8 @@ import ir.m3.rahmani.core.utils.ui.compose.clock.PomodoroConstants.POMODORO_WHEN
 import ir.m3.rahmani.core.utils.ui.compose.clock.PomodoroConstants.toSecond
 import ir.m3.rahmani.home_datastore.local.repository.PomodoroLocalRepository
 import ir.m3.rahmani.home_datastore.model.Pomodoro
+import ir.m3.rahmani.studywithme.home.pomo.data.NotifyTime
+import ir.m3.rahmani.studywithme.home.pomo.data.NotifyUserInfo
 import ir.m3.rahmani.user_data.api.UserApiServiceRepository
 import ir.m3.rahmani.user_data.toExternal
 import kotlinx.coroutines.delay
@@ -22,8 +24,10 @@ import kotlinx.coroutines.launch
 import java.util.Date
 import java.util.UUID
 import javax.inject.Inject
+import javax.inject.Singleton
 import kotlin.math.min
 
+@Singleton
 class PomodoroViewModel @Inject constructor(
     private val pomodoroLocalRepository: PomodoroLocalRepository,
     private val userSharedPref: UserSharedPreferenceRepository,
@@ -58,17 +62,17 @@ class PomodoroViewModel @Inject constructor(
             val time = UserStateHandler.getTimeByState(_userLastState.value)
             _notifyTimerData.value = _notifyTimerData.value.copy(
                 second = time,
-                time = timerText(time)
+                time = timerText(time.toSecond())
             )
         }
     }
 
     private fun startPomodoroTimer() {
         _state.value = TimerState.IN_PROGRESS
-        var time = UserStateHandler.getTimeByState(_userLastState.value)
+        var time = UserStateHandler.getTimeByState(_userLastState.value).toSecond()
         if (_state.value == TimerState.IN_PROGRESS) {
             val timeToCountDown = if (savePauseTime > 0) min(time, savePauseTime) else time
-            counter(timeToCountDown.toSecond())
+            counter(timeToCountDown)
         } else if (time == 0) {
             _state.value = TimerState.DONE
         }

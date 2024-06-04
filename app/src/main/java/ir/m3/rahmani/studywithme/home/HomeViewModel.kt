@@ -10,7 +10,9 @@ import ir.m3.rahmani.user_data.toExternal
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.launch
 import javax.inject.Inject
+import javax.inject.Singleton
 
+@Singleton
 class HomeViewModel @Inject constructor(
     private val userSharedPref: UserSharedPreferenceRepository
 ) : ViewModel() {

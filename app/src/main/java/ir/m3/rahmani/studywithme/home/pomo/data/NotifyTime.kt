@@ -1,4 +1,4 @@
-package ir.m3.rahmani.studywithme.home.pomo
+package ir.m3.rahmani.studywithme.home.pomo.data
 
 data class NotifyTime(
     var second: Int = 0,
