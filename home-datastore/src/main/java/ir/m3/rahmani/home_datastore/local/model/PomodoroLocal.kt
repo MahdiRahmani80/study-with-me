@@ -3,7 +3,7 @@ package ir.m3.rahmani.home_datastore.local.model
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 
-@Entity
+@Entity("pomodoro")
 data class PomodoroLocal(
     @PrimaryKey val id: String,
     val startTime: Long,

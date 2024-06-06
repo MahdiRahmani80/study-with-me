@@ -31,6 +31,8 @@ class UserSharedPreferenceRepository @Inject constructor(
         val coin = prefs[PrefKeys.COIN] ?: 143
         val phone = prefs[PrefKeys.PHONE].toString()
         val state = prefs[PrefKeys.STATE] ?: 0
+        val challengeMode = prefs[PrefKeys.CHALLENGE_MODE] ?: false
+        val playId = prefs[PrefKeys.PLAY_ID].toString()
 
         UserSharedPref(
             isLogin = isLogin,
@@ -39,7 +41,9 @@ class UserSharedPreferenceRepository @Inject constructor(
             level = level,
             coin = coin,
             phone = phone,
-            userLastState = state
+            userLastState = state,
+            challengeMode = challengeMode,
+            playId = playId
         )
     }
 
@@ -51,9 +55,12 @@ class UserSharedPreferenceRepository @Inject constructor(
         context.dataStore.edit { prefs -> prefs[PrefKeys.LEVEL] = user.level }
         context.dataStore.edit { prefs -> prefs[PrefKeys.COIN] = user.coin }
         context.dataStore.edit { prefs -> prefs[PrefKeys.STATE] = user.userLastState }
+        context.dataStore.edit { prefs -> prefs[PrefKeys.CHALLENGE_MODE] = user.challengeMode }
+        context.dataStore.edit { prefs -> prefs[PrefKeys.PLAY_ID] = user.playId?.toInt() ?: -1 }
     }
 
     private object PrefKeys {
+        val PLAY_ID = intPreferencesKey("play_id")
         val STATE = intPreferencesKey("state")
         val IS_LOGIN = booleanPreferencesKey("isLogin")
         val ID = stringPreferencesKey("id")
@@ -61,5 +68,6 @@ class UserSharedPreferenceRepository @Inject constructor(
         val LEVEL = intPreferencesKey("level")
         val COIN = intPreferencesKey("coin")
         val PHONE = stringPreferencesKey("phone")
+        val CHALLENGE_MODE = booleanPreferencesKey("challenge_mode")
     }
 }

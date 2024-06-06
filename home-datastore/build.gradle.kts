@@ -17,4 +17,5 @@ dependencies {
 
     dagger()
     room()
+    retrofit()
 }

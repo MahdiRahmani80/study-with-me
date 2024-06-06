@@ -6,4 +6,5 @@
     <dimen name="home_bnv_icon_size">30dp</dimen>
     <dimen name="home_pomodoro_icon_size">50dp</dimen>
     <dimen name="margin_pomodoro_bottom_text">18sp</dimen>
+    <dimen name="height_item_recycler_view">100dp</dimen>
 </resources>

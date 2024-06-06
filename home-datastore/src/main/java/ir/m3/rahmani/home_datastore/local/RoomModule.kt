@@ -6,6 +6,7 @@ import dagger.Binds
 import dagger.Module
 import dagger.Provides
 import ir.m3.rahmani.home_datastore.local.dao.AppDatabase
+import ir.m3.rahmani.home_datastore.local.dao.PlayLocalDao
 import ir.m3.rahmani.home_datastore.local.dao.PomodoroDao
 import ir.m3.rahmani.home_datastore.local.repository.PomodoroDatastore
 import ir.m3.rahmani.home_datastore.local.repository.PomodoroLocalRepository
@@ -21,6 +22,11 @@ class RoomModule {
     @Provides
     fun providepomodoroDaoDao(db: AppDatabase): PomodoroDao {
         return db.pomodoroDao()
+    }
+
+    @Provides
+    fun providePlayLocalDao(db: AppDatabase): PlayLocalDao {
+        return db.playLocalDao()
     }
 
     @Provides

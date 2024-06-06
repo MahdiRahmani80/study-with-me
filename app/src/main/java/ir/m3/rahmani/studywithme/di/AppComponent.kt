@@ -3,6 +3,7 @@ package ir.m3.rahmani.studywithme.di
 
 import dagger.Component
 import ir.m3.rahmani.core.di.CoreComponent
+import ir.m3.rahmani.home_datastore.api.ChallengeApiServiceModule
 import ir.m3.rahmani.home_datastore.di.HomeDatastoreComponent
 import ir.m3.rahmani.home_datastore.local.RoomModule
 import ir.m3.rahmani.home_datastore.local.dao.PomodoroDao
@@ -11,6 +12,7 @@ import ir.m3.rahmani.user_data.di.UserModule
 import ir.m3.rahmani.studywithme.StudyWithMeApplication
 import ir.m3.rahmani.studywithme.home.HomeActivity
 import ir.m3.rahmani.studywithme.home.HomeComponent
+import ir.m3.rahmani.studywithme.home.challenge.ChallengeFragment
 import ir.m3.rahmani.studywithme.login.onboarding.OnboardingActivity
 import ir.m3.rahmani.studywithme.login.register.RegisterActivity
 import ir.m3.rahmani.studywithme.main.MainActivity
@@ -21,7 +23,10 @@ import javax.inject.Singleton
 @Singleton
 @Component(
     dependencies = [CoreComponent::class],
-    modules = [UserModule::class, ApiServiceModule::class, HomeModule::class, RoomModule::class]
+    modules = [
+        UserModule::class, ApiServiceModule::class, HomeModule::class,
+        RoomModule::class, ChallengeApiServiceModule::class
+    ]
 )
 interface AppComponent {
 
@@ -30,6 +35,7 @@ interface AppComponent {
     fun inject(onboardingActivity: OnboardingActivity)
     fun inject(registerActivity: RegisterActivity)
     fun inject(homeActivity: HomeActivity)
+    fun inject(challengeFragment: ChallengeFragment)
 
     fun provideRetrofit(): Retrofit
 

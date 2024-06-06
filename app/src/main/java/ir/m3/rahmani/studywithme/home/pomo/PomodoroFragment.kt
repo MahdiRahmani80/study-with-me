@@ -9,6 +9,7 @@ import android.view.ViewGroup
 import androidx.compose.ui.platform.ViewCompositionStrategy
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.LifecycleOwner
+import androidx.lifecycle.lifecycleScope
 import ir.m3.rahmani.core.utils.ui.compose.clock.PomodoroClock
 import ir.m3.rahmani.core.utils.ui.compose.PomodoroTheme
 import ir.m3.rahmani.core.utils.ui.compose.clock.PomodoroConstants
@@ -18,6 +19,7 @@ import ir.m3.rahmani.studywithme.databinding.FragmentPomodoroBinding
 import ir.m3.rahmani.studywithme.di.Injector
 import ir.m3.rahmani.studywithme.home.pomo.PomodoroUiHelper.iconHandler
 import ir.m3.rahmani.studywithme.home.pomo.PomodoroUiHelper.showSanckbarWhenDone
+import kotlinx.coroutines.launch
 import javax.inject.Inject
 import javax.inject.Singleton
 
@@ -82,6 +84,9 @@ class PomodoroFragment @Inject constructor() : Fragment() {
 
         val activity = requireActivity()
 
+        lifecycleScope.launch {
+            pomodoroViewModel.getChallengeStatus()
+        }
 
         pomodoroViewModel.state.observe(activity) { state ->
             listener(state)
@@ -100,6 +105,7 @@ class PomodoroFragment @Inject constructor() : Fragment() {
         val serviceIntent = Intent(context, PomodoroTimerService::class.java)
         when (state) {
             TimerState.IN_PROGRESS -> context.startService(serviceIntent)
+            TimerState.PAUSE -> context.startService(serviceIntent)
             else -> context.stopService(serviceIntent)
         }
     }
@@ -117,11 +123,18 @@ class PomodoroFragment @Inject constructor() : Fragment() {
                     R.string.your_company_status,
                     status,
                     info.leftToLongBreak.toString(),
-                    info.pomodoroCount.toString(), // todo update this when new challenge started to 0
-                    info.championCount.toString() // todo get this from api server
+                    readChallengeNullHandler(info.readChallengePomo,info.challengeTarget),
+                    info.pomodoroCount.toString(),
+
                 )
             }
         }
+    }
+
+    private fun readChallengeNullHandler(countPomo: Int?,challengeTarget:Int?): String {
+        return if (countPomo == null)
+            getString(R.string.no_active_challenge)
+        else getString(R.string.have_active_challenge, countPomo.toString(),challengeTarget.toString())
     }
 
     private fun listener(state: TimerState) {

@@ -6,10 +6,14 @@ import androidx.lifecycle.viewModelScope
 import ir.m3.rahmani.core.shared.UserSharedPreferenceRepository
 import ir.m3.rahmani.core.shared.model.UserSharedPref
 import ir.m3.rahmani.core.utils.timerText
+import ir.m3.rahmani.core.utils.ui.compose.clock.PomodoroConstants.ONE_SECOND
 import ir.m3.rahmani.core.utils.ui.compose.clock.PomodoroConstants.POMODORO_SESSION_COUNT
 import ir.m3.rahmani.core.utils.ui.compose.clock.PomodoroConstants.POMODORO_STUDY_TIME_BY_MINUTES
 import ir.m3.rahmani.core.utils.ui.compose.clock.PomodoroConstants.POMODORO_WHEN_POMODORO_DONE_PRIZE
 import ir.m3.rahmani.core.utils.ui.compose.clock.PomodoroConstants.toSecond
+import ir.m3.rahmani.home_datastore.api.ChallengeRepository
+import ir.m3.rahmani.home_datastore.local.model.PlayLocal
+import ir.m3.rahmani.home_datastore.local.repository.PlayLocalRepository
 import ir.m3.rahmani.home_datastore.local.repository.PomodoroLocalRepository
 import ir.m3.rahmani.home_datastore.model.Pomodoro
 import ir.m3.rahmani.studywithme.home.pomo.data.NotifyTime
@@ -31,7 +35,9 @@ import kotlin.math.min
 class PomodoroViewModel @Inject constructor(
     private val pomodoroLocalRepository: PomodoroLocalRepository,
     private val userSharedPref: UserSharedPreferenceRepository,
-    private val userApiServiceRepository: UserApiServiceRepository
+    private val userApiServiceRepository: UserApiServiceRepository,
+    private val playLocalRepository: PlayLocalRepository,
+    private val challengeRepository: ChallengeRepository
 ) : ViewModel(), TimerSetup {
 
     private var startPomodoroTime: Long? = null
@@ -54,15 +60,29 @@ class PomodoroViewModel @Inject constructor(
         MutableStateFlow(0)
     }
     val userState = _userLastState.asLiveData()
+    private val _play: MutableStateFlow<PlayLocal?> by lazy {
+        MutableStateFlow(null)
+    }
 
     init {
         getTodayPomodoros()
         viewModelScope.launch {
+            getChallengeStatus()
             _userLastState.value = UserStateHandler.userLastState(userSharedPref)
             val time = UserStateHandler.getTimeByState(_userLastState.value)
             _notifyTimerData.value = _notifyTimerData.value.copy(
                 second = time,
                 time = timerText(time.toSecond())
+            )
+        }
+    }
+
+    suspend fun getChallengeStatus() {
+        playLocalRepository.getPlay().collect {
+            _play.value = it
+            _notifyUserInfo.value = _notifyUserInfo.value.copy(
+                readChallengePomo = _play.value?.readPomo,
+                challengeTarget  = _play.value?.target
             )
         }
     }
@@ -93,7 +113,7 @@ class PomodoroViewModel @Inject constructor(
                     second = secondsLeft, time = timerText(secondsLeft)
                 )
                 savePauseTime = _notifyTimerData.value.second
-                delay(1000) // wait 1 second
+                delay(ONE_SECOND)
                 if (secondsLeft == 0) {
                     onTimerDone()
                 }
@@ -108,11 +128,30 @@ class PomodoroViewModel @Inject constructor(
             _notifyTimerData.value.copy(second = time)
         _state.value = TimerState.DONE
         if (_userLastState.value == 0) {
+            updateChallengePlay()
             saveUserPrize()
         } else {
             saveNewStateUser()
         }
     }
+
+    private suspend fun updateChallengePlay() {
+        if (_play.value != null) {
+            val read = _play.value!!.readPomo + 1
+            _play.value = _play.value?.copy(
+                readPomo = read
+            )
+            if (_play.value != null) {
+                playLocalRepository.updatePlay(play = _play.value!!)
+                _notifyUserInfo.value = _notifyUserInfo.value.copy(
+                    readChallengePomo = read
+                )
+                challengeRepository.updatePlay(play = _play.value!!,read).firstOrNull()
+            }
+        }
+    }
+
+
 
     private suspend fun saveNewStateUser() {
         val user = userSharedPref.getUserSharedData.first()

@@ -5,7 +5,8 @@
         <item name="colorPrimary">@color/darkGreen</item>
         <item name="colorOnPrimary">@color/white</item>
         <item name="colorPrimaryVariant">@color/midGreen</item>
-        <item name="colorOnPrimaryContainer"> @color/gray</item>
+        <item name="colorOnPrimaryContainer">@color/gray</item>
+        <item name="colorPrimaryContainer">#D71E1E</item>
         <item name="colorSecondary">@color/lightGreen</item>
         <item name="colorOnSecondary">@color/white</item>
         <item name="colorTertiary">@color/yellow</item>
@@ -23,6 +24,12 @@
 
     </style>
 
+    <style name="DateTime" parent="ThemeOverlay.Material3.MaterialCalendar">
+        <item name="colorControlActivated">?colorPrimary</item>
+        <item name="android:headerBackground">?colorPrimary</item>
+        <item name="android:numbersSelectorColor">?colorPrimary</item>
+
+    </style>
 
     <style name="Theme.StudyWithMe" parent="Base.Theme.StudyWithMe" />
 </resources>
