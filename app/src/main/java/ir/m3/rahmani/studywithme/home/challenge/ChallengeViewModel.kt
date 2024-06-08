@@ -12,6 +12,7 @@ import ir.m3.rahmani.studywithme.home.challenge.data.NotifyChallenge
 import ir.m3.rahmani.user_data.api.UserApiServiceRepository
 import ir.m3.rahmani.user_data.toExternal
 import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.flow.firstOrNull
 import kotlinx.coroutines.launch
 import javax.inject.Inject
@@ -60,13 +61,15 @@ class ChallengeViewModel @Inject constructor(
                 userApiServiceRepository.updateUser(user.toExternal()).firstOrNull()
             }
             playLocalRepository.addPlay(challenge)
+
         }
     }
 
     private fun getChallengeMode() {
         viewModelScope.launch {
             sharedPreferenceRepository.getUserSharedData.collect {
-                _notifyChallenges.value = _notifyChallenges.value.copy(user = it)
+                if (_notifyChallenges.value.user != it)
+                    _notifyChallenges.value = _notifyChallenges.value.copy(user = it)
             }
         }
     }
@@ -79,13 +82,24 @@ class ChallengeViewModel @Inject constructor(
         }
     }
 
+    fun removeChallenge(challenge: Challenge) {
+        _notifyChallenges.value.challenges.remove(challenge)
+    }
+
 
     init {
         viewModelScope.launch {
             getChallengeMode()
             getUserName()
+            val play = playLocalRepository.getPlay().firstOrNull()
             challengeRepository.getChallenges().collect {
-                _notifyChallenges.value = _notifyChallenges.value.copy(challenges = it)
+                val challenges = arrayListOf<Challenge>()
+                it.map {
+                    if(play?.bet != it.bet_id?.toInt())
+                        challenges.add(it)
+                }
+                _notifyChallenges.value = _notifyChallenges.value.copy(challenges = challenges)
+
             }
         }
     }

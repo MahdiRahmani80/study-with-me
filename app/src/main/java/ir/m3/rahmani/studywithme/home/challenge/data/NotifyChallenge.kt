@@ -4,7 +4,7 @@ import ir.m3.rahmani.core.shared.model.UserSharedPref
 import ir.m3.rahmani.home_datastore.model.Challenge
 
 data class NotifyChallenge (
-    val challenges: List<Challenge> = emptyList(),
+    val challenges: ArrayList<Challenge> = arrayListOf(),
     val user: UserSharedPref? = null
 
 )

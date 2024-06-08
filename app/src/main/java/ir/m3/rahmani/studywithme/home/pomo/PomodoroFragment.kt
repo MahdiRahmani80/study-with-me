@@ -17,6 +17,7 @@ import ir.m3.rahmani.studywithme.PomodoroTimerService
 import ir.m3.rahmani.studywithme.R
 import ir.m3.rahmani.studywithme.databinding.FragmentPomodoroBinding
 import ir.m3.rahmani.studywithme.di.Injector
+import ir.m3.rahmani.studywithme.home.YouLoseDialog
 import ir.m3.rahmani.studywithme.home.pomo.PomodoroUiHelper.iconHandler
 import ir.m3.rahmani.studywithme.home.pomo.PomodoroUiHelper.showSanckbarWhenDone
 import kotlinx.coroutines.launch
@@ -82,10 +83,15 @@ class PomodoroFragment @Inject constructor() : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        val activity = requireActivity()
-
         lifecycleScope.launch {
             pomodoroViewModel.getChallengeStatus()
+        }
+
+        val activity = requireActivity()
+
+        pomodoroViewModel.isLose.observe(activity) {
+            if (it == true)
+                YouLoseDialog().show(childFragmentManager, YouLoseDialog.TAG)
         }
 
         pomodoroViewModel.state.observe(activity) { state ->
@@ -112,29 +118,40 @@ class PomodoroFragment @Inject constructor() : Fragment() {
 
     private fun setUserInfo(activity: LifecycleOwner) {
         pomodoroViewModel.notifyUserInfo.observe(activity) { info ->
+            pomodoroViewModel.notifyUserInfo.removeObservers(this)
             pomodoroViewModel.userState.observe(activity) { state ->
                 val status = when (state) {
-                    0 -> getString(R.string.pomodoro_status_0)
-                    1 -> getString(R.string.pomodoro_status_1)
-                    2 -> getString(R.string.pomodoro_status_2)
-                    else -> getString(R.string.pomodoro_status_0)
+                    0 -> context.getString(R.string.pomodoro_status_0)
+                    1 -> context.getString(R.string.pomodoro_status_1)
+                    2 -> context.getString(R.string.pomodoro_status_2)
+                    else -> context.getString(R.string.pomodoro_status_0)
                 }
-                binding.status.text = getString(
+                binding.status.text = context.getString(
                     R.string.your_company_status,
                     status,
                     info.leftToLongBreak.toString(),
-                    readChallengeNullHandler(info.readChallengePomo,info.challengeTarget),
+                    readChallengeNullHandler(
+                        info.readChallengePomo,
+                        info.challengeTarget,
+                    ),
                     info.pomodoroCount.toString(),
 
-                )
+                    )
             }
         }
     }
 
-    private fun readChallengeNullHandler(countPomo: Int?,challengeTarget:Int?): String {
-        return if (countPomo == null)
-            getString(R.string.no_active_challenge)
-        else getString(R.string.have_active_challenge, countPomo.toString(),challengeTarget.toString())
+    private fun readChallengeNullHandler(
+        countPomo: Int?,
+        challengeTarget: Int?
+    ): String {
+        return if (challengeTarget != null && challengeTarget != 0)
+            context.getString(
+                R.string.have_active_challenge,
+                countPomo.toString(),
+                challengeTarget.toString()
+            )
+        else context.getString(R.string.no_active_challenge)
     }
 
     private fun listener(state: TimerState) {
@@ -175,7 +192,7 @@ class PomodoroFragment @Inject constructor() : Fragment() {
 
     override fun onDestroyView() {
         super.onDestroyView()
-        _binding = null
+//        _binding = null
     }
 
 }

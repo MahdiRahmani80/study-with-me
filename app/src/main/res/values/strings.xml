@@ -50,4 +50,16 @@
     <string name="not_enough_coin">تعداد سکه های شما کم است.</string>
     <string name="no_active_challenge">چالش فعالی ندارید.</string>
     <string name="have_active_challenge">%s تا پومو از %s تا انجام شد.</string>
+    <string name="img_content_desc_profile_icon">profile icon</string>
+    <string name="say_hi_profile">سلام با معرفت، چطوری؟</string>
+    <string name="edit_username">تغییر نام کاربری</string>
+    <string name="buy_coin">خرید سکه</string>
+    <string name="rate_us">نظرت درباره برنامه چیه؟!</string>
+    <string name="support_us">حمایت از ما 😍‍🔥🥰🥳</string>
+    <string name="divider_text">|</string>
+    <string name="update_challenge_status">وضعیت کلی چالش</string>
+    <string name="bottom_sheet_challenge_status_body">وضعیت چالش: %s\nتعداد شرکت کنندگان در چالش: %s\nاگه برنده بشی سکه های همه این افراد رو میگیری، بجنب!!\n\n%s</string>
+    <string name="bottom_sheet_challenge_status_body_champ">شخصی در تاریخ %s به این چالش اضافه شد.\n</string>
+    <string name="challenge_in_progress">چالش هنوز تموم نشده، بجنب</string>
+    <string name="you_are_lost">متاسفانه شما باختید، باید بیشتر تلاش میکردید.🥲🥲</string>
 </resources>

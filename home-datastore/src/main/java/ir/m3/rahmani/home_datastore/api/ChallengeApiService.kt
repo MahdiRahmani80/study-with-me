@@ -18,6 +18,15 @@ interface ChallengeApiService {
     @POST("bet.php")
     suspend fun postChallenge(@Body challenge: ChallengePost)
 
+    @GET("bet.php")
+    suspend fun getChallengeById(@Query("id") id: String): Challenge
+
+    @PUT("bet.php")
+    suspend fun updateChallenge(@Query("id") id: String, @Body challenge: Challenge)
+
+
+    // PLAY
+
     @POST("play.php")
     suspend fun addPlay(@Body play: Play)
 
@@ -26,4 +35,8 @@ interface ChallengeApiService {
 
     @PUT("play.php")
     suspend fun updatePlay(@Query("id") id: String, @Body play: Play)
+
+    @GET("play.php")
+    suspend fun getPlayPerBet(@Query("bet") id: String): List<Play>
+
 }

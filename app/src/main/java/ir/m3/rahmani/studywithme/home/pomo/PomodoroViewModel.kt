@@ -15,7 +15,9 @@ import ir.m3.rahmani.home_datastore.api.ChallengeRepository
 import ir.m3.rahmani.home_datastore.local.model.PlayLocal
 import ir.m3.rahmani.home_datastore.local.repository.PlayLocalRepository
 import ir.m3.rahmani.home_datastore.local.repository.PomodoroLocalRepository
+import ir.m3.rahmani.home_datastore.model.Challenge
 import ir.m3.rahmani.home_datastore.model.Pomodoro
+import ir.m3.rahmani.home_datastore.model.toPlay
 import ir.m3.rahmani.studywithme.home.pomo.data.NotifyTime
 import ir.m3.rahmani.studywithme.home.pomo.data.NotifyUserInfo
 import ir.m3.rahmani.user_data.api.UserApiServiceRepository
@@ -40,6 +42,7 @@ class PomodoroViewModel @Inject constructor(
     private val challengeRepository: ChallengeRepository
 ) : ViewModel(), TimerSetup {
 
+
     private var startPomodoroTime: Long? = null
     private var endPomodoroTime: Long? = null
     private val _notifyTimerData: MutableStateFlow<NotifyTime> by lazy {
@@ -63,11 +66,14 @@ class PomodoroViewModel @Inject constructor(
     private val _play: MutableStateFlow<PlayLocal?> by lazy {
         MutableStateFlow(null)
     }
+    private val _isLose: MutableStateFlow<Boolean> by lazy {
+        MutableStateFlow(false)
+    }
+    val isLose = _isLose.asLiveData()
 
     init {
         getTodayPomodoros()
         viewModelScope.launch {
-            getChallengeStatus()
             _userLastState.value = UserStateHandler.userLastState(userSharedPref)
             val time = UserStateHandler.getTimeByState(_userLastState.value)
             _notifyTimerData.value = _notifyTimerData.value.copy(
@@ -77,13 +83,15 @@ class PomodoroViewModel @Inject constructor(
         }
     }
 
-    suspend fun getChallengeStatus() {
-        playLocalRepository.getPlay().collect {
-            _play.value = it
-            _notifyUserInfo.value = _notifyUserInfo.value.copy(
-                readChallengePomo = _play.value?.readPomo,
-                challengeTarget  = _play.value?.target
-            )
+    fun getChallengeStatus() {
+        viewModelScope.launch {
+            playLocalRepository.getPlay().collect {
+                _play.value = it
+                _notifyUserInfo.value = _notifyUserInfo.value.copy(
+                    readChallengePomo = _play.value?.readPomo,
+                    challengeTarget = _play.value?.target,
+                )
+            }
         }
     }
 
@@ -115,7 +123,34 @@ class PomodoroViewModel @Inject constructor(
                 savePauseTime = _notifyTimerData.value.second
                 delay(ONE_SECOND)
                 if (secondsLeft == 0) {
+                    loseCheck()
                     onTimerDone()
+
+                }
+            }
+        }
+    }
+
+    private fun loseCheck() {
+        viewModelScope.launch {
+            challengeRepository.getChallengeById(_play.value?.bet.toString()).collect {
+                _notifyUserInfo.value = _notifyUserInfo.value.copy(
+                    isFinishedChallenge = it?.status == "1" // status done = "1"
+                )
+                if (it?.status == "1") {
+                    _isLose.value = true
+                    _notifyUserInfo.value = _notifyUserInfo.value.copy(challengeTarget = 0)
+                    playLocalRepository.getPlay().firstOrNull()?.let {
+                        it.isFinished = true
+                        it.isWin = false
+                        playLocalRepository.updatePlay(it)
+                    }
+                } else _isLose.value = false
+                val user = userSharedPref.getUserSharedData.first()
+                val mode = _notifyUserInfo.value.isFinishedChallenge ?: false
+                if (user.challengeMode != mode) {
+                    user.challengeMode = mode
+                    userSharedPref.setUserData(user)
                 }
             }
         }
@@ -127,8 +162,12 @@ class PomodoroViewModel @Inject constructor(
         _notifyTimerData.value =
             _notifyTimerData.value.copy(second = time)
         _state.value = TimerState.DONE
-        if (_userLastState.value == 0) {
+        val user = userSharedPref.getUserSharedData.firstOrNull()
+        if (_userLastState.value == 0 && user?.challengeMode == true) { // win challenge
             updateChallengePlay()
+            saveUserPrize()
+            challengeDoneCheck()
+        } else if (_userLastState.value == 0) { // pomodoro done get prize
             saveUserPrize()
         } else {
             saveNewStateUser()
@@ -146,12 +185,61 @@ class PomodoroViewModel @Inject constructor(
                 _notifyUserInfo.value = _notifyUserInfo.value.copy(
                     readChallengePomo = read
                 )
-                challengeRepository.updatePlay(play = _play.value!!,read).firstOrNull()
+                challengeRepository.updatePlay(play = _play.value!!, read).firstOrNull()
+            }
+        }
+    }
+
+    private suspend fun challengeDoneCheck() {
+        if (challengeDoneCondition()) {
+            try {
+                // todo notify if we lose
+                getRewardChallengeDone()
+                finishChallengeLocal()
+                finishChallengeApi()
+            } catch (e: Exception) {
+                e.printStackTrace()
             }
         }
     }
 
 
+    private fun challengeDoneCondition(): Boolean =
+        _notifyUserInfo.value.challengeTarget != null &&
+                _notifyUserInfo.value.challengeTarget?.toInt()!! <= _notifyUserInfo.value.readChallengePomo?.toInt()!!
+
+    private suspend fun getRewardChallengeDone() {
+        val sharedUser = userSharedPref.getUserSharedData.first()
+        val coin = _play.value?.coin ?: 0
+        sharedUser.challengeMode = false
+        if (_play.value?.bet != null) {
+            val count = challengeRepository.getPlays(_play.value?.bet!!).first().size
+            if (count > 0) sharedUser.coin += (coin * count)
+        }
+        userSharedPref.setUserData(sharedUser)
+        userApiServiceRepository.updateUser(sharedUser.toExternal())
+    }
+
+    private suspend fun finishChallengeLocal() {
+        _play.value = _play.value?.copy(
+            isFinished = true,
+            isWin = true
+        )
+        if (_play.value != null) {
+            userSharedPref.getUserSharedData.first()
+            playLocalRepository.updatePlay(_play.value!!)
+        }
+    }
+
+    private suspend fun finishChallengeApi() {
+        val challengeId = _play.value?.bet.toString()
+        val ch = Challenge(
+            coin = _play.value?.coin.toString(),
+            target = _notifyUserInfo.value.challengeTarget.toString(),
+            status = "1",
+        )
+        challengeRepository.updateChallenge(challengeId, ch).firstOrNull()
+    }
 
     private suspend fun saveNewStateUser() {
         val user = userSharedPref.getUserSharedData.first()
@@ -175,9 +263,9 @@ class PomodoroViewModel @Inject constructor(
     }
 
     private suspend fun saveUserPrize() {
-        val user = userSharedPref.getUserSharedData.first()
-        val newCoinCount = user.coin + POMODORO_WHEN_POMODORO_DONE_PRIZE
-        user.coin = newCoinCount
+        val user = userSharedPref.getUserSharedData.first().apply {
+            this.coin += POMODORO_WHEN_POMODORO_DONE_PRIZE
+        }
         userSharedPref.setUserData(user)
         userApiServiceRepository.updateUser(user.toExternal()).firstOrNull()
         saveNewStateUser()
@@ -227,7 +315,12 @@ class PomodoroViewModel @Inject constructor(
                 val leftToLongBreak = howManyLeftToLongBreak(it)
                 _notifyUserInfo.value = _notifyUserInfo.value.copy(
                     pomodoroCount = it,
-                    leftToLongBreak = leftToLongBreak
+                    leftToLongBreak = leftToLongBreak,
+                )
+            }
+            userSharedPref.getUserSharedData.collect {
+                _notifyUserInfo.value = _notifyUserInfo.value.copy(
+                    isFinishedChallenge = !it.challengeMode
                 )
             }
         }

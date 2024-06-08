@@ -58,6 +58,7 @@ class ChallengeFragment @Inject constructor() : Fragment() {
                     if (isCoinEnough) {
                         viewModel.startChallenge(challenge)
                         showSnackbar(getString(R.string.decreased_your_coin, challenge.coin))
+                        viewModel.removeChallenge(challenge)
                     } else {
                         showSnackbar(getString(R.string.not_enough_coin))
                     }

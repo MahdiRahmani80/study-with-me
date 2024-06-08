@@ -1,7 +1,7 @@
 package ir.m3.rahmani.core.utils.ui.compose.clock
 
 object PomodoroConstants {
-    const val ONE_SECOND = 10L //1000L
+    const val ONE_SECOND = 1L //1000L
     const val POMODORO_SESSION_COUNT = 4
     const val POMODORO_STUDY_TIME_BY_MINUTES = 25
     const val POMODORO_SHORT_BREAK_TIME_BY_MINUTES = 5

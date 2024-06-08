@@ -8,7 +8,7 @@ data class UserSharedPref(
     var coin: Int = 143,
     var phone: String = "[+98] 912 (345) 6789",
     var userLastState:Int =0,
-    var challengeMode:Boolean =false,
+    var challengeMode:Boolean = false,
     var playId:String? = null
 )
 

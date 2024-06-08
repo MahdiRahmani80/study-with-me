@@ -1,15 +1,11 @@
 package ir.m3.rahmani.studywithme.home
 
-import android.content.Intent
 import android.os.Bundle
-import androidx.activity.enableEdgeToEdge
+import android.view.View
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import androidx.fragment.app.Fragment
-import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.google.android.material.navigation.NavigationBarView
-import ir.m3.rahmani.studywithme.PomodoroTimerService
+import com.google.android.material.snackbar.Snackbar
 import ir.m3.rahmani.studywithme.R
 import ir.m3.rahmani.studywithme.databinding.ActivityHomeBinding
 import ir.m3.rahmani.studywithme.di.Injector
@@ -25,10 +21,17 @@ class HomeActivity : AppCompatActivity() {
     lateinit var homeViewModel: HomeViewModel
 
     // inject fragments
-    @Inject lateinit var pomodoroFragment: PomodoroFragment
-    @Inject lateinit var challengeFragment: ChallengeFragment
-    @Inject lateinit var statsFragment: StatsFragment
-    @Inject lateinit var profileFragment: ProfileFragment
+    @Inject
+    lateinit var pomodoroFragment: PomodoroFragment
+
+    @Inject
+    lateinit var challengeFragment: ChallengeFragment
+
+    @Inject
+    lateinit var statsFragment: StatsFragment
+
+    @Inject
+    lateinit var profileFragment: ProfileFragment
 
     private lateinit var binding: ActivityHomeBinding
 
@@ -42,13 +45,47 @@ class HomeActivity : AppCompatActivity() {
 
         setUserData()
         setHomeFragments()
+        getChallengeStatus()
+
+        homeViewModel.lastestChallengeState.observe(this) { challenge ->
+            if (challenge != null) {
+                if (challenge.status?.toInt() == 1) {
+
+                    YouLoseDialog().show(supportFragmentManager,YouLoseDialog.TAG)
+//                    showSanckbar(getString(R.string.you_are_lost))
+                }
+
+            }
+        }
 
     }
 
+    // todo make it a better performance
+    // todo fix bug: show last version of data and new version of data both in the same time
+    private fun getChallengeStatus() {
+        binding.getChallenge.setOnClickListener {
+            homeViewModel.homeData.removeObservers(this)
+            homeViewModel.getPlayData()
+            homeViewModel.homeData.observe(this) {
+                if (it.user?.challengeMode == false) {
+                    showSanckbar(getString(R.string.no_active_challenge))
+                } else if (it.plays.size != 0 && it.user?.challengeMode == true) {
+                    showSanckbar(getString(R.string.please_wait))
+                    val sheet = ChallengeStatusBottomSheet(it.plays, homeViewModel)
+                    sheet.show(supportFragmentManager, ChallengeStatusBottomSheet.TAG)
+                    sheet.onDestroyView()
+                    sheet.onDestroy()
+
+                }
+            }
+
+        }
+    }
+
     private fun setUserData() {
-        homeViewModel.userData.observe(this) { user ->
-            binding.username.text = user?.username ?: ""
-            binding.coin.text = (user?.coin).toString()
+        homeViewModel.homeData.observe(this) { data ->
+            binding.username.text = data.user?.username ?: ""
+            binding.coin.text = (data.user?.coin).toString()
         }
     }
 
@@ -76,5 +113,11 @@ class HomeActivity : AppCompatActivity() {
         } else {
             false
         }
+    }
+
+    private fun showSanckbar(text: String) {
+        val snackbar = Snackbar.make(this, binding.root, text, Snackbar.LENGTH_LONG)
+        snackbar.view.layoutDirection = View.LAYOUT_DIRECTION_RTL
+        snackbar.show()
     }
 }
