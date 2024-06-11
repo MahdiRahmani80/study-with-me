@@ -5,8 +5,7 @@
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
-
-
+    <uses-permission android:name="ir.mservices.market.BILLING" />
 
     <application
         android:name=".StudyWithMeApplication"
@@ -20,12 +19,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.StudyWithMe"
         tools:targetApi="31">
+        <activity
+            android:name=".donate.DonateActivity"
+            android:exported="false" />
 
         <service
             android:name=".PomodoroTimerService"
             android:enabled="true"
-            android:foregroundServiceType="shortService"
-            android:exported="true"/>
+            android:exported="true"
+            android:foregroundServiceType="shortService" />
 
         <activity
             android:name=".home.HomeActivity"

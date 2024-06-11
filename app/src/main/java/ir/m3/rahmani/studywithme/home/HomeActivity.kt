@@ -1,21 +1,26 @@
 package ir.m3.rahmani.studywithme.home
 
+import android.icu.util.Calendar
 import android.os.Bundle
 import android.view.View
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import com.google.android.material.navigation.NavigationBarView
 import com.google.android.material.snackbar.Snackbar
 import ir.m3.rahmani.studywithme.R
+import ir.m3.rahmani.studywithme.convertToPurchase
 import ir.m3.rahmani.studywithme.databinding.ActivityHomeBinding
 import ir.m3.rahmani.studywithme.di.Injector
 import ir.m3.rahmani.studywithme.home.challenge.ChallengeFragment
 import ir.m3.rahmani.studywithme.home.pomo.PomodoroFragment
 import ir.m3.rahmani.studywithme.home.profile.ProfileFragment
 import ir.m3.rahmani.studywithme.home.stats.StatsFragment
+import ir.m3.rahmani.studywithme.payment.MyPurchaseInfo
+import ir.m3.rahmani.studywithme.payment.PurchaseHelper
 import javax.inject.Inject
 
-class HomeActivity : AppCompatActivity() {
+class HomeActivity : AppCompatActivity(), PurchaseHelper.PurchaseListener {
 
     @Inject
     lateinit var homeViewModel: HomeViewModel
@@ -51,13 +56,23 @@ class HomeActivity : AppCompatActivity() {
             if (challenge != null) {
                 if (challenge.status?.toInt() == 1) {
 
-                    YouLoseDialog().show(supportFragmentManager,YouLoseDialog.TAG)
+                    YouLoseDialog().show(supportFragmentManager, YouLoseDialog.TAG)
 //                    showSanckbar(getString(R.string.you_are_lost))
                 }
 
             }
         }
 
+        initPayment()
+        binding.imgCoin.setOnClickListener { buyCoin() } // for coin image
+        binding.coin.setOnClickListener { buyCoin() } // for coin text
+        profileFragment.buyCoinClick = { buyCoin() } // when buy coin button clicked on profile
+    }
+
+    private fun buyCoin() {
+        val dialog = BuyCoinDialog()
+        dialog.show(supportFragmentManager, BuyCoinDialog.TAG)
+        dialog.onItemClick = { startPurchase(it) }
     }
 
     // todo make it a better performance
@@ -119,5 +134,51 @@ class HomeActivity : AppCompatActivity() {
         val snackbar = Snackbar.make(this, binding.root, text, Snackbar.LENGTH_LONG)
         snackbar.view.layoutDirection = View.LAYOUT_DIRECTION_RTL
         snackbar.show()
+    }
+
+
+    // Payment ==========================================
+
+    private val purchaseHelper: PurchaseHelper by lazy {
+        PurchaseHelper(this)
+    }
+
+    fun initPayment() {
+        purchaseHelper.startIAP(this)
+    }
+
+    fun startPurchase(sku: String) {
+        purchaseHelper.launchPurchaseFlow(sku, activityResultRegistry)
+    }
+
+    override fun onDestroy() {
+        super.onDestroy()
+        purchaseHelper.stopService()
+
+    }
+
+    override fun onConsumeFinished(purchase: MyPurchaseInfo) {
+
+        homeViewModel.addBuyCoin(purchase)
+
+        val bar = Snackbar.make(
+            this,
+            binding.root,
+            getString(R.string.payment_success),
+            Snackbar.LENGTH_SHORT
+        )
+        bar.view.layoutDirection = View.LAYOUT_DIRECTION_RTL
+        bar.show()
+    }
+
+    override fun onErrorInPayment(error: String) {
+        val bar = Snackbar.make(
+            this,
+            binding.root,
+            getString(R.string.payment_fail),
+            Snackbar.LENGTH_SHORT
+        )
+        bar.view.layoutDirection = View.LAYOUT_DIRECTION_RTL
+        bar.show()
     }
 }

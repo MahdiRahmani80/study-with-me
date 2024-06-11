@@ -46,6 +46,27 @@ android {
         kotlinCompilerExtensionVersion = Dependencies.kotlinCompilerExtensionVersion
     }
 
+    flavorDimensions += "default"
+    productFlavors {
+        create("googlePlay") {
+
+        }
+        create("cofeBazaar") {
+            dimension = "default"
+        }
+        create("myket") {
+            dimension = "default"
+            val marketApplicationId = "ir.mservices.market"
+            val marketBindAddress = "ir.mservices.market.InAppBillingService.BIND"
+            manifestPlaceholders.putAll(
+                mapOf(
+                    "marketApplicationId" to marketApplicationId,
+                    "marketBindAddress" to marketBindAddress,
+                    "marketPermission" to "$marketApplicationId.BILLING"
+                )
+            )
+        }
+    }
 }
 
 dependencies {
@@ -58,6 +79,8 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+
+    "myketImplementation"("com.github.myketstore:myket-billing-client:1.7")
 
     dagger()
     lifecycle()

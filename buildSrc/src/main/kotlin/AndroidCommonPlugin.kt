@@ -25,6 +25,7 @@ class AndroidCommonPlugin : Plugin<Project> {
     }
 
     private fun setProjectConfig(project: Project) {
+
         project.android().apply {
             compileSdk = ProjectConfig.compileSdk
 

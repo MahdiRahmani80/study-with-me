@@ -58,7 +58,10 @@ class ChallengeAdapter(
             val start = challenge.start
             val end = challenge.end
             val target = challenge.target
-            return context.getString(R.string.item_challenge_description, target)
+            val text = context.getString(R.string.item_challenge_description, target)
+            val seperator = "\u200e"
+
+            return text + "زمان شروع: " + seperator + start + "\n" + "زمان پایان:  " + seperator + end
         }
     }
 }

@@ -7,4 +7,7 @@
     <dimen name="home_pomodoro_icon_size">50dp</dimen>
     <dimen name="margin_pomodoro_bottom_text">18sp</dimen>
     <dimen name="height_item_recycler_view">100dp</dimen>
+    <dimen name="space_between_buy_coin_items">10dp</dimen>
+    <dimen name="margin_start_end_donate_btn">40dp</dimen>
+    <dimen name="margin_top_bottom_donate_btn">10dp</dimen>
 </resources>

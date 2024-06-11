@@ -282,6 +282,18 @@ class PomodoroViewModel @Inject constructor(
     override fun nextPomodoro(timerState: TimerState) {
         savePauseTime = POMODORO_STUDY_TIME_BY_MINUTES.toSecond()
         _state.value = TimerState.NOT_STARTED
+        viewModelScope.launch {
+            val user = userSharedPref.getUserSharedData.first()
+            val newState = UserStateHandler.newStateUser(
+                _userLastState.value,
+                _notifyUserInfo.value.leftToLongBreak ?: 0
+            )
+            _userLastState.value = newState
+            saveNewUserSatateToSharedPref(newState, user)
+            _notifyTimerData.value = _notifyTimerData.value.copy(
+                time = timerText(UserStateHandler.getTimeByState(newState))
+            )
+        }
     }
 
     override fun stopTimer(timerState: TimerState) {

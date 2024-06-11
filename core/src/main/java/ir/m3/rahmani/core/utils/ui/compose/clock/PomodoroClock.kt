@@ -2,6 +2,7 @@ package ir.m3.rahmani.core.utils.ui.compose.clock
 
 import android.app.Application
 import androidx.compose.foundation.Canvas
+import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material.MaterialTheme
@@ -15,6 +16,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.Paint
 import androidx.compose.ui.graphics.drawscope.Stroke
 import androidx.compose.ui.graphics.nativeCanvas
+import androidx.compose.ui.graphics.toArgb
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.lifecycle.LifecycleOwner
@@ -33,7 +35,17 @@ fun PomodoroClock(
     countdownMinutes: Int
 ) {
 
-    val primaryColor = Color(0xFF006769)
+
+    var primaryColor: Color? = null
+    var onBackgroundColor: Color? = null
+
+    if (isSystemInDarkTheme()) {
+        primaryColor = Color(0xFF008170)
+        onBackgroundColor = Color.White
+    } else {
+        primaryColor = Color(0xFF006769)
+        onBackgroundColor = Color(0xFF006769)
+    }
 
     Canvas(
         modifier = Modifier
@@ -72,7 +84,7 @@ fun PomodoroClock(
             isAntiAlias = true
             textSize = 36.sp.toPx()
             typeface = android.graphics.Typeface.DEFAULT_BOLD
-            color = android.graphics.Color.BLACK
+            color = onBackgroundColor.toArgb()
             textAlign = android.graphics.Paint.Align.CENTER
         }
 

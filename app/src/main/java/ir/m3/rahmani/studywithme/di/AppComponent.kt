@@ -10,9 +10,11 @@ import ir.m3.rahmani.home_datastore.local.dao.PomodoroDao
 import ir.m3.rahmani.home_datastore.local.repository.PomodoroLocalRepository
 import ir.m3.rahmani.user_data.di.UserModule
 import ir.m3.rahmani.studywithme.StudyWithMeApplication
+import ir.m3.rahmani.studywithme.donate.DonateActivity
 import ir.m3.rahmani.studywithme.home.HomeActivity
 import ir.m3.rahmani.studywithme.home.HomeComponent
 import ir.m3.rahmani.studywithme.home.challenge.ChallengeFragment
+import ir.m3.rahmani.studywithme.home.profile.ProfileFragment
 import ir.m3.rahmani.studywithme.login.onboarding.OnboardingActivity
 import ir.m3.rahmani.studywithme.login.register.RegisterActivity
 import ir.m3.rahmani.studywithme.main.MainActivity
@@ -36,6 +38,8 @@ interface AppComponent {
     fun inject(registerActivity: RegisterActivity)
     fun inject(homeActivity: HomeActivity)
     fun inject(challengeFragment: ChallengeFragment)
+    fun inject(profileFragment: ProfileFragment)
+    fun inject(donateActivity: DonateActivity)
 
     fun provideRetrofit(): Retrofit
 

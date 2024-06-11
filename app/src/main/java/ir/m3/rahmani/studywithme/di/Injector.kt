@@ -4,6 +4,7 @@ import android.app.Activity
 import android.app.Application
 import androidx.fragment.app.Fragment
 import ir.m3.rahmani.studywithme.StudyWithMeApplication
+import ir.m3.rahmani.studywithme.donate.DonateActivity
 import ir.m3.rahmani.studywithme.home.HomeActivity
 import ir.m3.rahmani.studywithme.home.challenge.ChallengeFragment
 import ir.m3.rahmani.studywithme.home.pomo.PomodoroFragment
@@ -23,6 +24,7 @@ object Injector {
             is OnboardingActivity -> getAppComponent(activity).inject(activity)
             is RegisterActivity -> getAppComponent(activity).inject(activity)
             is HomeActivity -> getAppComponent(activity).inject(activity)
+            is DonateActivity -> getAppComponent(activity).inject(activity)
         }
     }
 
@@ -31,12 +33,15 @@ object Injector {
             is PomodoroFragment -> {
                 getAppComponent(application).provideHome().create().inject(fragment)
             }
+
             is ChallengeFragment -> {
                 getAppComponent(application).provideHome().create().inject(fragment)
             }
+
             is StatsFragment -> {
                 getAppComponent(application).provideHome().create().inject(fragment)
             }
+
             is ProfileFragment -> {
                 getAppComponent(application).provideHome().create().inject(fragment)
             }

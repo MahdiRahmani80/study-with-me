@@ -12,6 +12,8 @@ import ir.m3.rahmani.studywithme.databinding.ActivityMainBinding
 import ir.m3.rahmani.studywithme.di.Injector
 import ir.m3.rahmani.studywithme.home.HomeActivity
 import ir.m3.rahmani.studywithme.login.onboarding.OnboardingActivity
+import ir.m3.rahmani.studywithme.payment.MyPurchaseInfo
+import ir.m3.rahmani.studywithme.payment.PurchaseHelper
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.collect
@@ -54,6 +56,7 @@ class MainActivity : AppCompatActivity() {
         }
         finish()
     }
+
 
     companion object {
         private const val SPLASH_DURATION = 2500L

@@ -11,6 +11,10 @@ import ir.m3.rahmani.home_datastore.local.repository.PlayLocalRepository
 import ir.m3.rahmani.home_datastore.model.Challenge
 import ir.m3.rahmani.home_datastore.model.Play
 import ir.m3.rahmani.studywithme.home.pomo.PomodoroViewModel
+import ir.m3.rahmani.studywithme.payment.MyPurchaseInfo
+import ir.m3.rahmani.user_data.api.UserApiServiceRepository
+import ir.m3.rahmani.user_data.toExternal
+import ir.myket.billingclient.util.Purchase
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.flow.firstOrNull
@@ -22,10 +26,12 @@ import javax.inject.Singleton
 class HomeViewModel @Inject constructor(
     private val userSharedPref: UserSharedPreferenceRepository,
     private val challengeRepository: ChallengeRepository,
-    private val playLocalRepository: PlayLocalRepository
+    private val playLocalRepository: PlayLocalRepository,
+    private val userApiServiceRepository: UserApiServiceRepository
 ) : ViewModel() {
 
-    @Inject lateinit var pomodoroViewModel: PomodoroViewModel
+    @Inject
+    lateinit var pomodoroViewModel: PomodoroViewModel
 
     init {
         viewModelScope.launch {
@@ -81,13 +87,39 @@ class HomeViewModel @Inject constructor(
                             try {
                                 playLocalRepository.updatePlay(it)
                                 pomodoroViewModel.getChallengeStatus()
-                            } catch (e: Exception) {}
+                            } catch (e: Exception) {
+                            }
                         }
 
                     }
                 }
             }
         }
+    }
+
+    fun addBuyCoin(purchase: MyPurchaseInfo) {
+        if (purchase.productId != null) {
+            val coin = getPriceFromPurchase(purchase.productId)
+            viewModelScope.launch {
+
+                // update shared preference user
+                val user = userSharedPref.getUserSharedData.first()
+                user.coin += coin
+                userSharedPref.setUserData(user)
+                // update api
+                userApiServiceRepository.updateUser(user.toExternal()).first()
+
+            }
+        }
+    }
+
+    private fun getPriceFromPurchase(purchaseId: String) = when (purchaseId) {
+        "buy_500" -> 500
+        "buy_1000" -> 1000
+        "buy_2000" -> 2000
+        "buy_10000" -> 10000
+        else -> -1
+
     }
 }
 

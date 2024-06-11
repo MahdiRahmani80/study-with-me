@@ -192,6 +192,7 @@ class PomodoroFragment @Inject constructor() : Fragment() {
 
     override fun onDestroyView() {
         super.onDestroyView()
+        // it shouldn't be null
 //        _binding = null
     }
 
