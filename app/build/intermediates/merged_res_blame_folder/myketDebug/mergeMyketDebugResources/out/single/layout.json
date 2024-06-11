@@ -1,0 +1,90 @@
+[
+    {
+        "merged": "/home/mahdi/.gradle/daemon/8.6/ir.m3.rahmani.studywithme.app-mergeMyketDebugResources-64:/layout/fragment_onboarding.xml",
+        "source": "/home/mahdi/.gradle/daemon/8.6/ir.m3.rahmani.studywithme.app-main-67:/layout/fragment_onboarding.xml"
+    },
+    {
+        "merged": "/home/mahdi/.gradle/daemon/8.6/ir.m3.rahmani.studywithme.app-mergeMyketDebugResources-64:/layout/fragment_challenge.xml",
+        "source": "/home/mahdi/.gradle/daemon/8.6/ir.m3.rahmani.studywithme.app-main-67:/layout/fragment_challenge.xml"
+    },
+    {
+        "merged": "/home/mahdi/.gradle/daemon/8.6/ir.m3.rahmani.studywithme.app-mergeMyketDebugResources-64:/layout/activity_register.xml",
+        "source": "/home/mahdi/.gradle/daemon/8.6/ir.m3.rahmani.studywithme.app-main-67:/layout/activity_register.xml"
+    },
+    {
+        "merged": "/home/mahdi/.gradle/daemon/8.6/ir.m3.rahmani.studywithme.app-mergeMyketDebugResources-64:/layout/item_profile_text.xml",
+        "source": "/home/mahdi/.gradle/daemon/8.6/ir.m3.rahmani.studywithme.app-main-67:/layout/item_profile_text.xml"
+    },
+    {
+        "merged": "/home/mahdi/.gradle/daemon/8.6/ir.m3.rahmani.studywithme.app-mergeMyketDebugResources-64:/layout/dialog_buy_coin.xml",
+        "source": "/home/mahdi/.gradle/daemon/8.6/ir.m3.rahmani.studywithme.app-main-67:/layout/dialog_buy_coin.xml"
+    },
+    {
+        "merged": "/home/mahdi/.gradle/daemon/8.6/ir.m3.rahmani.studywithme.app-mergeMyketDebugResources-64:/layout/profile_design.xml",
+        "source": "/home/mahdi/.gradle/daemon/8.6/ir.m3.rahmani.studywithme.app-main-67:/layout/profile_design.xml"
+    },
+    {
+        "merged": "/home/mahdi/.gradle/daemon/8.6/ir.m3.rahmani.studywithme.app-mergeMyketDebugResources-64:/layout/activity_home.xml",
+        "source": "/home/mahdi/.gradle/daemon/8.6/ir.m3.rahmani.studywithme.app-main-67:/layout/activity_home.xml"
+    },
+    {
+        "merged": "/home/mahdi/.gradle/daemon/8.6/ir.m3.rahmani.studywithme.app-mergeMyketDebugResources-64:/layout/activity_donate.xml",
+        "source": "/home/mahdi/.gradle/daemon/8.6/ir.m3.rahmani.studywithme.app-main-67:/layout/activity_donate.xml"
+    },
+    {
+        "merged": "/home/mahdi/.gradle/daemon/8.6/ir.m3.rahmani.studywithme.app-mergeMyketDebugResources-64:/layout/dialog_time_picker.xml",
+        "source": "/home/mahdi/.gradle/daemon/8.6/ir.m3.rahmani.studywithme.app-main-67:/layout/dialog_time_picker.xml"
+    },
+    {
+        "merged": "/home/mahdi/.gradle/daemon/8.6/ir.m3.rahmani.studywithme.app-mergeMyketDebugResources-64:/layout/fragment_pomodoro.xml",
+        "source": "/home/mahdi/.gradle/daemon/8.6/ir.m3.rahmani.studywithme.app-main-67:/layout/fragment_pomodoro.xml"
+    },
+    {
+        "merged": "/home/mahdi/.gradle/daemon/8.6/ir.m3.rahmani.studywithme.app-mergeMyketDebugResources-64:/layout/compose_pomodoro.xml",
+        "source": "/home/mahdi/.gradle/daemon/8.6/ir.m3.rahmani.studywithme.app-main-67:/layout/compose_pomodoro.xml"
+    },
+    {
+        "merged": "/home/mahdi/.gradle/daemon/8.6/ir.m3.rahmani.studywithme.app-mergeMyketDebugResources-64:/layout/activity_signin.xml",
+        "source": "/home/mahdi/.gradle/daemon/8.6/ir.m3.rahmani.studywithme.app-main-67:/layout/activity_signin.xml"
+    },
+    {
+        "merged": "/home/mahdi/.gradle/daemon/8.6/ir.m3.rahmani.studywithme.app-mergeMyketDebugResources-64:/layout/activity_onboarding.xml",
+        "source": "/home/mahdi/.gradle/daemon/8.6/ir.m3.rahmani.studywithme.app-main-67:/layout/activity_onboarding.xml"
+    },
+    {
+        "merged": "/home/mahdi/.gradle/daemon/8.6/ir.m3.rahmani.studywithme.app-mergeMyketDebugResources-64:/layout/item_challenge.xml",
+        "source": "/home/mahdi/.gradle/daemon/8.6/ir.m3.rahmani.studywithme.app-main-67:/layout/item_challenge.xml"
+    },
+    {
+        "merged": "/home/mahdi/.gradle/daemon/8.6/ir.m3.rahmani.studywithme.app-mergeMyketDebugResources-64:/layout/fragment_profile.xml",
+        "source": "/home/mahdi/.gradle/daemon/8.6/ir.m3.rahmani.studywithme.app-main-67:/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "/home/mahdi/.gradle/daemon/8.6/ir.m3.rahmani.studywithme.app-mergeMyketDebugResources-64:/layout/bottom_sheet_challenge_status.xml",
+        "source": "/home/mahdi/.gradle/daemon/8.6/ir.m3.rahmani.studywithme.app-main-67:/layout/bottom_sheet_challenge_status.xml"
+    },
+    {
+        "merged": "/home/mahdi/.gradle/daemon/8.6/ir.m3.rahmani.studywithme.app-mergeMyketDebugResources-64:/layout/dialog_edit_username.xml",
+        "source": "/home/mahdi/.gradle/daemon/8.6/ir.m3.rahmani.studywithme.app-main-67:/layout/dialog_edit_username.xml"
+    },
+    {
+        "merged": "ir.m3.rahmani.studywithme.app-mergeMyketDebugResources-64:/layout/item_challenge.xml",
+        "source": "ir.m3.rahmani.studywithme.app-main-67:/layout/item_challenge.xml"
+    },
+    {
+        "merged": "/home/mahdi/.gradle/daemon/8.6/ir.m3.rahmani.studywithme.app-mergeMyketDebugResources-64:/layout/activity_main.xml",
+        "source": "/home/mahdi/.gradle/daemon/8.6/ir.m3.rahmani.studywithme.app-main-67:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/mahdi/.gradle/daemon/8.6/ir.m3.rahmani.studywithme.app-mergeMyketDebugResources-64:/layout/bottom_sheet_add_challenge.xml",
+        "source": "/home/mahdi/.gradle/daemon/8.6/ir.m3.rahmani.studywithme.app-main-67:/layout/bottom_sheet_add_challenge.xml"
+    },
+    {
+        "merged": "/home/mahdi/.gradle/daemon/8.6/ir.m3.rahmani.studywithme.app-mergeMyketDebugResources-64:/layout/fragment_stats.xml",
+        "source": "/home/mahdi/.gradle/daemon/8.6/ir.m3.rahmani.studywithme.app-main-67:/layout/fragment_stats.xml"
+    },
+    {
+        "merged": "/home/mahdi/.gradle/daemon/8.6/ir.m3.rahmani.studywithme.app-mergeMyketDebugResources-64:/layout/dialog_date_picker.xml",
+        "source": "/home/mahdi/.gradle/daemon/8.6/ir.m3.rahmani.studywithme.app-main-67:/layout/dialog_date_picker.xml"
+    }
+]

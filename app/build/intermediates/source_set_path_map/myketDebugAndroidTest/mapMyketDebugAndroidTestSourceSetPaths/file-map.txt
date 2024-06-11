@@ -1,0 +1,6 @@
+ir.m3.rahmani.studywithme.test.app-core-1.5.0-0 /home/mahdi/.gradle/caches/transforms-4/659ca6d94876900c10ee6297a2e29d8d/transformed/core-1.5.0/res
+ir.m3.rahmani.studywithme.test.app-annotation-experimental-1.4.0-1 /home/mahdi/.gradle/caches/transforms-4/cb59947c1307183129b66688a26378eb/transformed/annotation-experimental-1.4.0/res
+ir.m3.rahmani.studywithme.test.app-myket-2 /home/mahdi/w/android/StudyWithMe/app/build/generated/res/resValues/androidTest/myket/debug
+ir.m3.rahmani.studywithme.test.app-mergeMyketDebugAndroidTestResources-3 /home/mahdi/w/android/StudyWithMe/app/build/intermediates/incremental/myketDebugAndroidTest/mergeMyketDebugAndroidTestResources/merged.dir
+ir.m3.rahmani.studywithme.test.app-mergeMyketDebugAndroidTestResources-4 /home/mahdi/w/android/StudyWithMe/app/build/intermediates/incremental/myketDebugAndroidTest/mergeMyketDebugAndroidTestResources/stripped.dir
+ir.m3.rahmani.studywithme.test.app-myketDebugAndroidTest-5 /home/mahdi/w/android/StudyWithMe/app/build/intermediates/merged_res/myketDebugAndroidTest/mergeMyketDebugAndroidTestResources

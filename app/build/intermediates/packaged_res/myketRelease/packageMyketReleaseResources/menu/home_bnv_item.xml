@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/pomodoro"
+        android:title="@string/pomodoro_bnv"
+        android:icon="@drawable/pomo" />
+    <item
+        android:id="@+id/challenge"
+        android:title="@string/challenge_bnv"
+        android:icon="@drawable/challenge"/>
+    <item
+        android:id="@+id/stats"
+        android:title="@string/stats_bnv"
+        android:icon="@drawable/chart"/>
+    <item
+        android:id="@+id/profile"
+        android:title="@string/profile_bnv"
+        android:icon="@drawable/profile"/>
+</menu>

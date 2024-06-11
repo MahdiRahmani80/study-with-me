@@ -1,0 +1,10 @@
+#Mon Jun 10 23:52:16 IRDT 2024
+base.0=/home/mahdi/w/android/StudyWithMe/app/build/intermediates/dex/myketRelease/mergeDexMyketRelease/classes.dex
+base.1=/home/mahdi/w/android/StudyWithMe/app/build/intermediates/dex/myketRelease/mergeDexMyketRelease/classes2.dex
+base.2=/home/mahdi/w/android/StudyWithMe/app/build/intermediates/dex/myketRelease/mergeDexMyketRelease/classes3.dex
+path.0=classes.dex
+path.1=classes2.dex
+path.2=classes3.dex
+renamed.0=classes.dex
+renamed.1=classes2.dex
+renamed.2=classes3.dex

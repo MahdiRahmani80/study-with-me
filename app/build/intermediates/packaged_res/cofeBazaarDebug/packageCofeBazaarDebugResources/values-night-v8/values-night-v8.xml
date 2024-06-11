@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.Theme.StudyWithMe" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/lightGreen</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/darkGreen</item>
+        <item name="colorOnPrimaryContainer"> @color/gray</item>
+        <item name="colorPrimaryVariant">@color/white</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="colorTertiary">@color/yellow</item>
+        <item name="colorOnTertiary">@color/black</item>
+        <item name="backgroundColor">@color/darkGreen</item>
+        <item name="background">@color/darkGreen</item>
+        <item name="colorOnBackground">@color/white</item>
+
+        <item name="statusBarBackground">@color/darkGreen</item>
+        <item name="android:statusBarColor">@color/darkGreen</item>
+
+        <item name="fontFamily">@font/iran_sans</item>
+        <item name="font">@font/iran_sans</item>
+        <item name="fontStyle">?textAppearanceBody2</item>
+
+    </style>
+</resources>

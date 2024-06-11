@@ -1,0 +1,3 @@
+ir.m3.rahmani.studywithme.test
+style WhiteBackgroundDialogTheme
+style WhiteBackgroundTheme

@@ -1,0 +1,10 @@
+#Sun Jun 09 13:14:20 IRDT 2024
+base.0=/home/mahdi/w/android/StudyWithMe/app/build/intermediates/dex/cofeBazaarDebugAndroidTest/mergeExtDexCofeBazaarDebugAndroidTest/classes.dex
+base.1=/home/mahdi/w/android/StudyWithMe/app/build/intermediates/dex/cofeBazaarDebugAndroidTest/mergeProjectDexCofeBazaarDebugAndroidTest/0/classes.dex
+base.2=/home/mahdi/w/android/StudyWithMe/app/build/intermediates/dex/cofeBazaarDebugAndroidTest/mergeProjectDexCofeBazaarDebugAndroidTest/7/classes.dex
+path.0=classes.dex
+path.1=0/classes.dex
+path.2=7/classes.dex
+renamed.0=classes.dex
+renamed.1=classes2.dex
+renamed.2=classes3.dex

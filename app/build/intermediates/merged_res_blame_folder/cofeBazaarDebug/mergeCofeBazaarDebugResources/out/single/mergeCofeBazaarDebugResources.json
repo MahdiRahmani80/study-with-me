@@ -1,0 +1,262 @@
+[
+    {
+        "merged": "ir.m3.rahmani.studywithme.app-cofeBazaarDebug-64:/font_iran_sans_ultra_light.ttf.flat",
+        "source": "ir.m3.rahmani.studywithme.app-main-68:/font/iran_sans_ultra_light.ttf"
+    },
+    {
+        "merged": "ir.m3.rahmani.studywithme.app-cofeBazaarDebug-64:/drawable_bg_home_profile.xml.flat",
+        "source": "ir.m3.rahmani.studywithme.app-main-68:/drawable/bg_home_profile.xml"
+    },
+    {
+        "merged": "ir.m3.rahmani.studywithme.app-cofeBazaarDebug-64:/layout_fragment_onboarding.xml.flat",
+        "source": "ir.m3.rahmani.studywithme.app-main-68:/layout/fragment_onboarding.xml"
+    },
+    {
+        "merged": "ir.m3.rahmani.studywithme.app-cofeBazaarDebug-64:/drawable_bg_dialog_time.xml.flat",
+        "source": "ir.m3.rahmani.studywithme.app-main-68:/drawable/bg_dialog_time.xml"
+    },
+    {
+        "merged": "ir.m3.rahmani.studywithme.app-cofeBazaarDebug-64:/xml_data_extraction_rules.xml.flat",
+        "source": "ir.m3.rahmani.studywithme.app-main-68:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "ir.m3.rahmani.studywithme.app-cofeBazaarDebug-64:/layout_bottom_sheet_challenge_status.xml.flat",
+        "source": "ir.m3.rahmani.studywithme.app-main-68:/layout/bottom_sheet_challenge_status.xml"
+    },
+    {
+        "merged": "ir.m3.rahmani.studywithme.app-cofeBazaarDebug-64:/xml_backup_rules.xml.flat",
+        "source": "ir.m3.rahmani.studywithme.app-main-68:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "ir.m3.rahmani.studywithme.app-cofeBazaarDebug-64:/font_iran_sans_black.ttf.flat",
+        "source": "ir.m3.rahmani.studywithme.app-main-68:/font/iran_sans_black.ttf"
+    },
+    {
+        "merged": "ir.m3.rahmani.studywithme.app-cofeBazaarDebug-64:/mipmap-mdpi_ic_launcher_adaptive_fore.png.flat",
+        "source": "ir.m3.rahmani.studywithme.app-main-68:/mipmap-mdpi/ic_launcher_adaptive_fore.png"
+    },
+    {
+        "merged": "ir.m3.rahmani.studywithme.app-cofeBazaarDebug-64:/layout_dialog_time_picker.xml.flat",
+        "source": "ir.m3.rahmani.studywithme.app-main-68:/layout/dialog_time_picker.xml"
+    },
+    {
+        "merged": "ir.m3.rahmani.studywithme.app-cofeBazaarDebug-64:/layout_fragment_stats.xml.flat",
+        "source": "ir.m3.rahmani.studywithme.app-main-68:/layout/fragment_stats.xml"
+    },
+    {
+        "merged": "ir.m3.rahmani.studywithme.app-cofeBazaarDebug-64:/mipmap-xhdpi_ic_launcher_adaptive_fore.png.flat",
+        "source": "ir.m3.rahmani.studywithme.app-main-68:/mipmap-xhdpi/ic_launcher_adaptive_fore.png"
+    },
+    {
+        "merged": "ir.m3.rahmani.studywithme.app-cofeBazaarDebug-64:/font_iran_sans_font.xml.flat",
+        "source": "ir.m3.rahmani.studywithme.app-main-68:/font/iran_sans_font.xml"
+    },
+    {
+        "merged": "ir.m3.rahmani.studywithme.app-cofeBazaarDebug-64:/drawable_next.png.flat",
+        "source": "ir.m3.rahmani.studywithme.app-main-68:/drawable/next.png"
+    },
+    {
+        "merged": "ir.m3.rahmani.studywithme.app-cofeBazaarDebug-64:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "ir.m3.rahmani.studywithme.app-main-68:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "ir.m3.rahmani.studywithme.app-cofeBazaarDebug-64:/layout_activity_home.xml.flat",
+        "source": "ir.m3.rahmani.studywithme.app-main-68:/layout/activity_home.xml"
+    },
+    {
+        "merged": "ir.m3.rahmani.studywithme.app-cofeBazaarDebug-64:/layout_dialog_edit_username.xml.flat",
+        "source": "ir.m3.rahmani.studywithme.app-main-68:/layout/dialog_edit_username.xml"
+    },
+    {
+        "merged": "ir.m3.rahmani.studywithme.app-cofeBazaarDebug-64:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "ir.m3.rahmani.studywithme.app-main-68:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "ir.m3.rahmani.studywithme.app-cofeBazaarDebug-64:/drawable_bg_et_register.xml.flat",
+        "source": "ir.m3.rahmani.studywithme.app-main-68:/drawable/bg_et_register.xml"
+    },
+    {
+        "merged": "ir.m3.rahmani.studywithme.app-cofeBazaarDebug-64:/drawable_chart.xml.flat",
+        "source": "ir.m3.rahmani.studywithme.app-main-68:/drawable/chart.xml"
+    },
+    {
+        "merged": "ir.m3.rahmani.studywithme.app-cofeBazaarDebug-64:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "ir.m3.rahmani.studywithme.app-main-68:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "ir.m3.rahmani.studywithme.app-cofeBazaarDebug-64:/drawable_coin.png.flat",
+        "source": "ir.m3.rahmani.studywithme.app-main-68:/drawable/coin.png"
+    },
+    {
+        "merged": "ir.m3.rahmani.studywithme.app-cofeBazaarDebug-64:/layout_bottom_sheet_add_challenge.xml.flat",
+        "source": "ir.m3.rahmani.studywithme.app-main-68:/layout/bottom_sheet_add_challenge.xml"
+    },
+    {
+        "merged": "ir.m3.rahmani.studywithme.app-cofeBazaarDebug-64:/layout_fragment_profile.xml.flat",
+        "source": "ir.m3.rahmani.studywithme.app-main-68:/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "ir.m3.rahmani.studywithme.app-cofeBazaarDebug-64:/drawable_pomodoro_icon_divider.xml.flat",
+        "source": "ir.m3.rahmani.studywithme.app-main-68:/drawable/pomodoro_icon_divider.xml"
+    },
+    {
+        "merged": "ir.m3.rahmani.studywithme.app-cofeBazaarDebug-64:/drawable_dialog_bg.xml.flat",
+        "source": "ir.m3.rahmani.studywithme.app-main-68:/drawable/dialog_bg.xml"
+    },
+    {
+        "merged": "ir.m3.rahmani.studywithme.app-cofeBazaarDebug-64:/mipmap-hdpi_ic_launcher_adaptive_fore.png.flat",
+        "source": "ir.m3.rahmani.studywithme.app-main-68:/mipmap-hdpi/ic_launcher_adaptive_fore.png"
+    },
+    {
+        "merged": "ir.m3.rahmani.studywithme.app-cofeBazaarDebug-64:/mipmap-anydpi-v26_ic_launcher_app_logo.xml.flat",
+        "source": "ir.m3.rahmani.studywithme.app-main-68:/mipmap-anydpi-v26/ic_launcher_app_logo.xml"
+    },
+    {
+        "merged": "ir.m3.rahmani.studywithme.app-cofeBazaarDebug-64:/drawable_bg_home_profile_text.xml.flat",
+        "source": "ir.m3.rahmani.studywithme.app-main-68:/drawable/bg_home_profile_text.xml"
+    },
+    {
+        "merged": "ir.m3.rahmani.studywithme.app-cofeBazaarDebug-64:/layout_profile_design.xml.flat",
+        "source": "ir.m3.rahmani.studywithme.app-main-68:/layout/profile_design.xml"
+    },
+    {
+        "merged": "ir.m3.rahmani.studywithme.app-cofeBazaarDebug-64:/drawable_pause.png.flat",
+        "source": "ir.m3.rahmani.studywithme.app-main-68:/drawable/pause.png"
+    },
+    {
+        "merged": "ir.m3.rahmani.studywithme.app-cofeBazaarDebug-64:/drawable_pomo.xml.flat",
+        "source": "ir.m3.rahmani.studywithme.app-main-68:/drawable/pomo.xml"
+    },
+    {
+        "merged": "ir.m3.rahmani.studywithme.app-cofeBazaarDebug-64:/mipmap-xxhdpi_ic_launcher_adaptive_fore.png.flat",
+        "source": "ir.m3.rahmani.studywithme.app-main-68:/mipmap-xxhdpi/ic_launcher_adaptive_fore.png"
+    },
+    {
+        "merged": "ir.m3.rahmani.studywithme.app-cofeBazaarDebug-64:/drawable_book2.jpg.flat",
+        "source": "ir.m3.rahmani.studywithme.app-main-68:/drawable/book2.jpg"
+    },
+    {
+        "merged": "ir.m3.rahmani.studywithme.app-cofeBazaarDebug-64:/layout_fragment_pomodoro.xml.flat",
+        "source": "ir.m3.rahmani.studywithme.app-main-68:/layout/fragment_pomodoro.xml"
+    },
+    {
+        "merged": "ir.m3.rahmani.studywithme.app-cofeBazaarDebug-64:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "ir.m3.rahmani.studywithme.app-main-68:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "ir.m3.rahmani.studywithme.app-cofeBazaarDebug-64:/font_iran_sans_light.ttf.flat",
+        "source": "ir.m3.rahmani.studywithme.app-main-68:/font/iran_sans_light.ttf"
+    },
+    {
+        "merged": "ir.m3.rahmani.studywithme.app-cofeBazaarDebug-64:/drawable_play.png.flat",
+        "source": "ir.m3.rahmani.studywithme.app-main-68:/drawable/play.png"
+    },
+    {
+        "merged": "ir.m3.rahmani.studywithme.app-cofeBazaarDebug-64:/menu_home_bnv_item.xml.flat",
+        "source": "ir.m3.rahmani.studywithme.app-main-68:/menu/home_bnv_item.xml"
+    },
+    {
+        "merged": "ir.m3.rahmani.studywithme.app-cofeBazaarDebug-64:/layout_activity_signin.xml.flat",
+        "source": "ir.m3.rahmani.studywithme.app-main-68:/layout/activity_signin.xml"
+    },
+    {
+        "merged": "ir.m3.rahmani.studywithme.app-cofeBazaarDebug-64:/drawable_add.xml.flat",
+        "source": "ir.m3.rahmani.studywithme.app-main-68:/drawable/add.xml"
+    },
+    {
+        "merged": "ir.m3.rahmani.studywithme.app-cofeBazaarDebug-64:/drawable_profile.xml.flat",
+        "source": "ir.m3.rahmani.studywithme.app-main-68:/drawable/profile.xml"
+    },
+    {
+        "merged": "ir.m3.rahmani.studywithme.app-cofeBazaarDebug-64:/font_iran_sans_bold.ttf.flat",
+        "source": "ir.m3.rahmani.studywithme.app-main-68:/font/iran_sans_bold.ttf"
+    },
+    {
+        "merged": "ir.m3.rahmani.studywithme.app-cofeBazaarDebug-64:/xml_network_security_config.xml.flat",
+        "source": "ir.m3.rahmani.studywithme.app-main-68:/xml/network_security_config.xml"
+    },
+    {
+        "merged": "ir.m3.rahmani.studywithme.app-cofeBazaarDebug-64:/drawable_bg_btn_onboarding.xml.flat",
+        "source": "ir.m3.rahmani.studywithme.app-main-68:/drawable/bg_btn_onboarding.xml"
+    },
+    {
+        "merged": "ir.m3.rahmani.studywithme.app-cofeBazaarDebug-64:/layout_item_challenge.xml.flat",
+        "source": "ir.m3.rahmani.studywithme.app-main-68:/layout/item_challenge.xml"
+    },
+    {
+        "merged": "ir.m3.rahmani.studywithme.app-cofeBazaarDebug-64:/layout_activity_onboarding.xml.flat",
+        "source": "ir.m3.rahmani.studywithme.app-main-68:/layout/activity_onboarding.xml"
+    },
+    {
+        "merged": "ir.m3.rahmani.studywithme.app-cofeBazaarDebug-64:/font-v26_iran_sans_font.xml.flat",
+        "source": "ir.m3.rahmani.studywithme.app-main-68:/font-v26/iran_sans_font.xml"
+    },
+    {
+        "merged": "ir.m3.rahmani.studywithme.app-cofeBazaarDebug-64:/drawable_book.jpg.flat",
+        "source": "ir.m3.rahmani.studywithme.app-main-68:/drawable/book.jpg"
+    },
+    {
+        "merged": "ir.m3.rahmani.studywithme.app-cofeBazaarDebug-64:/drawable_stop.png.flat",
+        "source": "ir.m3.rahmani.studywithme.app-main-68:/drawable/stop.png"
+    },
+    {
+        "merged": "ir.m3.rahmani.studywithme.app-cofeBazaarDebug-64:/layout_item_profile_text.xml.flat",
+        "source": "ir.m3.rahmani.studywithme.app-main-68:/layout/item_profile_text.xml"
+    },
+    {
+        "merged": "ir.m3.rahmani.studywithme.app-cofeBazaarDebug-64:/layout_dialog_date_picker.xml.flat",
+        "source": "ir.m3.rahmani.studywithme.app-main-68:/layout/dialog_date_picker.xml"
+    },
+    {
+        "merged": "ir.m3.rahmani.studywithme.app-cofeBazaarDebug-64:/drawable_challenge.xml.flat",
+        "source": "ir.m3.rahmani.studywithme.app-main-68:/drawable/challenge.xml"
+    },
+    {
+        "merged": "ir.m3.rahmani.studywithme.app-cofeBazaarDebug-64:/mipmap-xxxhdpi_ic_launcher_adaptive_fore.png.flat",
+        "source": "ir.m3.rahmani.studywithme.app-main-68:/mipmap-xxxhdpi/ic_launcher_adaptive_fore.png"
+    },
+    {
+        "merged": "ir.m3.rahmani.studywithme.app-cofeBazaarDebug-64:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "ir.m3.rahmani.studywithme.app-main-68:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "ir.m3.rahmani.studywithme.app-cofeBazaarDebug-64:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "ir.m3.rahmani.studywithme.app-main-68:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "ir.m3.rahmani.studywithme.app-cofeBazaarDebug-64:/drawable_ic_launcher_background.xml.flat",
+        "source": "ir.m3.rahmani.studywithme.app-main-68:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "ir.m3.rahmani.studywithme.app-cofeBazaarDebug-64:/layout_fragment_challenge.xml.flat",
+        "source": "ir.m3.rahmani.studywithme.app-main-68:/layout/fragment_challenge.xml"
+    },
+    {
+        "merged": "ir.m3.rahmani.studywithme.app-cofeBazaarDebug-64:/drawable_book3.jpg.flat",
+        "source": "ir.m3.rahmani.studywithme.app-main-68:/drawable/book3.jpg"
+    },
+    {
+        "merged": "ir.m3.rahmani.studywithme.app-cofeBazaarDebug-64:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "ir.m3.rahmani.studywithme.app-main-68:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "ir.m3.rahmani.studywithme.app-cofeBazaarDebug-64:/layout_activity_register.xml.flat",
+        "source": "ir.m3.rahmani.studywithme.app-main-68:/layout/activity_register.xml"
+    },
+    {
+        "merged": "ir.m3.rahmani.studywithme.app-cofeBazaarDebug-64:/layout_compose_pomodoro.xml.flat",
+        "source": "ir.m3.rahmani.studywithme.app-main-68:/layout/compose_pomodoro.xml"
+    },
+    {
+        "merged": "ir.m3.rahmani.studywithme.app-cofeBazaarDebug-64:/layout_activity_main.xml.flat",
+        "source": "ir.m3.rahmani.studywithme.app-main-68:/layout/activity_main.xml"
+    },
+    {
+        "merged": "ir.m3.rahmani.studywithme.app-cofeBazaarDebug-64:/font_iran_sans.ttf.flat",
+        "source": "ir.m3.rahmani.studywithme.app-main-68:/font/iran_sans.ttf"
+    },
+    {
+        "merged": "ir.m3.rahmani.studywithme.app-cofeBazaarDebug-64:/font_iran_sans_medium.ttf.flat",
+        "source": "ir.m3.rahmani.studywithme.app-main-68:/font/iran_sans_medium.ttf"
+    }
+]

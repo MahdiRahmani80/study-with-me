@@ -1,0 +1,43 @@
+<variant
+    name="myketRelease"
+    package="ir.m3.rahmani.studywithme"
+    minSdkVersion="24"
+    targetSdkVersion="34"
+    mergedManifest="build/intermediates/merged_manifest/myketRelease/processMyketReleaseMainManifest/AndroidManifest.xml"
+    proguardFiles="build/intermediates/default_proguard_files/global/proguard-android-optimize.txt-8.4.1:proguard-rules.pro"
+    partialResultsDir="build/intermediates/lint_vital_partial_results/myketRelease/lintVitalAnalyzeMyketRelease/out"
+    desugaredMethodsFiles="/home/mahdi/.gradle/caches/transforms-4/81a1eb2fcb0935cac9dcb3bb508db063/transformed/D8BackportedDesugaredMethods.txt">
+  <buildFeatures
+      viewBinding="true"
+      namespacing="REQUIRED"/>
+  <sourceProviders>
+    <sourceProvider
+        manifests="src/main/AndroidManifest.xml"
+        javaDirectories="src/main/java:src/myket/java:src/release/java:src/myketRelease/java:src/main/kotlin:src/myket/kotlin:src/release/kotlin:src/myketRelease/kotlin"
+        resDirectories="src/main/res:src/myket/res:src/release/res:src/myketRelease/res"
+        assetsDirectories="src/main/assets:src/myket/assets:src/release/assets:src/myketRelease/assets"/>
+  </sourceProviders>
+  <testSourceProviders>
+  </testSourceProviders>
+  <testFixturesSourceProviders>
+  </testFixturesSourceProviders>
+  <manifestPlaceholders>
+    <placeholder
+        name="marketApplicationId"
+        value="ir.mservices.market" />
+    <placeholder
+        name="marketBindAddress"
+        value="ir.mservices.market.InAppBillingService.BIND" />
+    <placeholder
+        name="marketPermission"
+        value="ir.mservices.market.BILLING" />
+  </manifestPlaceholders>
+  <artifact
+      classOutputs="build/intermediates/javac/myketRelease/compileMyketReleaseJavaWithJavac/classes:build/tmp/kotlin-classes/myketRelease:build/tmp/kapt3/classes/myketRelease:build/kotlinToolingMetadata:build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/myketRelease/processMyketReleaseResources/R.jar"
+      type="MAIN"
+      applicationId="ir.m3.rahmani.studywithme"
+      generatedSourceFolders="build/generated/source/kapt/myketRelease:build/generated/ap_generated_sources/myketRelease/out:build/generated/data_binding_base_class_source_out/myketRelease/out"
+      generatedResourceFolders="build/generated/res/resValues/myket/release"
+      desugaredMethodsFiles="/home/mahdi/.gradle/caches/transforms-4/81a1eb2fcb0935cac9dcb3bb508db063/transformed/D8BackportedDesugaredMethods.txt">
+  </artifact>
+</variant>
