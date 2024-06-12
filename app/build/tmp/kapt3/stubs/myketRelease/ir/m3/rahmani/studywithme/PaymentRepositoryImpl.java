@@ -7,7 +7,7 @@ public final class PaymentRepositoryImpl implements ir.m3.rahmani.studywithme.pa
     @org.jetbrains.annotations.Nullable()
     private ir.myket.billingclient.IabHelper mHelper;
     @org.jetbrains.annotations.NotNull()
-    public static final java.lang.String MYKET_PUBLIC_KEY = "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCc3K32ILOGwrz0LUG4aErGN5ptj1vaJjeZI+0lsT7vd9pApxRpAa1rAdwb25joFGwxZS12Q2t/8GZpqg5eCSJuGj+tz0wN8pN6I+6MquhhNfC7hjKCtkgs+nbuJvxfSLIoCWigORNsHvQT610YS3mEkXag9gVyKWx+h1LhUsCCvQIDAQAB";
+    public static final java.lang.String MYKET_PUBLIC_KEY = "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDLR2iR2H3vXoPYdQyfc+843oznKBVTHMjTLqq5ZFV3+jCd0/K4MdY45OV6NC5eGE1p/drWLscia2u42oJhkCX6hS2+KUXxJBjdd/oPFYfSXxENha0ZbyscIL7dsOPysgY8kfWFf3cj3kI/oPHFDpwqwudmiEIXf4wwX/p9yL6mPQIDAQAB";
     @org.jetbrains.annotations.NotNull()
     public static final ir.m3.rahmani.studywithme.PaymentRepositoryImpl.Companion Companion = null;
     
