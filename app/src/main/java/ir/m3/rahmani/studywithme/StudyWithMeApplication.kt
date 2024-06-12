@@ -1,6 +1,7 @@
 package ir.m3.rahmani.studywithme
 
 import android.app.Application
+import com.bugsnag.android.Bugsnag
 import ir.m3.rahmani.core.di.CoreComponent
 import ir.m3.rahmani.core.di.setApplicationModule
 import ir.m3.rahmani.core.di.DaggerCoreComponent
@@ -15,6 +16,7 @@ class StudyWithMeApplication : Application() {
     override fun onCreate() {
         super.onCreate()
 
+        Bugsnag.start(this)
         appComponent = getAppComponent(this)
         appComponent.inject(this)
     }

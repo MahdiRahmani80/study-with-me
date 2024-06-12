@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="ir.m3.rahmani.studywithme"
-    android:versionCode="1"
-    android:versionName="1.0" >
+    package="com.m3.rahmani.studywithme"
+    android:versionCode="4"
+    android:versionName="1.0.4" >
 
     <uses-sdk
         android:minSdkVersion="24"
@@ -14,10 +14,11 @@
     <uses-permission android:name="ir.mservices.market.BILLING" />
 
     <permission
-        android:name="ir.m3.rahmani.studywithme.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:name="com.m3.rahmani.studywithme.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="ir.m3.rahmani.studywithme.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+    <uses-permission android:name="com.m3.rahmani.studywithme.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <queries>
         <package android:name="ir.mservices.market" />
@@ -42,6 +43,10 @@
         android:roundIcon="@mipmap/ic_launcher_app_logo"
         android:supportsRtl="true"
         android:theme="@style/Theme.StudyWithMe" >
+        <meta-data
+            android:name="com.bugsnag.android.API_KEY"
+            android:value="370a71455e49ab7ea7c6f24d43a1e20f" />
+
         <activity
             android:name="ir.m3.rahmani.studywithme.donate.DonateActivity"
             android:exported="false" />
@@ -76,7 +81,7 @@
 
         <provider
             android:name="androidx.startup.InitializationProvider"
-            android:authorities="ir.m3.rahmani.studywithme.androidx-startup"
+            android:authorities="com.m3.rahmani.studywithme.androidx-startup"
             android:exported="false" >
             <meta-data
                 android:name="androidx.emoji2.text.EmojiCompatInitializer"
@@ -88,6 +93,11 @@
                 android:name="androidx.profileinstaller.ProfileInstallerInitializer"
                 android:value="androidx.startup" />
         </provider>
+        <provider
+            android:name="com.bugsnag.android.internal.BugsnagContentProvider"
+            android:authorities="com.m3.rahmani.studywithme.bugsnag-startup"
+            android:exported="false"
+            android:initOrder="9000" />
 
         <service
             android:name="androidx.room.MultiInstanceInvalidationService"

@@ -18,9 +18,11 @@ object Dependencies {
     const val compose_activity_version = "1.9.0"
     const val compose_version = "1.6.6"
     const val compose_material3_version = "1.2.1"
+    const val bugsnag_version = "6.+"
 
 
     // dependencies
+    const val bugsnag = "com.bugsnag:bugsnag-android:$bugsnag_version"
     const val kotlinCompilerExtensionVersion = "1.5.14"
     const val compose_ui = "androidx.compose.ui:ui:$compose_version"
     const val compose_material = "androidx.compose.material:material:$compose_version"
@@ -43,6 +45,10 @@ object Dependencies {
     const val preferences_dataStore =
         "androidx.datastore:datastore-preferences:$preferences_dataStore_version"
 
+}
+
+fun DependencyHandler.bugsnag() {
+    implementation(Dependencies.bugsnag)
 }
 
 fun DependencyHandler.compose(){

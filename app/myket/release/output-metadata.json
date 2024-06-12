@@ -4,15 +4,15 @@
     "type": "APK",
     "kind": "Directory"
   },
-  "applicationId": "ir.m3.rahmani.studywithme",
+  "applicationId": "com.m3.rahmani.studywithme",
   "variantName": "myketRelease",
   "elements": [
     {
       "type": "SINGLE",
       "filters": [],
       "attributes": [],
-      "versionCode": 1,
-      "versionName": "1.0",
+      "versionCode": 4,
+      "versionName": "1.0.4",
       "outputFile": "app-myket-release.apk"
     }
   ],

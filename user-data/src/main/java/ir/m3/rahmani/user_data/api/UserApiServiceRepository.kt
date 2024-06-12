@@ -1,7 +1,9 @@
 package ir.m3.rahmani.user_data.api
 
 import android.util.Log
+import com.bugsnag.android.Bugsnag
 import ir.m3.rahmani.user_data.User
+import kotlinx.coroutines.CancellationException
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.flow.flow
@@ -17,7 +19,11 @@ class UserApiServiceRepository @Inject constructor(
             val data = api.getUser(phone)
             emit(data)
         } catch (e: Exception) {
-            Log.e(TAG, e.message.toString())
+            if (e is CancellationException) {
+                Log.e(TAG, e.message.toString())
+                Bugsnag.notify(e)
+                throw e
+            }
         }
 
     }
@@ -28,6 +34,7 @@ class UserApiServiceRepository @Inject constructor(
             api.createUser(user)
         } catch (e: Exception) {
             Log.e(TAG, e.message.toString())
+            Bugsnag.notify(e)
             bool = !bool
         } finally {
             emit(!bool)
@@ -37,11 +44,12 @@ class UserApiServiceRepository @Inject constructor(
     override suspend fun updateUser(user: User): Flow<Boolean> = flow {
         var boolean = false
         try {
-            api.updateUser(user.id.toString(),user.toApiModel())
-        } catch (e:Exception){
+            api.updateUser(user.id.toString(), user.toApiModel())
+        } catch (e: Exception) {
             Log.e(TAG, e.message.toString())
+            Bugsnag.notify(e)
             boolean = !boolean
-        }finally {
+        } finally {
             emit(!boolean)
         }
     }

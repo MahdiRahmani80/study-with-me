@@ -6,7 +6,7 @@ buildscript{
     }
 
     dependencies {
-
+        classpath (libs.bugsnag.android.gradle.plugin.v810)
         classpath(libs.kotlin.gradle.plugin)
     }
 }

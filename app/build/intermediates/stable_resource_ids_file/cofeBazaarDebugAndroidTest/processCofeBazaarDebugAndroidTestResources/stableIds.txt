@@ -1,2 +1,0 @@
-ir.m3.rahmani.studywithme.test:style/WhiteBackgroundTheme = 0x7f010001
-ir.m3.rahmani.studywithme.test:style/WhiteBackgroundDialogTheme = 0x7f010000

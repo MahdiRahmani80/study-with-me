@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools">
+    xmlns:tools="http://schemas.android.com/tools"
+    package="ir.m3.rahmani.studywithme">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
@@ -19,6 +20,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.StudyWithMe"
         tools:targetApi="31">
+
+        <meta-data android:name="com.bugsnag.android.API_KEY"
+            android:value="370a71455e49ab7ea7c6f24d43a1e20f"/>
+
         <activity
             android:name=".donate.DonateActivity"
             android:exported="false" />

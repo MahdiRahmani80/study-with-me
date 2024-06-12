@@ -5,6 +5,7 @@ import ir.m3.rahmani.core.shared.UserSharedPreferenceRepository
 import ir.m3.rahmani.user_data.api.UserApiServiceRepository
 import ir.m3.rahmani.user_data.api.toApiModel
 import ir.m3.rahmani.user_data.api.toExternal
+import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.flow.flow
@@ -23,6 +24,7 @@ class UserRepository @Inject constructor(
     suspend fun addUser(user: User): Flow<Boolean> = flow {
         repository.addUser(user.toApiModel()).collect { isSuccess ->
             if (isSuccess) {
+                delay(80)
                 val userApi = repository.getUser(user.phone).first()
                 val saveSharedPref = user.toSharedPref()
                 saveSharedPref.isLogin = isSuccess

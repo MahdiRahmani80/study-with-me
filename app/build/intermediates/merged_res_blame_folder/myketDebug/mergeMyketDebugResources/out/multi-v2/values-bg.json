@@ -4,24 +4,7 @@
             "outputFile": "ir.m3.rahmani.studywithme.app-mergeMyketDebugResources-63:/values-bg/values-bg.xml",
             "map": [
                 {
-                    "source": "/home/mahdi/.gradle/caches/transforms-4/9f62fe8662aea27ef7ee92984390c282/transformed/foundation-release/res/values-bg/values-bg.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,143",
-                        "endColumns": "87,94",
-                        "endOffsets": "138,233"
-                    },
-                    "to": {
-                        "startLines": "190,191",
-                        "startColumns": "4,4",
-                        "startOffsets": "17947,18035",
-                        "endColumns": "87,94",
-                        "endOffsets": "18030,18125"
-                    }
-                },
-                {
-                    "source": "/home/mahdi/.gradle/caches/transforms-4/212fcd242306c5fd2236968d172a10e2/transformed/material3-release/res/values-bg/values-bg.xml",
+                    "source": "/home/mahdi/.gradle/caches/transforms-4/3ac19da54421e327e762a9b201ffa189/transformed/material3-release/res/values-bg/values-bg.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -38,24 +21,24 @@
                     }
                 },
                 {
-                    "source": "/home/mahdi/.gradle/caches/transforms-4/ff9eb97405c498777f0fee6ec32c4e0e/transformed/core-1.13.1/res/values-bg/values-bg.xml",
+                    "source": "/home/mahdi/.gradle/caches/transforms-4/75cd16732e4756063141d749f5fc9d97/transformed/foundation-release/res/values-bg/values-bg.xml",
                     "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,152,262,364,465,572,677,796",
-                        "endColumns": "96,109,101,100,106,104,118,100",
-                        "endOffsets": "147,257,359,460,567,672,791,892"
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,143",
+                        "endColumns": "87,94",
+                        "endOffsets": "138,233"
                     },
                     "to": {
-                        "startLines": "38,39,40,41,42,43,44,186",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "3537,3634,3744,3846,3947,4054,4159,17573",
-                        "endColumns": "96,109,101,100,106,104,118,100",
-                        "endOffsets": "3629,3739,3841,3942,4049,4154,4273,17669"
+                        "startLines": "190,191",
+                        "startColumns": "4,4",
+                        "startOffsets": "17947,18035",
+                        "endColumns": "87,94",
+                        "endOffsets": "18030,18125"
                     }
                 },
                 {
-                    "source": "/home/mahdi/.gradle/caches/transforms-4/8ef31e14327783a4cb75f8112e6c3a60/transformed/ui-release/res/values-bg/values-bg.xml",
+                    "source": "/home/mahdi/.gradle/caches/transforms-4/216d74b3a39f8a0472322ddadd3f031f/transformed/ui-release/res/values-bg/values-bg.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -72,7 +55,7 @@
                     }
                 },
                 {
-                    "source": "/home/mahdi/.gradle/caches/transforms-4/1b65458c09a57b094563ba5cc2b173a0/transformed/material-1.12.0/res/values-bg/values-bg.xml",
+                    "source": "/home/mahdi/.gradle/caches/transforms-4/13f99fd5a3c56d88aed339e59798ba3f/transformed/material-1.12.0/res/values-bg/values-bg.xml",
                     "from": {
                         "startLines": "2,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -91,7 +74,24 @@
                     }
                 },
                 {
-                    "source": "/home/mahdi/.gradle/caches/transforms-4/41c1a06181f52be9987a51ead01c8271/transformed/appcompat-1.6.1/res/values-bg/values-bg.xml",
+                    "source": "/home/mahdi/.gradle/caches/transforms-4/a7803d77b345a5dd8a44341f36777cac/transformed/core-1.13.1/res/values-bg/values-bg.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,152,262,364,465,572,677,796",
+                        "endColumns": "96,109,101,100,106,104,118,100",
+                        "endOffsets": "147,257,359,460,567,672,791,892"
+                    },
+                    "to": {
+                        "startLines": "38,39,40,41,42,43,44,186",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "3537,3634,3744,3846,3947,4054,4159,17573",
+                        "endColumns": "96,109,101,100,106,104,118,100",
+                        "endOffsets": "3629,3739,3841,3942,4049,4154,4273,17669"
+                    }
+                },
+                {
+                    "source": "/home/mahdi/.gradle/caches/transforms-4/18a5e950874fd70ef1b5c470363eb99a/transformed/appcompat-1.6.1/res/values-bg/values-bg.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

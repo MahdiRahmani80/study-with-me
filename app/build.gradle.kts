@@ -82,6 +82,9 @@ dependencies {
 
     "myketImplementation"("com.github.myketstore:myket-billing-client:1.7")
 
+    // bug report
+    bugsnag()
+
     dagger()
     lifecycle()
     retrofit()

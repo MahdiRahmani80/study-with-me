@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_light">#96E6FF94</color>
+    <color name="black">#FF000000</color>
+    <color name="black_night">#0F0F0F</color>
+    <color name="darkGreen">#006769</color>
+    <color name="dark_blue_night">#232D3F</color>
+    <color name="dark_green_night">#005B41</color>
+    <color name="gray">#878787</color>
+    <color name="lightGreen">#9DDE8B</color>
+    <color name="light_blue_night">#008170</color>
+    <color name="midGreen">#40A578</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="yellow">#E6FF94</color>
+    <dimen name="big_btn_radius">15dp</dimen>
+    <dimen name="height_item_recycler_view">100dp</dimen>
+    <dimen name="home_bnv_icon_size">30dp</dimen>
+    <dimen name="home_pomodoro_icon_size">50dp</dimen>
+    <dimen name="margin_pomodoro_bottom_text">18sp</dimen>
+    <dimen name="margin_start_end_donate_btn">40dp</dimen>
+    <dimen name="margin_top_bottom_donate_btn">10dp</dimen>
+    <dimen name="size_onboarding_counter">38sp</dimen>
+    <dimen name="space_between_buy_coin_items">10dp</dimen>
+    <dimen name="space_between_onboarding_counter">16dp</dimen>
+    <string name="add_challenge">اضافه کردن</string>
+    <string name="add_end_time">زمان و تاریخ اتمام چالش</string>
+    <string name="add_start_time">زمان و تاریخ شروع چالش</string>
+    <string name="add_time_bottom_sheet_hint">برای تنظیم ساعت روی متن مربوطه کلیک کنید.</string>
+    <string name="app_name">StudyWithMe</string>
+    <string name="bottem_sheet_et_add_coin_hint">چند تا سکه میخوای بذاری وسط؟</string>
+    <string name="bottom_sheet_add_challenge_coin_hint">با چند سکه میخواید تو چالش شرکت کنید؟</string>
+    <string name="bottom_sheet_add_challenge_target_text">چند پومودورو (۲۵ دقیقه) رو میخواید چالش برید؟</string>
+    <string name="bottom_sheet_challenge_status_body">وضعیت چالش: %s\nتعداد شرکت کنندگان در چالش: %s\nاگه برنده بشی سکه های همه این افراد رو میگیری، بجنب!!\n\n%s</string>
+    <string name="bottom_sheet_challenge_status_body_champ">شخصی در تاریخ %s به این چالش اضافه شد.\n</string>
+    <string name="bottomsheet_add_challenge">اضافه کردن چالش</string>
+    <string name="btin_register">ثبت اطلاعات</string>
+    <string name="btn_signin">ورود به حساب کاربری</string>
+    <string name="btn_signup">ایجاد حساب کاربری</string>
+    <string name="buy_10000_coin">خرید 10,000 سکه 100 هزار تومن</string>
+    <string name="buy_1000_coin">خرید 1,000 سکه 18 هزار تومن</string>
+    <string name="buy_2000_coin"> خرید 2,000 سکه 25 هزارتومن</string>
+    <string name="buy_500_coin">خرید 500 سکه 10 هزار تومن</string>
+    <string name="buy_coin">خرید سکه</string>
+    <string name="buy_coin_hint">شما این پول رو دارید برای افزایش بهره وری تون هزینه میکنید!(آره مثلا من پول نمیخوام!!)</string>
+    <string name="challenge_bnv">چالش ها</string>
+    <string name="challenge_in_progress">چالش هنوز تموم نشده، بجنب</string>
+    <string name="challenge_page">چالشی برگزینید.</string>
+    <string name="challenge_page_description">در این قسمت شما میتونید با دیگران وارد چالش بشید، داستان اینجوری هست که شما و رقیب سر یه مقدار سکه با هم به رقابت بپردازید،به این صورت که شما و رقیب هر دو مقداری سکه میگذارید وسط و برنده همه سکه ها را جایزه میبرد.نحوه تایین برنده هم به این صورت هست که هر کس زود تر به اون تعداد پومو که گفته توافق بر اون بود رسید.موفق باشید🤓💥🧠</string>
+    <string name="content_desc_icon_coin">coin</string>
+    <string name="decreased_your_coin">چالش به هزینه %s سکه برای شما ایجاد شد.</string>
+    <string name="divider_text">|</string>
+    <string name="donate_1000">حمایت ۱,۰۰۰ تومانی</string>
+    <string name="donate_100000">حمایت ۱۰۰,۰۰۰ تومانی❤️💪</string>
+    <string name="donate_20000">حمایت ۲۰,۰۰۰ تومانی</string>
+    <string name="donate_5000">حمایت  ۵,۰۰۰ تومانی</string>
+    <string name="donate_hint_text">"سلام و دورود به شما دوست عزیز که این قدر مشتی و با مرامی!، همین که توی این صفحه هستی و داری این متن رو میخونی، باید برای این که این قدر آدم خفنی هستی بهت درود بفرستم.\nبهترین حمایت از ما این هست که این برنامه رو برای دوستانتون به اشتراک بگذارید!\nوقتی میبینم دوستام و رفقای گلم دارن برای اهدافشون تلاش میکنند و من با ساختن این برنامه میتونم کمکشون کنم حس بسار خوبی بهم میده.\nشاید شما هم خالص بودن این برنامه رو دیدید که چقدر صاف و ساده داره کار میکنه،\nحمایت شما از این برنامه یعنی این که شما از این برنامه خوشتون اومده و من میتونم زمان بیشتری برای این برنامه بذارم.\nمثلا رفع کردن باگ های جزیی که هست و اضافه کردن قسمت های جدید، مثلا لیست کار ها یا تموم کردن قسمت نمودار ها و وضعیت برنامه،\nشاید با خودتون بگید یه برنامه همه چی تموم عین این برنامه تو توی استور های مختلف هست و تازه خیلی خفن تره، عاره، اما این برنامه خودمونه!!!!\nمیتونیم بازی کنیم و چالش های جدید بذاریم، میتونیم با هم رویا پردازی کنیم.\nخلاصه این که نمیدونم چجوری ازتون تشکر کنم!!\nعشقی والا \nهزار تا ایموجی "</string>
+    <string name="donate_title">سلام عزیزکم 🥹</string>
+    <string name="edit_username">تغییر نام کاربری</string>
+    <string name="happy_face">☻</string>
+    <string name="have_active_challenge">%s تا پومو از %s تا انجام شد.</string>
+    <string name="help_register_top">در این قسمت با اضافه کردن اسم مستعار و شماره تلفن همراهتان به سادگی ثبت نام رو انجام بدید</string>
+    <string name="hove_an_account">حساب کاربری دارید؟</string>
+    <string name="img_content_desc_profile_icon">profile icon</string>
+    <string name="item_challenge_description">اگه مایلی بامن به اندازه %s تا پومو وارد چالش بشی، شمشیرتو بردار\n</string>
+    <string name="nickname">اسم مستعار</string>
+    <string name="no_active_challenge">چالش فعالی ندارید.</string>
+    <string name="not_enough_coin">تعداد سکه های شما کم است.</string>
+    <string name="onboarding_text_1">سلام بر تو ای بزرگوار✋،\nچطوری؟ ایام بکامه؟\nکل ایده برنامه این هست که به شما کمک میکنه بیشتر درس بخونید، یه طوری که هم بازی باشه، هم رقابت. اگه دوست داری کلی دوست جدید پیدا کنی و ساعت درس خوندن و مطالعه ات رو زیاد کنی، اما بهت خوش هم بگذره این برنامه مناسب شماست 😉 </string>
+    <string name="onboarding_text_2">+ اوکی، این همه مزه نریز یه اپ نوشتی دیگه، بگو ببینم چجوری کار میکنه؟\n- تو این برنامه هر کسی میتونه آگهی بده که یک نفر بیاد باهاش چالش شرکت کنه، چالش ها هم (فعلا، اگه بازخورد ها خوب بود چالش های دیگه هم اضافه میکنم😍) داشتم میگفتم چالش ها بر سر ساعت مطالعه هست، برای این که تقسیم بندی ها راحت بشه ما هر ۲۵ دقیقه رو (یک پومو) حساب میکنیم و هر کی بتونه بیشتر از این مقدار رو انجام بده جایزه میگیره🤑،\n+ گفتی جایزه؟\n− آره توی برنامه سکه داره (مثل سکه های بازی) که اگه ببری جایزه میگیری.\n+ اع چه باحاله :)</string>
+    <string name="onboarding_text_3">پس ای دوست عزیز بشتابید برای ورود به حساب کاربری،\nما هیچ چیزی رو بجز شماره تلفن همراه شما، که اون هم برای اطلاع رسانی و این هست ذخیره نمیکنیم، پیشنهاد میکنم از اسم مستعار استفاده کنید، فرایند ورود و اینها هم سعی کردم آسون باشه، دیگه بزن بریم.</string>
+    <string name="payment_fail">خرید ناموفق بود 😶🫨🤕🥹</string>
+    <string name="payment_success">خرید با موفقیت انجام شد🤑😋🤓</string>
+    <string name="phone_number">09123456789</string>
+    <string name="please_wait">چند لحظه صبر کنید، دستم بنده :)</string>
+    <string name="pomo_status">آماده ای؟</string>
+    <string name="pomo_status_long_brek">هی نری دیگه پشت سرت رو نگاه نکنی، ما این جا داریم زحمت میکشیم 😁</string>
+    <string name="pomo_status_short_brek">چشماتو ببند و نفس عمیق بکش.عا باریکلا</string>
+    <string name="pomo_status_study">وی در حال تلاش است.</string>
+    <string name="pomo_status_study_pause">خسته کیه؟</string>
+    <string name="pomodoro_bnv">پومودورو</string>
+    <string name="pomodoro_status_0">درس خوندن</string>
+    <string name="pomodoro_status_1">استراحت کوتاه،نفس عمیق بکشید😁</string>
+    <string name="pomodoro_status_2">درحال استراحت بلند،کمی نرمش کنید🤪</string>
+    <string name="profile_bnv">پروفایل</string>
+    <string name="rate_us">نظرت درباره برنامه چیه؟!</string>
+    <string name="register_top_text">ثبت نام</string>
+    <string name="save">ذخیره</string>
+    <string name="say_hi_profile">سلام با معرفت، چطوری؟</string>
+    <string name="service_notification_content">برو جلو یه قهرمان بشو،فقط بجنگ و نا‌امید نشو\nچشم هاتو وا کن، به حریف نگاه کن😅😂🏔</string>
+    <string name="service_notification_title">شما در‌حال تلاش هستید.</string>
+    <string name="set_time">تنظیم زمان</string>
+    <string name="snakbar_done_pomo">شما بخاطر تلاش و پشتکارتون %s تا سکه جایزه میگیرید.😉💪🤫</string>
+    <string name="stats_bnv">وضعیت</string>
+    <string name="stats_text_comming_soon">سلام بر شما دوستان عزیز، راستش ساختن این بخش زمان زیادی رو می‌طلبه و از اون جایی که من نمیدونم این برنامه قراره چجوری پیش بره در آینده، فعلا این قسمت رو طراحی نکردم!!!!\nکمی عجیب به نظر میرسه نه!!!\nمیتونید با معرفی این برنامه به دوستانتون از این برنامه حمایت کنید، و اگه دوست دارید این قسمت پا بگیره توی کامنت های برنامه بنویسید\nراستی این ها رو ولش یه جوک نظرته؟؟\n\nمیگن دو تا روانی تصمیم میگیرن از تیمارستان فرار کنن،شب وقتی که همه خوابیدن میرن پشت بوم تا از سقف بپرن و فرار کنند، یکی از اون ها میپره و به دومی میگه بپر، اما دومی خیلی میترسه، دوستش بهش میگه اگه میترسی من برات با چراغ قوه نور میندازم تا تو از روی نور حرکت کنی و بیای، رفیقش میگه، فکر کردی من روانی ام؟؟؟!!\nوقتی به وسط راه رسیدم چراغ و خاموش میکنی.</string>
+    <string name="study_with_me">با من درس بخون</string>
+    <string name="support_us">حمایت از ما 😍‍🔥🥰🥳</string>
+    <string name="update_challenge_status">وضعیت کلی چالش</string>
+    <string name="you_are_lost">متاسفانه شما باختید، باید بیشتر تلاش میکردید.🥲🥲</string>
+    <string name="you_have_already_in_challenge">شما همین الانشم تو چالشی :)</string>
+    <string name="your_company_status">وضعیت: %s\n%s تا به استراحت بزرگ مونده.\nوضعیت چالش: %s\nشما در امروز تا حالا %s تا پومو خوندید.\nنابرده رنج گنج میسر نمیشود</string>
+    <style name="Base.Theme.StudyWithMe" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        <item name="colorPrimary">@color/darkGreen</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryVariant">@color/midGreen</item>
+        <item name="colorOnPrimaryContainer">@color/gray</item>
+        <item name="colorPrimaryContainer">#D71E1E</item>
+        <item name="colorSecondary">@color/lightGreen</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="colorTertiary">@color/yellow</item>
+        <item name="colorOnTertiary">@color/black</item>
+        <item name="backgroundColor">@color/white</item>
+        <item name="background">@color/white</item>
+        <item name="colorOnBackground">@color/black</item>
+
+        <item name="statusBarBackground">@color/darkGreen</item>
+        <item name="android:statusBarColor">@color/darkGreen</item>
+
+        <item name="fontFamily">@font/iran_sans</item>
+        <item name="font">@font/iran_sans</item>
+        <item name="fontStyle">?textAppearanceBody2</item>
+
+    </style>
+    <style name="DateTime" parent="ThemeOverlay.Material3.MaterialCalendar">
+        <item name="colorControlActivated">?colorPrimary</item>
+        <item name="android:headerBackground">?colorPrimary</item>
+        <item name="android:numbersSelectorColor">?colorPrimary</item>
+
+    </style>
+    <style name="Theme.StudyWithMe" parent="Base.Theme.StudyWithMe"/>
+</resources>

@@ -21,6 +21,7 @@ class AndroidCommonPlugin : Plugin<Project> {
             plugin("kotlin-android")
             plugin("kotlin-kapt")
             plugin("kotlin-parcelize")
+            plugin("com.bugsnag.android.gradle")
         }
     }
 
