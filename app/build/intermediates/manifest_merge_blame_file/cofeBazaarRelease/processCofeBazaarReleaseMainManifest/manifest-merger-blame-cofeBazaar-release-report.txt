@@ -1,0 +1,253 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.m3.rahmani.studywithme"
+4    android:versionCode="11"
+5    android:versionName="1.1.3" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/home/mahdi/w/android/StudyWithMe/app/src/main/AndroidManifest.xml:6:5-67
+11-->/home/mahdi/w/android/StudyWithMe/app/src/main/AndroidManifest.xml:6:22-64
+12    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+12-->/home/mahdi/w/android/StudyWithMe/app/src/main/AndroidManifest.xml:7:5-77
+12-->/home/mahdi/w/android/StudyWithMe/app/src/main/AndroidManifest.xml:7:22-74
+13    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+13-->/home/mahdi/w/android/StudyWithMe/app/src/main/AndroidManifest.xml:8:5-77
+13-->/home/mahdi/w/android/StudyWithMe/app/src/main/AndroidManifest.xml:8:22-74
+14
+15    <queries>
+15-->[com.github.cafebazaar.Poolakey:poolakey:2.2.0] /home/mahdi/.gradle/caches/transforms-4/5784fa26de1b869a9ca6025b115f4f26/transformed/poolakey-2.2.0/AndroidManifest.xml:11:5-13:15
+16        <package android:name="com.farsitel.bazaar" />
+16-->[com.github.cafebazaar.Poolakey:poolakey:2.2.0] /home/mahdi/.gradle/caches/transforms-4/5784fa26de1b869a9ca6025b115f4f26/transformed/poolakey-2.2.0/AndroidManifest.xml:12:9-55
+16-->[com.github.cafebazaar.Poolakey:poolakey:2.2.0] /home/mahdi/.gradle/caches/transforms-4/5784fa26de1b869a9ca6025b115f4f26/transformed/poolakey-2.2.0/AndroidManifest.xml:12:18-52
+17    </queries>
+18
+19    <uses-permission android:name="com.farsitel.bazaar.permission.PAY_THROUGH_BAZAAR" />
+19-->[com.github.cafebazaar.Poolakey:poolakey:2.2.0] /home/mahdi/.gradle/caches/transforms-4/5784fa26de1b869a9ca6025b115f4f26/transformed/poolakey-2.2.0/AndroidManifest.xml:15:5-89
+19-->[com.github.cafebazaar.Poolakey:poolakey:2.2.0] /home/mahdi/.gradle/caches/transforms-4/5784fa26de1b869a9ca6025b115f4f26/transformed/poolakey-2.2.0/AndroidManifest.xml:15:22-86
+20
+21    <permission
+21-->[androidx.core:core:1.13.1] /home/mahdi/.gradle/caches/transforms-4/7c4357d00f5a64b0c92b13307c0475e2/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+22        android:name="com.m3.rahmani.studywithme.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+22-->[androidx.core:core:1.13.1] /home/mahdi/.gradle/caches/transforms-4/7c4357d00f5a64b0c92b13307c0475e2/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+23        android:protectionLevel="signature" />
+23-->[androidx.core:core:1.13.1] /home/mahdi/.gradle/caches/transforms-4/7c4357d00f5a64b0c92b13307c0475e2/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+24
+25    <uses-permission android:name="com.m3.rahmani.studywithme.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+25-->[androidx.core:core:1.13.1] /home/mahdi/.gradle/caches/transforms-4/7c4357d00f5a64b0c92b13307c0475e2/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+25-->[androidx.core:core:1.13.1] /home/mahdi/.gradle/caches/transforms-4/7c4357d00f5a64b0c92b13307c0475e2/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+26    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+26-->[com.bugsnag:bugsnag-android-core:6.6.0] /home/mahdi/.gradle/caches/transforms-4/2a3a395c33dd420099ee93c2a194b2c0/transformed/bugsnag-android-core-6.6.0/AndroidManifest.xml:9:5-79
+26-->[com.bugsnag:bugsnag-android-core:6.6.0] /home/mahdi/.gradle/caches/transforms-4/2a3a395c33dd420099ee93c2a194b2c0/transformed/bugsnag-android-core-6.6.0/AndroidManifest.xml:9:22-76
+27
+28    <application
+28-->/home/mahdi/w/android/StudyWithMe/app/src/main/AndroidManifest.xml:10:5-57:19
+29        android:name="ir.m3.rahmani.studywithme.StudyWithMeApplication"
+29-->/home/mahdi/w/android/StudyWithMe/app/src/main/AndroidManifest.xml:11:9-47
+30        android:allowBackup="true"
+30-->/home/mahdi/w/android/StudyWithMe/app/src/main/AndroidManifest.xml:12:9-35
+31        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+31-->[androidx.core:core:1.13.1] /home/mahdi/.gradle/caches/transforms-4/7c4357d00f5a64b0c92b13307c0475e2/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+32        android:dataExtractionRules="@xml/data_extraction_rules"
+32-->/home/mahdi/w/android/StudyWithMe/app/src/main/AndroidManifest.xml:13:9-65
+33        android:extractNativeLibs="false"
+34        android:fullBackupContent="@xml/backup_rules"
+34-->/home/mahdi/w/android/StudyWithMe/app/src/main/AndroidManifest.xml:14:9-54
+35        android:icon="@mipmap/ic_launcher_app_logo"
+35-->/home/mahdi/w/android/StudyWithMe/app/src/main/AndroidManifest.xml:15:9-52
+36        android:label="@string/app_name"
+36-->/home/mahdi/w/android/StudyWithMe/app/src/main/AndroidManifest.xml:16:9-41
+37        android:networkSecurityConfig="@xml/network_security_config"
+37-->/home/mahdi/w/android/StudyWithMe/app/src/main/AndroidManifest.xml:17:9-69
+38        android:roundIcon="@mipmap/ic_launcher_app_logo"
+38-->/home/mahdi/w/android/StudyWithMe/app/src/main/AndroidManifest.xml:18:9-57
+39        android:supportsRtl="true"
+39-->/home/mahdi/w/android/StudyWithMe/app/src/main/AndroidManifest.xml:19:9-35
+40        android:theme="@style/Theme.StudyWithMe" >
+40-->/home/mahdi/w/android/StudyWithMe/app/src/main/AndroidManifest.xml:20:9-49
+41        <meta-data
+41-->/home/mahdi/w/android/StudyWithMe/app/src/main/AndroidManifest.xml:23:9-24:63
+42            android:name="com.bugsnag.android.API_KEY"
+42-->/home/mahdi/w/android/StudyWithMe/app/src/main/AndroidManifest.xml:23:20-62
+43            android:value="370a71455e49ab7ea7c6f24d43a1e20f" />
+43-->/home/mahdi/w/android/StudyWithMe/app/src/main/AndroidManifest.xml:24:13-61
+44
+45        <activity
+45-->/home/mahdi/w/android/StudyWithMe/app/src/main/AndroidManifest.xml:26:9-28:40
+46            android:name="ir.m3.rahmani.studywithme.donate.DonateActivity"
+46-->/home/mahdi/w/android/StudyWithMe/app/src/main/AndroidManifest.xml:27:13-50
+47            android:exported="false" />
+47-->/home/mahdi/w/android/StudyWithMe/app/src/main/AndroidManifest.xml:28:13-37
+48
+49        <service
+49-->/home/mahdi/w/android/StudyWithMe/app/src/main/AndroidManifest.xml:30:9-34:60
+50            android:name="ir.m3.rahmani.studywithme.PomodoroTimerService"
+50-->/home/mahdi/w/android/StudyWithMe/app/src/main/AndroidManifest.xml:31:13-49
+51            android:enabled="true"
+51-->/home/mahdi/w/android/StudyWithMe/app/src/main/AndroidManifest.xml:32:13-35
+52            android:exported="true"
+52-->/home/mahdi/w/android/StudyWithMe/app/src/main/AndroidManifest.xml:33:13-36
+53            android:foregroundServiceType="shortService" />
+53-->/home/mahdi/w/android/StudyWithMe/app/src/main/AndroidManifest.xml:34:13-57
+54
+55        <activity
+55-->/home/mahdi/w/android/StudyWithMe/app/src/main/AndroidManifest.xml:36:9-38:40
+56            android:name="ir.m3.rahmani.studywithme.home.HomeActivity"
+56-->/home/mahdi/w/android/StudyWithMe/app/src/main/AndroidManifest.xml:37:13-46
+57            android:exported="false" />
+57-->/home/mahdi/w/android/StudyWithMe/app/src/main/AndroidManifest.xml:38:13-37
+58        <activity
+58-->/home/mahdi/w/android/StudyWithMe/app/src/main/AndroidManifest.xml:39:9-41:40
+59            android:name="ir.m3.rahmani.studywithme.login.register.RegisterActivity"
+59-->/home/mahdi/w/android/StudyWithMe/app/src/main/AndroidManifest.xml:40:13-60
+60            android:exported="false" />
+60-->/home/mahdi/w/android/StudyWithMe/app/src/main/AndroidManifest.xml:41:13-37
+61        <activity
+61-->/home/mahdi/w/android/StudyWithMe/app/src/main/AndroidManifest.xml:42:9-44:40
+62            android:name="ir.m3.rahmani.studywithme.login.signin.SigninActivity"
+62-->/home/mahdi/w/android/StudyWithMe/app/src/main/AndroidManifest.xml:43:13-56
+63            android:exported="false" />
+63-->/home/mahdi/w/android/StudyWithMe/app/src/main/AndroidManifest.xml:44:13-37
+64        <activity
+64-->/home/mahdi/w/android/StudyWithMe/app/src/main/AndroidManifest.xml:45:9-47:40
+65            android:name="ir.m3.rahmani.studywithme.login.onboarding.OnboardingActivity"
+65-->/home/mahdi/w/android/StudyWithMe/app/src/main/AndroidManifest.xml:46:13-64
+66            android:exported="false" />
+66-->/home/mahdi/w/android/StudyWithMe/app/src/main/AndroidManifest.xml:47:13-37
+67        <activity
+67-->/home/mahdi/w/android/StudyWithMe/app/src/main/AndroidManifest.xml:48:9-56:20
+68            android:name="ir.m3.rahmani.studywithme.main.MainActivity"
+68-->/home/mahdi/w/android/StudyWithMe/app/src/main/AndroidManifest.xml:49:13-46
+69            android:exported="true" >
+69-->/home/mahdi/w/android/StudyWithMe/app/src/main/AndroidManifest.xml:50:13-36
+70            <intent-filter>
+70-->/home/mahdi/w/android/StudyWithMe/app/src/main/AndroidManifest.xml:51:13-55:29
+71                <action android:name="android.intent.action.MAIN" />
+71-->/home/mahdi/w/android/StudyWithMe/app/src/main/AndroidManifest.xml:52:17-69
+71-->/home/mahdi/w/android/StudyWithMe/app/src/main/AndroidManifest.xml:52:25-66
+72
+73                <category android:name="android.intent.category.LAUNCHER" />
+73-->/home/mahdi/w/android/StudyWithMe/app/src/main/AndroidManifest.xml:54:17-77
+73-->/home/mahdi/w/android/StudyWithMe/app/src/main/AndroidManifest.xml:54:27-74
+74            </intent-filter>
+75        </activity>
+76
+77        <receiver
+77-->[com.github.cafebazaar.Poolakey:poolakey:2.2.0] /home/mahdi/.gradle/caches/transforms-4/5784fa26de1b869a9ca6025b115f4f26/transformed/poolakey-2.2.0/AndroidManifest.xml:18:9-29:20
+78            android:name="ir.cafebazaar.poolakey.receiver.BillingReceiver"
+78-->[com.github.cafebazaar.Poolakey:poolakey:2.2.0] /home/mahdi/.gradle/caches/transforms-4/5784fa26de1b869a9ca6025b115f4f26/transformed/poolakey-2.2.0/AndroidManifest.xml:19:13-75
+79            android:exported="true" >
+79-->[com.github.cafebazaar.Poolakey:poolakey:2.2.0] /home/mahdi/.gradle/caches/transforms-4/5784fa26de1b869a9ca6025b115f4f26/transformed/poolakey-2.2.0/AndroidManifest.xml:20:13-36
+80            <intent-filter>
+80-->[com.github.cafebazaar.Poolakey:poolakey:2.2.0] /home/mahdi/.gradle/caches/transforms-4/5784fa26de1b869a9ca6025b115f4f26/transformed/poolakey-2.2.0/AndroidManifest.xml:21:13-28:29
+81                <action android:name="com.farsitel.bazaar.purchase" />
+81-->[com.github.cafebazaar.Poolakey:poolakey:2.2.0] /home/mahdi/.gradle/caches/transforms-4/5784fa26de1b869a9ca6025b115f4f26/transformed/poolakey-2.2.0/AndroidManifest.xml:22:17-71
+81-->[com.github.cafebazaar.Poolakey:poolakey:2.2.0] /home/mahdi/.gradle/caches/transforms-4/5784fa26de1b869a9ca6025b115f4f26/transformed/poolakey-2.2.0/AndroidManifest.xml:22:25-68
+82                <action android:name="com.farsitel.bazaar.billingSupport" />
+82-->[com.github.cafebazaar.Poolakey:poolakey:2.2.0] /home/mahdi/.gradle/caches/transforms-4/5784fa26de1b869a9ca6025b115f4f26/transformed/poolakey-2.2.0/AndroidManifest.xml:23:17-77
+82-->[com.github.cafebazaar.Poolakey:poolakey:2.2.0] /home/mahdi/.gradle/caches/transforms-4/5784fa26de1b869a9ca6025b115f4f26/transformed/poolakey-2.2.0/AndroidManifest.xml:23:25-74
+83                <action android:name="com.farsitel.bazaar.consume" />
+83-->[com.github.cafebazaar.Poolakey:poolakey:2.2.0] /home/mahdi/.gradle/caches/transforms-4/5784fa26de1b869a9ca6025b115f4f26/transformed/poolakey-2.2.0/AndroidManifest.xml:24:17-70
+83-->[com.github.cafebazaar.Poolakey:poolakey:2.2.0] /home/mahdi/.gradle/caches/transforms-4/5784fa26de1b869a9ca6025b115f4f26/transformed/poolakey-2.2.0/AndroidManifest.xml:24:25-67
+84                <action android:name="com.farsitel.bazaar.getPurchase" />
+84-->[com.github.cafebazaar.Poolakey:poolakey:2.2.0] /home/mahdi/.gradle/caches/transforms-4/5784fa26de1b869a9ca6025b115f4f26/transformed/poolakey-2.2.0/AndroidManifest.xml:25:17-74
+84-->[com.github.cafebazaar.Poolakey:poolakey:2.2.0] /home/mahdi/.gradle/caches/transforms-4/5784fa26de1b869a9ca6025b115f4f26/transformed/poolakey-2.2.0/AndroidManifest.xml:25:25-71
+85                <action android:name="com.farsitel.bazaar.skuDetail" />
+85-->[com.github.cafebazaar.Poolakey:poolakey:2.2.0] /home/mahdi/.gradle/caches/transforms-4/5784fa26de1b869a9ca6025b115f4f26/transformed/poolakey-2.2.0/AndroidManifest.xml:26:17-72
+85-->[com.github.cafebazaar.Poolakey:poolakey:2.2.0] /home/mahdi/.gradle/caches/transforms-4/5784fa26de1b869a9ca6025b115f4f26/transformed/poolakey-2.2.0/AndroidManifest.xml:26:25-69
+86                <action android:name="com.farsitel.bazaar.checkTrialSubscription" />
+86-->[com.github.cafebazaar.Poolakey:poolakey:2.2.0] /home/mahdi/.gradle/caches/transforms-4/5784fa26de1b869a9ca6025b115f4f26/transformed/poolakey-2.2.0/AndroidManifest.xml:27:17-85
+86-->[com.github.cafebazaar.Poolakey:poolakey:2.2.0] /home/mahdi/.gradle/caches/transforms-4/5784fa26de1b869a9ca6025b115f4f26/transformed/poolakey-2.2.0/AndroidManifest.xml:27:25-82
+87            </intent-filter>
+88        </receiver>
+89
+90        <provider
+90-->[androidx.emoji2:emoji2:1.3.0] /home/mahdi/.gradle/caches/transforms-4/430c6305951cff5545c540b4ee8434ed/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+91            android:name="androidx.startup.InitializationProvider"
+91-->[androidx.emoji2:emoji2:1.3.0] /home/mahdi/.gradle/caches/transforms-4/430c6305951cff5545c540b4ee8434ed/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+92            android:authorities="com.m3.rahmani.studywithme.androidx-startup"
+92-->[androidx.emoji2:emoji2:1.3.0] /home/mahdi/.gradle/caches/transforms-4/430c6305951cff5545c540b4ee8434ed/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+93            android:exported="false" >
+93-->[androidx.emoji2:emoji2:1.3.0] /home/mahdi/.gradle/caches/transforms-4/430c6305951cff5545c540b4ee8434ed/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+94            <meta-data
+94-->[androidx.emoji2:emoji2:1.3.0] /home/mahdi/.gradle/caches/transforms-4/430c6305951cff5545c540b4ee8434ed/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+95                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+95-->[androidx.emoji2:emoji2:1.3.0] /home/mahdi/.gradle/caches/transforms-4/430c6305951cff5545c540b4ee8434ed/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+96                android:value="androidx.startup" />
+96-->[androidx.emoji2:emoji2:1.3.0] /home/mahdi/.gradle/caches/transforms-4/430c6305951cff5545c540b4ee8434ed/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+97            <meta-data
+97-->[androidx.lifecycle:lifecycle-process:2.6.2] /home/mahdi/.gradle/caches/transforms-4/cdc0cb91eee01b9c10e7801cefbc6628/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:29:13-31:52
+98                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+98-->[androidx.lifecycle:lifecycle-process:2.6.2] /home/mahdi/.gradle/caches/transforms-4/cdc0cb91eee01b9c10e7801cefbc6628/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:30:17-78
+99                android:value="androidx.startup" />
+99-->[androidx.lifecycle:lifecycle-process:2.6.2] /home/mahdi/.gradle/caches/transforms-4/cdc0cb91eee01b9c10e7801cefbc6628/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:31:17-49
+100            <meta-data
+100-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/ce32b9c281fa921eb96e42aa5af9bbde/transformed/profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+101                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+101-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/ce32b9c281fa921eb96e42aa5af9bbde/transformed/profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+102                android:value="androidx.startup" />
+102-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/ce32b9c281fa921eb96e42aa5af9bbde/transformed/profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+103        </provider>
+104        <provider
+104-->[com.bugsnag:bugsnag-android-core:6.6.0] /home/mahdi/.gradle/caches/transforms-4/2a3a395c33dd420099ee93c2a194b2c0/transformed/bugsnag-android-core-6.6.0/AndroidManifest.xml:12:9-16:40
+105            android:name="com.bugsnag.android.internal.BugsnagContentProvider"
+105-->[com.bugsnag:bugsnag-android-core:6.6.0] /home/mahdi/.gradle/caches/transforms-4/2a3a395c33dd420099ee93c2a194b2c0/transformed/bugsnag-android-core-6.6.0/AndroidManifest.xml:13:13-79
+106            android:authorities="com.m3.rahmani.studywithme.bugsnag-startup"
+106-->[com.bugsnag:bugsnag-android-core:6.6.0] /home/mahdi/.gradle/caches/transforms-4/2a3a395c33dd420099ee93c2a194b2c0/transformed/bugsnag-android-core-6.6.0/AndroidManifest.xml:14:13-67
+107            android:exported="false"
+107-->[com.bugsnag:bugsnag-android-core:6.6.0] /home/mahdi/.gradle/caches/transforms-4/2a3a395c33dd420099ee93c2a194b2c0/transformed/bugsnag-android-core-6.6.0/AndroidManifest.xml:15:13-37
+108            android:initOrder="9000" />
+108-->[com.bugsnag:bugsnag-android-core:6.6.0] /home/mahdi/.gradle/caches/transforms-4/2a3a395c33dd420099ee93c2a194b2c0/transformed/bugsnag-android-core-6.6.0/AndroidManifest.xml:16:13-37
+109
+110        <service
+110-->[androidx.room:room-runtime:2.6.1] /home/mahdi/.gradle/caches/transforms-4/6a5f582b9e0ffb67e8b26da80d71ffb9/transformed/room-runtime-2.6.1/AndroidManifest.xml:24:9-28:63
+111            android:name="androidx.room.MultiInstanceInvalidationService"
+111-->[androidx.room:room-runtime:2.6.1] /home/mahdi/.gradle/caches/transforms-4/6a5f582b9e0ffb67e8b26da80d71ffb9/transformed/room-runtime-2.6.1/AndroidManifest.xml:25:13-74
+112            android:directBootAware="true"
+112-->[androidx.room:room-runtime:2.6.1] /home/mahdi/.gradle/caches/transforms-4/6a5f582b9e0ffb67e8b26da80d71ffb9/transformed/room-runtime-2.6.1/AndroidManifest.xml:26:13-43
+113            android:exported="false" />
+113-->[androidx.room:room-runtime:2.6.1] /home/mahdi/.gradle/caches/transforms-4/6a5f582b9e0ffb67e8b26da80d71ffb9/transformed/room-runtime-2.6.1/AndroidManifest.xml:27:13-37
+114
+115        <receiver
+115-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/ce32b9c281fa921eb96e42aa5af9bbde/transformed/profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+116            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+116-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/ce32b9c281fa921eb96e42aa5af9bbde/transformed/profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+117            android:directBootAware="false"
+117-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/ce32b9c281fa921eb96e42aa5af9bbde/transformed/profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+118            android:enabled="true"
+118-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/ce32b9c281fa921eb96e42aa5af9bbde/transformed/profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+119            android:exported="true"
+119-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/ce32b9c281fa921eb96e42aa5af9bbde/transformed/profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+120            android:permission="android.permission.DUMP" >
+120-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/ce32b9c281fa921eb96e42aa5af9bbde/transformed/profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+121            <intent-filter>
+121-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/ce32b9c281fa921eb96e42aa5af9bbde/transformed/profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+122                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+122-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/ce32b9c281fa921eb96e42aa5af9bbde/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+122-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/ce32b9c281fa921eb96e42aa5af9bbde/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+123            </intent-filter>
+124            <intent-filter>
+124-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/ce32b9c281fa921eb96e42aa5af9bbde/transformed/profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+125                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+125-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/ce32b9c281fa921eb96e42aa5af9bbde/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+125-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/ce32b9c281fa921eb96e42aa5af9bbde/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+126            </intent-filter>
+127            <intent-filter>
+127-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/ce32b9c281fa921eb96e42aa5af9bbde/transformed/profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+128                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+128-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/ce32b9c281fa921eb96e42aa5af9bbde/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+128-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/ce32b9c281fa921eb96e42aa5af9bbde/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+129            </intent-filter>
+130            <intent-filter>
+130-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/ce32b9c281fa921eb96e42aa5af9bbde/transformed/profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+131                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+131-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/ce32b9c281fa921eb96e42aa5af9bbde/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+131-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/ce32b9c281fa921eb96e42aa5af9bbde/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+132            </intent-filter>
+133        </receiver>
+134    </application>
+135
+136</manifest>

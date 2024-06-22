@@ -81,6 +81,7 @@ dependencies {
     androidTestImplementation(libs.androidx.espresso.core)
 
     "myketImplementation"("com.github.myketstore:myket-billing-client:1.7")
+    "cofeBazaarImplementation"("com.github.cafebazaar.Poolakey:poolakey:2.2.0")
 
     // bug report
     bugsnag()

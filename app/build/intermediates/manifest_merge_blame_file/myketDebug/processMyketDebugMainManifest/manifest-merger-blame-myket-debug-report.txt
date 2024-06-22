@@ -1,8 +1,8 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
 3    package="com.m3.rahmani.studywithme"
-4    android:versionCode="4"
-5    android:versionName="1.0.4" >
+4    android:versionCode="8"
+5    android:versionName="1.1.0" >
 6
 7    <uses-sdk
 8        android:minSdkVersion="24"
@@ -22,34 +22,34 @@
 14-->/home/mahdi/w/android/StudyWithMe/app/src/main/AndroidManifest.xml:9:22-64
 15
 16    <permission
-16-->[androidx.core:core:1.13.1] /home/mahdi/.gradle/caches/transforms-4/a7803d77b345a5dd8a44341f36777cac/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+16-->[androidx.core:core:1.13.1] /home/mahdi/.gradle/caches/transforms-4/285ee1e8940310167867875534681738/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
 17        android:name="com.m3.rahmani.studywithme.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-17-->[androidx.core:core:1.13.1] /home/mahdi/.gradle/caches/transforms-4/a7803d77b345a5dd8a44341f36777cac/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+17-->[androidx.core:core:1.13.1] /home/mahdi/.gradle/caches/transforms-4/285ee1e8940310167867875534681738/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
 18        android:protectionLevel="signature" />
-18-->[androidx.core:core:1.13.1] /home/mahdi/.gradle/caches/transforms-4/a7803d77b345a5dd8a44341f36777cac/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+18-->[androidx.core:core:1.13.1] /home/mahdi/.gradle/caches/transforms-4/285ee1e8940310167867875534681738/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
 19
 20    <uses-permission android:name="com.m3.rahmani.studywithme.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-20-->[androidx.core:core:1.13.1] /home/mahdi/.gradle/caches/transforms-4/a7803d77b345a5dd8a44341f36777cac/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
-20-->[androidx.core:core:1.13.1] /home/mahdi/.gradle/caches/transforms-4/a7803d77b345a5dd8a44341f36777cac/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+20-->[androidx.core:core:1.13.1] /home/mahdi/.gradle/caches/transforms-4/285ee1e8940310167867875534681738/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+20-->[androidx.core:core:1.13.1] /home/mahdi/.gradle/caches/transforms-4/285ee1e8940310167867875534681738/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
 21    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-21-->[com.bugsnag:bugsnag-android-core:6.5.0] /home/mahdi/.gradle/caches/transforms-4/aec383e02fa888e893d6abe2a49709f3/transformed/bugsnag-android-core-6.5.0/AndroidManifest.xml:9:5-79
-21-->[com.bugsnag:bugsnag-android-core:6.5.0] /home/mahdi/.gradle/caches/transforms-4/aec383e02fa888e893d6abe2a49709f3/transformed/bugsnag-android-core-6.5.0/AndroidManifest.xml:9:22-76
+21-->[com.bugsnag:bugsnag-android-core:6.5.0] /home/mahdi/.gradle/caches/transforms-4/2847f5eee16c96b0b5c0ccfc355fd89e/transformed/bugsnag-android-core-6.5.0/AndroidManifest.xml:9:5-79
+21-->[com.bugsnag:bugsnag-android-core:6.5.0] /home/mahdi/.gradle/caches/transforms-4/2847f5eee16c96b0b5c0ccfc355fd89e/transformed/bugsnag-android-core-6.5.0/AndroidManifest.xml:9:22-76
 22
 23    <queries>
-23-->[com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/a757ebdd7492fe0be9bff62bb1019773/transformed/myket-billing-client-1.7/AndroidManifest.xml:11:5-19:15
+23-->[com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/25cb94ea9784bec22a9fc6579d9bc0bc/transformed/myket-billing-client-1.7/AndroidManifest.xml:11:5-19:15
 24        <package android:name="ir.mservices.market" />
-24-->[com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/a757ebdd7492fe0be9bff62bb1019773/transformed/myket-billing-client-1.7/AndroidManifest.xml:12:9-58
-24-->[com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/a757ebdd7492fe0be9bff62bb1019773/transformed/myket-billing-client-1.7/AndroidManifest.xml:12:18-55
+24-->[com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/25cb94ea9784bec22a9fc6579d9bc0bc/transformed/myket-billing-client-1.7/AndroidManifest.xml:12:9-58
+24-->[com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/25cb94ea9784bec22a9fc6579d9bc0bc/transformed/myket-billing-client-1.7/AndroidManifest.xml:12:18-55
 25
 26        <intent>
-26-->[com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/a757ebdd7492fe0be9bff62bb1019773/transformed/myket-billing-client-1.7/AndroidManifest.xml:14:9-18:18
+26-->[com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/25cb94ea9784bec22a9fc6579d9bc0bc/transformed/myket-billing-client-1.7/AndroidManifest.xml:14:9-18:18
 27            <action android:name="ir.mservices.market.InAppBillingService.BIND" />
-27-->[com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/a757ebdd7492fe0be9bff62bb1019773/transformed/myket-billing-client-1.7/AndroidManifest.xml:15:13-59
-27-->[com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/a757ebdd7492fe0be9bff62bb1019773/transformed/myket-billing-client-1.7/AndroidManifest.xml:15:21-56
+27-->[com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/25cb94ea9784bec22a9fc6579d9bc0bc/transformed/myket-billing-client-1.7/AndroidManifest.xml:15:13-59
+27-->[com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/25cb94ea9784bec22a9fc6579d9bc0bc/transformed/myket-billing-client-1.7/AndroidManifest.xml:15:21-56
 28
 29            <data android:mimeType="*/*" />
-29-->[com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/a757ebdd7492fe0be9bff62bb1019773/transformed/myket-billing-client-1.7/AndroidManifest.xml:17:13-44
-29-->[com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/a757ebdd7492fe0be9bff62bb1019773/transformed/myket-billing-client-1.7/AndroidManifest.xml:17:19-41
+29-->[com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/25cb94ea9784bec22a9fc6579d9bc0bc/transformed/myket-billing-client-1.7/AndroidManifest.xml:17:13-44
+29-->[com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/25cb94ea9784bec22a9fc6579d9bc0bc/transformed/myket-billing-client-1.7/AndroidManifest.xml:17:19-41
 30        </intent>
 31    </queries>
 32
@@ -60,7 +60,7 @@
 35        android:allowBackup="true"
 35-->/home/mahdi/w/android/StudyWithMe/app/src/main/AndroidManifest.xml:13:9-35
 36        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-36-->[androidx.core:core:1.13.1] /home/mahdi/.gradle/caches/transforms-4/a7803d77b345a5dd8a44341f36777cac/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+36-->[androidx.core:core:1.13.1] /home/mahdi/.gradle/caches/transforms-4/285ee1e8940310167867875534681738/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
 37        android:dataExtractionRules="@xml/data_extraction_rules"
 37-->/home/mahdi/w/android/StudyWithMe/app/src/main/AndroidManifest.xml:14:9-65
 38        android:debuggable="true"
@@ -148,138 +148,138 @@
 82        </activity>
 83
 84        <provider
-84-->[androidx.emoji2:emoji2:1.3.0] /home/mahdi/.gradle/caches/transforms-4/d9fe1cef82e8514a189fc0745051173d/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+84-->[androidx.emoji2:emoji2:1.3.0] /home/mahdi/.gradle/caches/transforms-4/f2e387c71d99e140aa9bfad9e6c29f67/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
 85            android:name="androidx.startup.InitializationProvider"
-85-->[androidx.emoji2:emoji2:1.3.0] /home/mahdi/.gradle/caches/transforms-4/d9fe1cef82e8514a189fc0745051173d/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+85-->[androidx.emoji2:emoji2:1.3.0] /home/mahdi/.gradle/caches/transforms-4/f2e387c71d99e140aa9bfad9e6c29f67/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
 86            android:authorities="com.m3.rahmani.studywithme.androidx-startup"
-86-->[androidx.emoji2:emoji2:1.3.0] /home/mahdi/.gradle/caches/transforms-4/d9fe1cef82e8514a189fc0745051173d/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+86-->[androidx.emoji2:emoji2:1.3.0] /home/mahdi/.gradle/caches/transforms-4/f2e387c71d99e140aa9bfad9e6c29f67/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
 87            android:exported="false" >
-87-->[androidx.emoji2:emoji2:1.3.0] /home/mahdi/.gradle/caches/transforms-4/d9fe1cef82e8514a189fc0745051173d/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+87-->[androidx.emoji2:emoji2:1.3.0] /home/mahdi/.gradle/caches/transforms-4/f2e387c71d99e140aa9bfad9e6c29f67/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
 88            <meta-data
-88-->[androidx.emoji2:emoji2:1.3.0] /home/mahdi/.gradle/caches/transforms-4/d9fe1cef82e8514a189fc0745051173d/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+88-->[androidx.emoji2:emoji2:1.3.0] /home/mahdi/.gradle/caches/transforms-4/f2e387c71d99e140aa9bfad9e6c29f67/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
 89                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-89-->[androidx.emoji2:emoji2:1.3.0] /home/mahdi/.gradle/caches/transforms-4/d9fe1cef82e8514a189fc0745051173d/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+89-->[androidx.emoji2:emoji2:1.3.0] /home/mahdi/.gradle/caches/transforms-4/f2e387c71d99e140aa9bfad9e6c29f67/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
 90                android:value="androidx.startup" />
-90-->[androidx.emoji2:emoji2:1.3.0] /home/mahdi/.gradle/caches/transforms-4/d9fe1cef82e8514a189fc0745051173d/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+90-->[androidx.emoji2:emoji2:1.3.0] /home/mahdi/.gradle/caches/transforms-4/f2e387c71d99e140aa9bfad9e6c29f67/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
 91            <meta-data
-91-->[androidx.lifecycle:lifecycle-process:2.6.2] /home/mahdi/.gradle/caches/transforms-4/c35e0415aa5a54f708f1726bb4dec6b6/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:29:13-31:52
+91-->[androidx.lifecycle:lifecycle-process:2.6.2] /home/mahdi/.gradle/caches/transforms-4/95f51edf3ff15a9a0eb1065b3ec1f56c/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:29:13-31:52
 92                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-92-->[androidx.lifecycle:lifecycle-process:2.6.2] /home/mahdi/.gradle/caches/transforms-4/c35e0415aa5a54f708f1726bb4dec6b6/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:30:17-78
+92-->[androidx.lifecycle:lifecycle-process:2.6.2] /home/mahdi/.gradle/caches/transforms-4/95f51edf3ff15a9a0eb1065b3ec1f56c/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:30:17-78
 93                android:value="androidx.startup" />
-93-->[androidx.lifecycle:lifecycle-process:2.6.2] /home/mahdi/.gradle/caches/transforms-4/c35e0415aa5a54f708f1726bb4dec6b6/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:31:17-49
+93-->[androidx.lifecycle:lifecycle-process:2.6.2] /home/mahdi/.gradle/caches/transforms-4/95f51edf3ff15a9a0eb1065b3ec1f56c/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:31:17-49
 94            <meta-data
-94-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/d5c646a2bf8a243a25e56be43289d72a/transformed/profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+94-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/6263df362929879eb1798b3bc932d1fa/transformed/profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
 95                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-95-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/d5c646a2bf8a243a25e56be43289d72a/transformed/profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+95-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/6263df362929879eb1798b3bc932d1fa/transformed/profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
 96                android:value="androidx.startup" />
-96-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/d5c646a2bf8a243a25e56be43289d72a/transformed/profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+96-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/6263df362929879eb1798b3bc932d1fa/transformed/profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
 97        </provider>
 98        <provider
-98-->[com.bugsnag:bugsnag-android-core:6.5.0] /home/mahdi/.gradle/caches/transforms-4/aec383e02fa888e893d6abe2a49709f3/transformed/bugsnag-android-core-6.5.0/AndroidManifest.xml:12:9-16:40
+98-->[com.bugsnag:bugsnag-android-core:6.5.0] /home/mahdi/.gradle/caches/transforms-4/2847f5eee16c96b0b5c0ccfc355fd89e/transformed/bugsnag-android-core-6.5.0/AndroidManifest.xml:12:9-16:40
 99            android:name="com.bugsnag.android.internal.BugsnagContentProvider"
-99-->[com.bugsnag:bugsnag-android-core:6.5.0] /home/mahdi/.gradle/caches/transforms-4/aec383e02fa888e893d6abe2a49709f3/transformed/bugsnag-android-core-6.5.0/AndroidManifest.xml:13:13-79
+99-->[com.bugsnag:bugsnag-android-core:6.5.0] /home/mahdi/.gradle/caches/transforms-4/2847f5eee16c96b0b5c0ccfc355fd89e/transformed/bugsnag-android-core-6.5.0/AndroidManifest.xml:13:13-79
 100            android:authorities="com.m3.rahmani.studywithme.bugsnag-startup"
-100-->[com.bugsnag:bugsnag-android-core:6.5.0] /home/mahdi/.gradle/caches/transforms-4/aec383e02fa888e893d6abe2a49709f3/transformed/bugsnag-android-core-6.5.0/AndroidManifest.xml:14:13-67
+100-->[com.bugsnag:bugsnag-android-core:6.5.0] /home/mahdi/.gradle/caches/transforms-4/2847f5eee16c96b0b5c0ccfc355fd89e/transformed/bugsnag-android-core-6.5.0/AndroidManifest.xml:14:13-67
 101            android:exported="false"
-101-->[com.bugsnag:bugsnag-android-core:6.5.0] /home/mahdi/.gradle/caches/transforms-4/aec383e02fa888e893d6abe2a49709f3/transformed/bugsnag-android-core-6.5.0/AndroidManifest.xml:15:13-37
+101-->[com.bugsnag:bugsnag-android-core:6.5.0] /home/mahdi/.gradle/caches/transforms-4/2847f5eee16c96b0b5c0ccfc355fd89e/transformed/bugsnag-android-core-6.5.0/AndroidManifest.xml:15:13-37
 102            android:initOrder="9000" />
-102-->[com.bugsnag:bugsnag-android-core:6.5.0] /home/mahdi/.gradle/caches/transforms-4/aec383e02fa888e893d6abe2a49709f3/transformed/bugsnag-android-core-6.5.0/AndroidManifest.xml:16:13-37
+102-->[com.bugsnag:bugsnag-android-core:6.5.0] /home/mahdi/.gradle/caches/transforms-4/2847f5eee16c96b0b5c0ccfc355fd89e/transformed/bugsnag-android-core-6.5.0/AndroidManifest.xml:16:13-37
 103
 104        <service
-104-->[androidx.room:room-runtime:2.6.1] /home/mahdi/.gradle/caches/transforms-4/cc2d1789b0184bb33b352bda983f700c/transformed/room-runtime-2.6.1/AndroidManifest.xml:24:9-28:63
+104-->[androidx.room:room-runtime:2.6.1] /home/mahdi/.gradle/caches/transforms-4/f46d6b91ec6ff3810c649dc7b4cfd1a8/transformed/room-runtime-2.6.1/AndroidManifest.xml:24:9-28:63
 105            android:name="androidx.room.MultiInstanceInvalidationService"
-105-->[androidx.room:room-runtime:2.6.1] /home/mahdi/.gradle/caches/transforms-4/cc2d1789b0184bb33b352bda983f700c/transformed/room-runtime-2.6.1/AndroidManifest.xml:25:13-74
+105-->[androidx.room:room-runtime:2.6.1] /home/mahdi/.gradle/caches/transforms-4/f46d6b91ec6ff3810c649dc7b4cfd1a8/transformed/room-runtime-2.6.1/AndroidManifest.xml:25:13-74
 106            android:directBootAware="true"
-106-->[androidx.room:room-runtime:2.6.1] /home/mahdi/.gradle/caches/transforms-4/cc2d1789b0184bb33b352bda983f700c/transformed/room-runtime-2.6.1/AndroidManifest.xml:26:13-43
+106-->[androidx.room:room-runtime:2.6.1] /home/mahdi/.gradle/caches/transforms-4/f46d6b91ec6ff3810c649dc7b4cfd1a8/transformed/room-runtime-2.6.1/AndroidManifest.xml:26:13-43
 107            android:exported="false" />
-107-->[androidx.room:room-runtime:2.6.1] /home/mahdi/.gradle/caches/transforms-4/cc2d1789b0184bb33b352bda983f700c/transformed/room-runtime-2.6.1/AndroidManifest.xml:27:13-37
+107-->[androidx.room:room-runtime:2.6.1] /home/mahdi/.gradle/caches/transforms-4/f46d6b91ec6ff3810c649dc7b4cfd1a8/transformed/room-runtime-2.6.1/AndroidManifest.xml:27:13-37
 108
 109        <receiver
-109-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/d5c646a2bf8a243a25e56be43289d72a/transformed/profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+109-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/6263df362929879eb1798b3bc932d1fa/transformed/profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
 110            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-110-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/d5c646a2bf8a243a25e56be43289d72a/transformed/profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+110-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/6263df362929879eb1798b3bc932d1fa/transformed/profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
 111            android:directBootAware="false"
-111-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/d5c646a2bf8a243a25e56be43289d72a/transformed/profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+111-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/6263df362929879eb1798b3bc932d1fa/transformed/profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
 112            android:enabled="true"
-112-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/d5c646a2bf8a243a25e56be43289d72a/transformed/profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+112-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/6263df362929879eb1798b3bc932d1fa/transformed/profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
 113            android:exported="true"
-113-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/d5c646a2bf8a243a25e56be43289d72a/transformed/profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+113-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/6263df362929879eb1798b3bc932d1fa/transformed/profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
 114            android:permission="android.permission.DUMP" >
-114-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/d5c646a2bf8a243a25e56be43289d72a/transformed/profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+114-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/6263df362929879eb1798b3bc932d1fa/transformed/profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
 115            <intent-filter>
-115-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/d5c646a2bf8a243a25e56be43289d72a/transformed/profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+115-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/6263df362929879eb1798b3bc932d1fa/transformed/profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
 116                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-116-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/d5c646a2bf8a243a25e56be43289d72a/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
-116-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/d5c646a2bf8a243a25e56be43289d72a/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+116-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/6263df362929879eb1798b3bc932d1fa/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+116-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/6263df362929879eb1798b3bc932d1fa/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
 117            </intent-filter>
 118            <intent-filter>
-118-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/d5c646a2bf8a243a25e56be43289d72a/transformed/profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+118-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/6263df362929879eb1798b3bc932d1fa/transformed/profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
 119                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-119-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/d5c646a2bf8a243a25e56be43289d72a/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
-119-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/d5c646a2bf8a243a25e56be43289d72a/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+119-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/6263df362929879eb1798b3bc932d1fa/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+119-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/6263df362929879eb1798b3bc932d1fa/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
 120            </intent-filter>
 121            <intent-filter>
-121-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/d5c646a2bf8a243a25e56be43289d72a/transformed/profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+121-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/6263df362929879eb1798b3bc932d1fa/transformed/profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
 122                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-122-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/d5c646a2bf8a243a25e56be43289d72a/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
-122-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/d5c646a2bf8a243a25e56be43289d72a/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+122-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/6263df362929879eb1798b3bc932d1fa/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+122-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/6263df362929879eb1798b3bc932d1fa/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
 123            </intent-filter>
 124            <intent-filter>
-124-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/d5c646a2bf8a243a25e56be43289d72a/transformed/profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+124-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/6263df362929879eb1798b3bc932d1fa/transformed/profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
 125                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-125-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/d5c646a2bf8a243a25e56be43289d72a/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
-125-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/d5c646a2bf8a243a25e56be43289d72a/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+125-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/6263df362929879eb1798b3bc932d1fa/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+125-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/6263df362929879eb1798b3bc932d1fa/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
 126            </intent-filter>
 127        </receiver>
 128
 129        <activity
-129-->[com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/a757ebdd7492fe0be9bff62bb1019773/transformed/myket-billing-client-1.7/AndroidManifest.xml:22:9-25:56
+129-->[com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/25cb94ea9784bec22a9fc6579d9bc0bc/transformed/myket-billing-client-1.7/AndroidManifest.xml:22:9-25:56
 130            android:name="ir.myket.billingclient.util.ProxyBillingActivity"
-130-->[com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/a757ebdd7492fe0be9bff62bb1019773/transformed/myket-billing-client-1.7/AndroidManifest.xml:23:13-76
+130-->[com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/25cb94ea9784bec22a9fc6579d9bc0bc/transformed/myket-billing-client-1.7/AndroidManifest.xml:23:13-76
 131            android:exported="true"
-131-->[com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/a757ebdd7492fe0be9bff62bb1019773/transformed/myket-billing-client-1.7/AndroidManifest.xml:24:13-36
+131-->[com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/25cb94ea9784bec22a9fc6579d9bc0bc/transformed/myket-billing-client-1.7/AndroidManifest.xml:24:13-36
 132            android:theme="@style/Theme.Transparent" />
-132-->[com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/a757ebdd7492fe0be9bff62bb1019773/transformed/myket-billing-client-1.7/AndroidManifest.xml:25:13-53
+132-->[com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/25cb94ea9784bec22a9fc6579d9bc0bc/transformed/myket-billing-client-1.7/AndroidManifest.xml:25:13-53
 133
 134        <meta-data
-134-->[com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/a757ebdd7492fe0be9bff62bb1019773/transformed/myket-billing-client-1.7/AndroidManifest.xml:27:9-29:54
+134-->[com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/25cb94ea9784bec22a9fc6579d9bc0bc/transformed/myket-billing-client-1.7/AndroidManifest.xml:27:9-29:54
 135            android:name="market_id"
-135-->[com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/a757ebdd7492fe0be9bff62bb1019773/transformed/myket-billing-client-1.7/AndroidManifest.xml:28:13-37
+135-->[com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/25cb94ea9784bec22a9fc6579d9bc0bc/transformed/myket-billing-client-1.7/AndroidManifest.xml:28:13-37
 136            android:value="ir.mservices.market" />
-136-->[com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/a757ebdd7492fe0be9bff62bb1019773/transformed/myket-billing-client-1.7/AndroidManifest.xml:29:13-51
+136-->[com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/25cb94ea9784bec22a9fc6579d9bc0bc/transformed/myket-billing-client-1.7/AndroidManifest.xml:29:13-51
 137        <meta-data
-137-->[com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/a757ebdd7492fe0be9bff62bb1019773/transformed/myket-billing-client-1.7/AndroidManifest.xml:30:9-32:52
+137-->[com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/25cb94ea9784bec22a9fc6579d9bc0bc/transformed/myket-billing-client-1.7/AndroidManifest.xml:30:9-32:52
 138            android:name="market_bind_address"
-138-->[com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/a757ebdd7492fe0be9bff62bb1019773/transformed/myket-billing-client-1.7/AndroidManifest.xml:31:13-47
+138-->[com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/25cb94ea9784bec22a9fc6579d9bc0bc/transformed/myket-billing-client-1.7/AndroidManifest.xml:31:13-47
 139            android:value="ir.mservices.market.InAppBillingService.BIND" />
-139-->[com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/a757ebdd7492fe0be9bff62bb1019773/transformed/myket-billing-client-1.7/AndroidManifest.xml:32:13-49
+139-->[com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/25cb94ea9784bec22a9fc6579d9bc0bc/transformed/myket-billing-client-1.7/AndroidManifest.xml:32:13-49
 140
 141        <receiver
-141-->[com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/a757ebdd7492fe0be9bff62bb1019773/transformed/myket-billing-client-1.7/AndroidManifest.xml:34:9-45:20
+141-->[com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/25cb94ea9784bec22a9fc6579d9bc0bc/transformed/myket-billing-client-1.7/AndroidManifest.xml:34:9-45:20
 142            android:name="ir.myket.billingclient.util.IABReceiver"
-142-->[com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/a757ebdd7492fe0be9bff62bb1019773/transformed/myket-billing-client-1.7/AndroidManifest.xml:35:13-67
+142-->[com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/25cb94ea9784bec22a9fc6579d9bc0bc/transformed/myket-billing-client-1.7/AndroidManifest.xml:35:13-67
 143            android:exported="true" >
-143-->[com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/a757ebdd7492fe0be9bff62bb1019773/transformed/myket-billing-client-1.7/AndroidManifest.xml:36:13-36
+143-->[com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/25cb94ea9784bec22a9fc6579d9bc0bc/transformed/myket-billing-client-1.7/AndroidManifest.xml:36:13-36
 144            <intent-filter>
-144-->[com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/a757ebdd7492fe0be9bff62bb1019773/transformed/myket-billing-client-1.7/AndroidManifest.xml:37:13-44:29
+144-->[com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/25cb94ea9784bec22a9fc6579d9bc0bc/transformed/myket-billing-client-1.7/AndroidManifest.xml:37:13-44:29
 145                <action android:name="ir.mservices.market.ping" />
-145-->[com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/a757ebdd7492fe0be9bff62bb1019773/transformed/myket-billing-client-1.7/AndroidManifest.xml:38:17-70
-145-->[com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/a757ebdd7492fe0be9bff62bb1019773/transformed/myket-billing-client-1.7/AndroidManifest.xml:38:25-67
+145-->[com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/25cb94ea9784bec22a9fc6579d9bc0bc/transformed/myket-billing-client-1.7/AndroidManifest.xml:38:17-70
+145-->[com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/25cb94ea9784bec22a9fc6579d9bc0bc/transformed/myket-billing-client-1.7/AndroidManifest.xml:38:25-67
 146                <action android:name="ir.mservices.market.purchase" />
-146-->[com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/a757ebdd7492fe0be9bff62bb1019773/transformed/myket-billing-client-1.7/AndroidManifest.xml:39:17-74
-146-->[com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/a757ebdd7492fe0be9bff62bb1019773/transformed/myket-billing-client-1.7/AndroidManifest.xml:39:25-71
+146-->[com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/25cb94ea9784bec22a9fc6579d9bc0bc/transformed/myket-billing-client-1.7/AndroidManifest.xml:39:17-74
+146-->[com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/25cb94ea9784bec22a9fc6579d9bc0bc/transformed/myket-billing-client-1.7/AndroidManifest.xml:39:25-71
 147                <action android:name="ir.mservices.market.getPurchase" />
-147-->[com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/a757ebdd7492fe0be9bff62bb1019773/transformed/myket-billing-client-1.7/AndroidManifest.xml:40:17-77
-147-->[com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/a757ebdd7492fe0be9bff62bb1019773/transformed/myket-billing-client-1.7/AndroidManifest.xml:40:25-74
+147-->[com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/25cb94ea9784bec22a9fc6579d9bc0bc/transformed/myket-billing-client-1.7/AndroidManifest.xml:40:17-77
+147-->[com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/25cb94ea9784bec22a9fc6579d9bc0bc/transformed/myket-billing-client-1.7/AndroidManifest.xml:40:25-74
 148                <action android:name="ir.mservices.market.billingSupport" />
-148-->[com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/a757ebdd7492fe0be9bff62bb1019773/transformed/myket-billing-client-1.7/AndroidManifest.xml:41:17-80
-148-->[com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/a757ebdd7492fe0be9bff62bb1019773/transformed/myket-billing-client-1.7/AndroidManifest.xml:41:25-77
+148-->[com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/25cb94ea9784bec22a9fc6579d9bc0bc/transformed/myket-billing-client-1.7/AndroidManifest.xml:41:17-80
+148-->[com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/25cb94ea9784bec22a9fc6579d9bc0bc/transformed/myket-billing-client-1.7/AndroidManifest.xml:41:25-77
 149                <action android:name="ir.mservices.market.skuDetail" />
-149-->[com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/a757ebdd7492fe0be9bff62bb1019773/transformed/myket-billing-client-1.7/AndroidManifest.xml:42:17-75
-149-->[com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/a757ebdd7492fe0be9bff62bb1019773/transformed/myket-billing-client-1.7/AndroidManifest.xml:42:25-72
+149-->[com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/25cb94ea9784bec22a9fc6579d9bc0bc/transformed/myket-billing-client-1.7/AndroidManifest.xml:42:17-75
+149-->[com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/25cb94ea9784bec22a9fc6579d9bc0bc/transformed/myket-billing-client-1.7/AndroidManifest.xml:42:25-72
 150                <action android:name="ir.mservices.market.consume" />
-150-->[com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/a757ebdd7492fe0be9bff62bb1019773/transformed/myket-billing-client-1.7/AndroidManifest.xml:43:17-73
-150-->[com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/a757ebdd7492fe0be9bff62bb1019773/transformed/myket-billing-client-1.7/AndroidManifest.xml:43:25-70
+150-->[com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/25cb94ea9784bec22a9fc6579d9bc0bc/transformed/myket-billing-client-1.7/AndroidManifest.xml:43:17-73
+150-->[com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/25cb94ea9784bec22a9fc6579d9bc0bc/transformed/myket-billing-client-1.7/AndroidManifest.xml:43:25-70
 151            </intent-filter>
 152        </receiver>
 153    </application>

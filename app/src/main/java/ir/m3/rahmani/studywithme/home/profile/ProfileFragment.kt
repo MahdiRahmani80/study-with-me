@@ -7,7 +7,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import ir.m3.rahmani.studywithme.MyketRateUsImpl
+import ir.m3.rahmani.studywithme.BazaarRateUsImpl
 import ir.m3.rahmani.studywithme.databinding.FragmentProfileBinding
 import ir.m3.rahmani.studywithme.di.Injector
 import ir.m3.rahmani.studywithme.donate.DonateActivity
@@ -54,7 +54,7 @@ class ProfileFragment @Inject constructor() : Fragment() {
         binding.header.buyCoin.setOnClickListener { buyCoinClick?.invoke() }
 
         binding.header.rateUs.setOnClickListener {
-            val rateUs: RateUs = MyketRateUsImpl()
+            val rateUs: RateUs = BazaarRateUsImpl()
             val intent = rateUs.rateUs()
             startActivity(intent)
         }

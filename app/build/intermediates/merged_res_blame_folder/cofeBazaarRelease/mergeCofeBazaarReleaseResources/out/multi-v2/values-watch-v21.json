@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "ir.m3.rahmani.studywithme.app-mergeCofeBazaarReleaseResources-62:/values-watch-v21/values-watch-v21.xml",
+            "map": [
+                {
+                    "source": "/home/mahdi/.gradle/caches/transforms-4/e2940e5f02626bab20ec1266011ca12e/transformed/appcompat-1.6.1/res/values-watch-v21/values-watch-v21.xml",
+                    "from": {
+                        "startLines": "2,6,10",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,271,499",
+                        "endLines": "5,9,13",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "266,494,724"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -111,6 +111,7 @@
             android:text="@string/hove_an_account"
             android:fontFamily="@font/iran_sans_medium"
             android:textSize="12sp"
+            android:visibility="invisible"
             android:layout_marginTop="14dp"
             android:textColor="?colorPrimaryVariant"/>
     </LinearLayout>

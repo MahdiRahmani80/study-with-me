@@ -1,0 +1,20 @@
+{
+  "version": 3,
+  "artifactType": {
+    "type": "PROCESSED_RES",
+    "kind": "Directory"
+  },
+  "applicationId": "com.m3.rahmani.studywithme",
+  "variantName": "cofeBazaarDebug",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "attributes": [],
+      "versionCode": 10,
+      "versionName": "1.1.2",
+      "outputFile": "resources-cofeBazaarDebug.ap_"
+    }
+  ],
+  "elementType": "File"
+}

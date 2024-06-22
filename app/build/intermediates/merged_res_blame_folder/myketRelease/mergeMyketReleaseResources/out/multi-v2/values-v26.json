@@ -4,7 +4,7 @@
             "outputFile": "ir.m3.rahmani.studywithme.app-mergeMyketReleaseResources-63:/values-v26/values-v26.xml",
             "map": [
                 {
-                    "source": "/home/mahdi/.gradle/caches/transforms-4/18a5e950874fd70ef1b5c470363eb99a/transformed/appcompat-1.6.1/res/values-v26/values-v26.xml",
+                    "source": "/home/mahdi/.gradle/caches/transforms-4/1a7e381f980907b9bcf1762e15864bfc/transformed/appcompat-1.6.1/res/values-v26/values-v26.xml",
                     "from": {
                         "startLines": "2,3,4,8,12,16",
                         "startColumns": "4,4,4,4,4,4",

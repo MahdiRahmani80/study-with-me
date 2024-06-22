@@ -1,6 +1,7 @@
 package ir.m3.rahmani.user_data
 
 import ir.m3.rahmani.core.shared.model.UserSharedPref
+import kotlinx.coroutines.flow.Flow
 
 data class User(
     var coin: Int = 143,

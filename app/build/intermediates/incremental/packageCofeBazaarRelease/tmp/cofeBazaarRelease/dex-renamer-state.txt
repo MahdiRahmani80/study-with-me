@@ -1,0 +1,10 @@
+#Thu Jun 20 11:10:01 IRDT 2024
+base.0=/home/mahdi/w/android/StudyWithMe/app/build/intermediates/dex/cofeBazaarRelease/mergeDexCofeBazaarRelease/classes.dex
+base.1=/home/mahdi/w/android/StudyWithMe/app/build/intermediates/dex/cofeBazaarRelease/mergeDexCofeBazaarRelease/classes2.dex
+base.2=/home/mahdi/w/android/StudyWithMe/app/build/intermediates/dex/cofeBazaarRelease/mergeDexCofeBazaarRelease/classes3.dex
+path.0=classes.dex
+path.1=classes2.dex
+path.2=classes3.dex
+renamed.0=classes.dex
+renamed.1=classes2.dex
+renamed.2=classes3.dex

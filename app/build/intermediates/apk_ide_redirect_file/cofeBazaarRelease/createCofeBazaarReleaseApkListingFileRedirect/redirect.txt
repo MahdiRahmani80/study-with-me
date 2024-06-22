@@ -1,0 +1,2 @@
+#- File Locator -
+listingFile=../../../../../cofeBazaar/release/output-metadata.json

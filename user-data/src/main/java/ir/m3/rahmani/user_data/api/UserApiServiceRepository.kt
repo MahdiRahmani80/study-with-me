@@ -14,16 +14,18 @@ class UserApiServiceRepository @Inject constructor(
 ) : UserDataStore {
 
     private val TAG = "UserApiServiceRepository"
-    override fun getUser(phone: String): Flow<UserApiModel> = flow {
+    override fun getUser(phone: String): Flow<UserApiModel?> = flow {
+        var data: UserApiModel? = null
         try {
-            val data = api.getUser(phone)
-            emit(data)
+            data = api.getUser(phone)
         } catch (e: Exception) {
             if (e is CancellationException) {
                 Log.e(TAG, e.message.toString())
                 Bugsnag.notify(e)
                 throw e
             }
+        } finally {
+            emit(data)
         }
 
     }

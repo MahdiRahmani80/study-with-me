@@ -16,6 +16,6 @@ class MyketRateUsImpl : RateUs {
     }
 
     companion object {
-        const val App_ID = "ir.m3.rahmani.studywithme"
+        const val App_ID = "com.m3.rahmani.studywithme"
     }
 }

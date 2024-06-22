@@ -7,87 +7,87 @@ INJECTED from /home/mahdi/w/android/StudyWithMe/app/src/main/AndroidManifest.xml
 MERGED from [:user-data] /home/mahdi/w/android/StudyWithMe/user-data/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-11:12
 MERGED from [:core] /home/mahdi/w/android/StudyWithMe/core/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-9:12
 MERGED from [:home-datastore] /home/mahdi/w/android/StudyWithMe/home-datastore/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.databinding:viewbinding:8.4.1] /home/mahdi/.gradle/caches/transforms-4/8f7a62df9c81879a1d67fd1bbcead2d5/transformed/viewbinding-8.4.1/AndroidManifest.xml:2:1-7:12
-MERGED from [com.google.android.material:material:1.12.0] /home/mahdi/.gradle/caches/transforms-4/13f99fd5a3c56d88aed339e59798ba3f/transformed/material-1.12.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/mahdi/.gradle/caches/transforms-4/f1a3b5951c380de48429be8a76112e3d/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
-MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /home/mahdi/.gradle/caches/transforms-4/827de6bdc202f5799c0098e43c17da2f/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.appcompat:appcompat:1.6.1] /home/mahdi/.gradle/caches/transforms-4/18a5e950874fd70ef1b5c470363eb99a/transformed/appcompat-1.6.1/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/mahdi/.gradle/caches/transforms-4/dc55a7d01bb151a06e7ad07de306f041/transformed/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.fragment:fragment:1.3.6] /home/mahdi/.gradle/caches/transforms-4/1dd73d3b5384737e3d76a1cbe185f912/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.compose.material3:material3-android:1.2.1] /home/mahdi/.gradle/caches/transforms-4/3ac19da54421e327e762a9b201ffa189/transformed/material3-release/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.activity:activity-compose:1.9.0] /home/mahdi/.gradle/caches/transforms-4/7a5107d1c0dbea2327aa996c7f804da0/transformed/activity-compose-1.9.0/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.activity:activity:1.9.0] /home/mahdi/.gradle/caches/transforms-4/34e66f940305421c3f166ac3250a65c6/transformed/activity-1.9.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.compose.material:material-ripple-android:1.6.6] /home/mahdi/.gradle/caches/transforms-4/9ade74dec6009afb3b2925c8b99c4d32/transformed/material-ripple-release/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.material:material-icons-core-android:1.6.6] /home/mahdi/.gradle/caches/transforms-4/c142fd1b6ce298c28003b7ba361616c4/transformed/material-icons-core-release/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.material:material-android:1.6.6] /home/mahdi/.gradle/caches/transforms-4/7434104f8ea8c926b3d7ef798b61f414/transformed/material-release/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.foundation:foundation-android:1.6.6] /home/mahdi/.gradle/caches/transforms-4/75cd16732e4756063141d749f5fc9d97/transformed/foundation-release/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.animation:animation-android:1.6.6] /home/mahdi/.gradle/caches/transforms-4/71d3a266e4996d444106cd977f2c20f1/transformed/animation-release/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.foundation:foundation-layout-android:1.6.6] /home/mahdi/.gradle/caches/transforms-4/d3aa2059af791d624ddd673c54e1a8ba/transformed/foundation-layout-release/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.animation:animation-core-android:1.6.6] /home/mahdi/.gradle/caches/transforms-4/bd6d7cefc5ccde410e3e4c6e6ef617b5/transformed/animation-core-release/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.ui:ui-unit-android:1.6.6] /home/mahdi/.gradle/caches/transforms-4/8dacd4a252edfb64ea797e94c9062c93/transformed/ui-unit-release/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.ui:ui-geometry-android:1.6.6] /home/mahdi/.gradle/caches/transforms-4/642968b3ca4cbbeef4e472ed5430cf20/transformed/ui-geometry-release/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.ui:ui-util-android:1.6.6] /home/mahdi/.gradle/caches/transforms-4/5277ae971c8481599ddcf28f6a62d588/transformed/ui-util-release/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.ui:ui-text-android:1.6.6] /home/mahdi/.gradle/caches/transforms-4/e815836fb664fa7a9a51231248eb843b/transformed/ui-text-release/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.ui:ui-graphics-android:1.6.6] /home/mahdi/.gradle/caches/transforms-4/e8adc056adda8f5cfbc0e13b6dd31bae/transformed/ui-graphics-release/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.6.6] /home/mahdi/.gradle/caches/transforms-4/c6590cddd75fc2a55186fa1248ff17f1/transformed/ui-tooling-preview-release/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.compose.ui:ui-android:1.6.6] /home/mahdi/.gradle/caches/transforms-4/216d74b3a39f8a0472322ddadd3f031f/transformed/ui-release/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.activity:activity-ktx:1.9.0] /home/mahdi/.gradle/caches/transforms-4/8737e2c474625fd79c64276ebb95f686/transformed/activity-ktx-1.9.0/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/mahdi/.gradle/caches/transforms-4/0a5b4e2706b5d9dc2963b592873f1452/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/mahdi/.gradle/caches/transforms-4/5563cce05ad4c3bdd269aa906af480ee/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.transition:transition:1.5.0] /home/mahdi/.gradle/caches/transforms-4/4c214f9b53cd69bbd57d639b7344e272/transformed/transition-1.5.0/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/mahdi/.gradle/caches/transforms-4/3eab078ca249edeb4fe469b6740ca7ff/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/mahdi/.gradle/caches/transforms-4/0753ec80a808f7b9d4fa9380ddc7ed62/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/mahdi/.gradle/caches/transforms-4/2061feec41d155b432c04f7d5e84db0f/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] /home/mahdi/.gradle/caches/transforms-4/5c9bfda73bc04f4904a9c5abd4d01df3/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/mahdi/.gradle/caches/transforms-4/b37725a54983e4fbfa2d16221d501c64/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] /home/mahdi/.gradle/caches/transforms-4/5d5ef5e9517a28fb218d4ae60aeca929/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/mahdi/.gradle/caches/transforms-4/8c476cc931bcf0267dbcbc52bb3c757b/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.customview:customview:1.1.0] /home/mahdi/.gradle/caches/transforms-4/514dc23bdd4b199a2c309e617e5df8f7/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.autofill:autofill:1.0.0] /home/mahdi/.gradle/caches/transforms-4/d44dad85349e99494a39504fc471afac/transformed/autofill-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /home/mahdi/.gradle/caches/transforms-4/5e791c991b69028c6b3e993ff5af54da/transformed/emoji2-views-helper-1.3.0/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.emoji2:emoji2:1.3.0] /home/mahdi/.gradle/caches/transforms-4/d9fe1cef82e8514a189fc0745051173d/transformed/emoji2-1.3.0/AndroidManifest.xml:17:1-35:12
-MERGED from [androidx.core:core:1.13.1] /home/mahdi/.gradle/caches/transforms-4/a7803d77b345a5dd8a44341f36777cac/transformed/core-1.13.1/AndroidManifest.xml:17:1-30:12
-MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /home/mahdi/.gradle/caches/transforms-4/dc469e58fe2526d51dab3ff78042f29c/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:17:1-23:12
-MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /home/mahdi/.gradle/caches/transforms-4/32dad410896b971cf293e13cfe9cdab6/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.savedstate:savedstate:1.2.1] /home/mahdi/.gradle/caches/transforms-4/c61afa4df79b6c7e16c4d73cc2783059/transformed/savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /home/mahdi/.gradle/caches/transforms-4/c35e0415aa5a54f708f1726bb4dec6b6/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:17:1-35:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.2] /home/mahdi/.gradle/caches/transforms-4/211d9d03a11866e3d6f16c41f8347c79/transformed/lifecycle-livedata-core-ktx-2.6.2/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] /home/mahdi/.gradle/caches/transforms-4/0188086e06e4651db4b0988355f11764/transformed/lifecycle-livedata-2.6.2/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] /home/mahdi/.gradle/caches/transforms-4/8c1064299cb313e9f6dae01a78b2af39/transformed/lifecycle-viewmodel-ktx-2.6.2/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] /home/mahdi/.gradle/caches/transforms-4/d6b397e530b0529d2cb20f7db83cc29b/transformed/lifecycle-viewmodel-2.6.2/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] /home/mahdi/.gradle/caches/transforms-4/e18792c6f31addd2192020cff5bf8b16/transformed/lifecycle-runtime-ktx-2.6.2/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.6.2] /home/mahdi/.gradle/caches/transforms-4/e64da87dd3c49222774ce605025a3e00/transformed/lifecycle-livedata-ktx-2.6.2/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] /home/mahdi/.gradle/caches/transforms-4/7788521e6014460811f3a58a5c8459b7/transformed/lifecycle-livedata-core-2.6.2/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] /home/mahdi/.gradle/caches/transforms-4/b87dfd6449c736341e120eb3351f1e24/transformed/lifecycle-runtime-2.6.2/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] /home/mahdi/.gradle/caches/transforms-4/555ce4f4cddda293c198b04a1b5d02c1/transformed/lifecycle-viewmodel-savedstate-2.6.2/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core-ktx:1.13.1] /home/mahdi/.gradle/caches/transforms-4/e27d918f6ff0cef47a310fc29e2a01ad/transformed/core-ktx-1.13.1/AndroidManifest.xml:2:1-7:12
-MERGED from [com.bugsnag:bugsnag-android:6.5.0] /home/mahdi/.gradle/caches/transforms-4/ad2745ee051fcf50bfb1517ea2b2be67/transformed/bugsnag-android-6.5.0/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.datastore:datastore-preferences-android:1.1.1] /home/mahdi/.gradle/caches/transforms-4/12160aaefc4013b7186c50cfbe45e50e/transformed/datastore-preferences-release/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.datastore:datastore-android:1.1.1] /home/mahdi/.gradle/caches/transforms-4/b13bef9489a18c85bb570610eaf5b695/transformed/datastore-release/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.datastore:datastore-core-android:1.1.1] /home/mahdi/.gradle/caches/transforms-4/8261a7263442340af16e7c965adfcace/transformed/datastore-core-release/AndroidManifest.xml:2:1-7:12
-MERGED from [com.bugsnag:bugsnag-plugin-android-anr:6.5.0] /home/mahdi/.gradle/caches/transforms-4/e1b0d18574162189266fee2f30d1258d/transformed/bugsnag-plugin-android-anr-6.5.0/AndroidManifest.xml:2:1-7:12
-MERGED from [com.bugsnag:bugsnag-plugin-android-ndk:6.5.0] /home/mahdi/.gradle/caches/transforms-4/91108328f2ec1ee8a0be1279921652b9/transformed/bugsnag-plugin-android-ndk-6.5.0/AndroidManifest.xml:2:1-7:12
-MERGED from [com.bugsnag:bugsnag-android-core:6.5.0] /home/mahdi/.gradle/caches/transforms-4/aec383e02fa888e893d6abe2a49709f3/transformed/bugsnag-android-core-6.5.0/AndroidManifest.xml:2:1-19:12
-MERGED from [androidx.room:room-paging:2.6.1] /home/mahdi/.gradle/caches/transforms-4/e4c87c1c81ca5f708b2345a35c7af126/transformed/room-paging-2.6.1/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.room:room-ktx:2.6.1] /home/mahdi/.gradle/caches/transforms-4/2d914a3c667f93315c6051e8263db8d8/transformed/room-ktx-2.6.1/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.room:room-runtime:2.6.1] /home/mahdi/.gradle/caches/transforms-4/cc2d1789b0184bb33b352bda983f700c/transformed/room-runtime-2.6.1/AndroidManifest.xml:17:1-31:12
-MERGED from [androidx.annotation:annotation-experimental:1.4.0] /home/mahdi/.gradle/caches/transforms-4/50efae8394f494f88d33ac28fa6245c3/transformed/annotation-experimental-1.4.0/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/mahdi/.gradle/caches/transforms-4/0b6fab192eb283f0fc2b5393eca8f5f0/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.compose.runtime:runtime-saveable-android:1.6.6] /home/mahdi/.gradle/caches/transforms-4/df1a5d1fab52731c0748678482a3350d/transformed/runtime-saveable-release/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.runtime:runtime-android:1.6.6] /home/mahdi/.gradle/caches/transforms-4/1af6dd1b7f06082bdb0d4895db1dbd4c/transformed/runtime-release/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.sqlite:sqlite-framework:2.4.0] /home/mahdi/.gradle/caches/transforms-4/eca9bb6f03b50d49e674899e06ca6d0e/transformed/sqlite-framework-2.4.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.sqlite:sqlite:2.4.0] /home/mahdi/.gradle/caches/transforms-4/e3dffcc77755d98741680e2e0a7b7d2e/transformed/sqlite-2.4.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/mahdi/.gradle/caches/transforms-4/1b56fc0b2fb674196be24764d9eb39a3/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.cardview:cardview:1.0.0] /home/mahdi/.gradle/caches/transforms-4/595790b99daae4f169bab623acb847c9/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/d5c646a2bf8a243a25e56be43289d72a/transformed/profileinstaller-1.3.1/AndroidManifest.xml:17:1-55:12
-MERGED from [androidx.startup:startup-runtime:1.1.1] /home/mahdi/.gradle/caches/transforms-4/34dfb35fcb5fc7824d50827b5c521f35/transformed/startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
-MERGED from [androidx.tracing:tracing:1.0.0] /home/mahdi/.gradle/caches/transforms-4/4b6f6f20fc018469a2f9be18d8a8d21f/transformed/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] /home/mahdi/.gradle/caches/transforms-4/05bb91875ef16e5a9a5fa11bc14b4875/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/mahdi/.gradle/caches/transforms-4/5f54c4d6314fd4ad5725f8eb299fa081/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.documentfile:documentfile:1.0.0] /home/mahdi/.gradle/caches/transforms-4/a09c80dfad6f7c0a829dc64d733c99b5/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/mahdi/.gradle/caches/transforms-4/b91af3fc666866beafb75d7ad54a73a1/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.print:print:1.0.0] /home/mahdi/.gradle/caches/transforms-4/eb573de0cd4d3de3767f5ad25402b696/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/a757ebdd7492fe0be9bff62bb1019773/transformed/myket-billing-client-1.7/AndroidManifest.xml:2:1-48:12
+MERGED from [androidx.databinding:viewbinding:8.4.1] /home/mahdi/.gradle/caches/transforms-4/1073ac35088d6a522b38ecdd51db95f7/transformed/viewbinding-8.4.1/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.material:material:1.12.0] /home/mahdi/.gradle/caches/transforms-4/f6f56747f455a5a8de47c476cf9cddd5/transformed/material-1.12.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/mahdi/.gradle/caches/transforms-4/915046c8f956576883758973f2ede55c/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /home/mahdi/.gradle/caches/transforms-4/c512d2afcbbcd589204627dfdc35684f/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] /home/mahdi/.gradle/caches/transforms-4/4cfe0731be121a97aaab790aec82fa46/transformed/appcompat-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/mahdi/.gradle/caches/transforms-4/54f6a68f483c800e578e4cebb9edbdc5/transformed/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.3.6] /home/mahdi/.gradle/caches/transforms-4/46c83a13019cf2af9970ce95f3717d5c/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.material3:material3-android:1.2.1] /home/mahdi/.gradle/caches/transforms-4/86b584f1b00c6c3819593a537468c970/transformed/material3-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity-compose:1.9.0] /home/mahdi/.gradle/caches/transforms-4/446f105f88097ddfb528ca5920698499/transformed/activity-compose-1.9.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity:1.9.0] /home/mahdi/.gradle/caches/transforms-4/9b9bc38f5eb6b4846f2828b2c8f59607/transformed/activity-1.9.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.material:material-ripple-android:1.6.6] /home/mahdi/.gradle/caches/transforms-4/ca326a7d2db3b00b4fb6e8f049c63d0b/transformed/material-ripple-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.6] /home/mahdi/.gradle/caches/transforms-4/d76f6f8d48480519f06f9268a35a61a2/transformed/material-icons-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-android:1.6.6] /home/mahdi/.gradle/caches/transforms-4/35d2b3ae9a5aec1d56c1eb49a91e4f8b/transformed/material-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-android:1.6.6] /home/mahdi/.gradle/caches/transforms-4/fd1cfd3fb3b4203ac2ce529157527d07/transformed/foundation-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-android:1.6.6] /home/mahdi/.gradle/caches/transforms-4/d496dc0ae2b7988134248f68362637de/transformed/animation-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.6.6] /home/mahdi/.gradle/caches/transforms-4/8c58896ed360d407e401325ee982e6d5/transformed/foundation-layout-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-core-android:1.6.6] /home/mahdi/.gradle/caches/transforms-4/5732ef08425690d2f995ce2f716b9a86/transformed/animation-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-unit-android:1.6.6] /home/mahdi/.gradle/caches/transforms-4/db2e83f99a42f731f58ef3457ba34d7c/transformed/ui-unit-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-geometry-android:1.6.6] /home/mahdi/.gradle/caches/transforms-4/7614678d8e5b82d8dd8f403a2ef66469/transformed/ui-geometry-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-util-android:1.6.6] /home/mahdi/.gradle/caches/transforms-4/a86f4f90bff41da47e62147acc216dc0/transformed/ui-util-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-text-android:1.6.6] /home/mahdi/.gradle/caches/transforms-4/6187f2632dc1782c78eb82f7ec59aff2/transformed/ui-text-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-graphics-android:1.6.6] /home/mahdi/.gradle/caches/transforms-4/24a3872a24f69952d55d949e21f2f4a3/transformed/ui-graphics-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.6.6] /home/mahdi/.gradle/caches/transforms-4/d6ffb8bbd97aec3bf8010c4d27d7559b/transformed/ui-tooling-preview-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-android:1.6.6] /home/mahdi/.gradle/caches/transforms-4/14926a7cb19631e5d97b1a47bd0534cc/transformed/ui-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity-ktx:1.9.0] /home/mahdi/.gradle/caches/transforms-4/f1d833b9909d093bdf70d6b823768a08/transformed/activity-ktx-1.9.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/mahdi/.gradle/caches/transforms-4/14d8568fd71047d58ff6d7f582ef0222/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/mahdi/.gradle/caches/transforms-4/c98674d7ae9e793c50d1db42501dbd22/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.5.0] /home/mahdi/.gradle/caches/transforms-4/d0588ec0e021ff0210d99ae8a53820d6/transformed/transition-1.5.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/mahdi/.gradle/caches/transforms-4/11e2bd8cbf2c6c92fc54dcfd45e041d7/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/mahdi/.gradle/caches/transforms-4/90eca703df184ac962e8bddd8e75643a/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/mahdi/.gradle/caches/transforms-4/5a966ecddafff226c310b6027b3bd696/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/mahdi/.gradle/caches/transforms-4/660ce51fd04281d2b111d863ee46c213/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/mahdi/.gradle/caches/transforms-4/295d8ccedd4eb23a02b993662e8b68ec/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/mahdi/.gradle/caches/transforms-4/4703c01f36f6298ddac9240a7486edf7/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/mahdi/.gradle/caches/transforms-4/b55f1c466c61168bf18ccc9aa987c2d5/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.1.0] /home/mahdi/.gradle/caches/transforms-4/4e2b4d5476b92800a725bc636eba6a6a/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.autofill:autofill:1.0.0] /home/mahdi/.gradle/caches/transforms-4/8eb4cc2584ac98918a58e6558f5b1aee/transformed/autofill-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /home/mahdi/.gradle/caches/transforms-4/ad42ee72b67f2829893c2e4010e109f4/transformed/emoji2-views-helper-1.3.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/mahdi/.gradle/caches/transforms-4/f2e387c71d99e140aa9bfad9e6c29f67/transformed/emoji2-1.3.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.core:core:1.13.1] /home/mahdi/.gradle/caches/transforms-4/285ee1e8940310167867875534681738/transformed/core-1.13.1/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /home/mahdi/.gradle/caches/transforms-4/c2b5735389f7e3cc805cf171557eabb9/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /home/mahdi/.gradle/caches/transforms-4/c3054ee89baf2278e3b4fc1b4b81ad11/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/mahdi/.gradle/caches/transforms-4/1f95558120b7fcd7caa2451872caf86f/transformed/savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /home/mahdi/.gradle/caches/transforms-4/95f51edf3ff15a9a0eb1065b3ec1f56c/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.2] /home/mahdi/.gradle/caches/transforms-4/713ac1d56eed32ecf385e3752b7f105c/transformed/lifecycle-livedata-core-ktx-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] /home/mahdi/.gradle/caches/transforms-4/790c0c9323d8e4a9d42acc084641c3a6/transformed/lifecycle-livedata-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] /home/mahdi/.gradle/caches/transforms-4/cfba0524c66d8a73cb905014f1918c49/transformed/lifecycle-viewmodel-ktx-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] /home/mahdi/.gradle/caches/transforms-4/65e8e684b05be54511dadc2c61d01794/transformed/lifecycle-viewmodel-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] /home/mahdi/.gradle/caches/transforms-4/abb9df0c4a6550bd0fd39d005b8af9a4/transformed/lifecycle-runtime-ktx-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.6.2] /home/mahdi/.gradle/caches/transforms-4/8bf6cf1596ad3a8cf3328b3d0d98f254/transformed/lifecycle-livedata-ktx-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] /home/mahdi/.gradle/caches/transforms-4/52e578ce6eafdab05699707dd0728003/transformed/lifecycle-livedata-core-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] /home/mahdi/.gradle/caches/transforms-4/e83090aae0c997c79c287ad38a391bfc/transformed/lifecycle-runtime-2.6.2/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] /home/mahdi/.gradle/caches/transforms-4/07f33d61acfc4ebabd7b15629c062e53/transformed/lifecycle-viewmodel-savedstate-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.13.1] /home/mahdi/.gradle/caches/transforms-4/14525b76d53b721e4e33ec4ff5f4ceaa/transformed/core-ktx-1.13.1/AndroidManifest.xml:2:1-7:12
+MERGED from [com.bugsnag:bugsnag-android:6.5.0] /home/mahdi/.gradle/caches/transforms-4/53620d67a1929cf90d55ebb0a8ab6908/transformed/bugsnag-android-6.5.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.datastore:datastore-preferences-android:1.1.1] /home/mahdi/.gradle/caches/transforms-4/fa3c5239e3dd11b8d584c4d4d05dd1f7/transformed/datastore-preferences-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.datastore:datastore-android:1.1.1] /home/mahdi/.gradle/caches/transforms-4/3d91b3f96a68d19a561deb359c891909/transformed/datastore-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.datastore:datastore-core-android:1.1.1] /home/mahdi/.gradle/caches/transforms-4/efde6093e8df5542ec1c8d52f5304b96/transformed/datastore-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [com.bugsnag:bugsnag-plugin-android-anr:6.5.0] /home/mahdi/.gradle/caches/transforms-4/f73db34ce54cfc1904bb58a8e49fd226/transformed/bugsnag-plugin-android-anr-6.5.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.bugsnag:bugsnag-plugin-android-ndk:6.5.0] /home/mahdi/.gradle/caches/transforms-4/97003fff3588caaec816cd5b337b37bd/transformed/bugsnag-plugin-android-ndk-6.5.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.bugsnag:bugsnag-android-core:6.5.0] /home/mahdi/.gradle/caches/transforms-4/2847f5eee16c96b0b5c0ccfc355fd89e/transformed/bugsnag-android-core-6.5.0/AndroidManifest.xml:2:1-19:12
+MERGED from [androidx.room:room-paging:2.6.1] /home/mahdi/.gradle/caches/transforms-4/c22c5fc61911f488bc9e8939e373951d/transformed/room-paging-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.room:room-ktx:2.6.1] /home/mahdi/.gradle/caches/transforms-4/517bd6f2d5ba7f877dc05c567619e4f0/transformed/room-ktx-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.room:room-runtime:2.6.1] /home/mahdi/.gradle/caches/transforms-4/f46d6b91ec6ff3810c649dc7b4cfd1a8/transformed/room-runtime-2.6.1/AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /home/mahdi/.gradle/caches/transforms-4/591b4692672ef7f7e409f3cd56b184d3/transformed/annotation-experimental-1.4.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/mahdi/.gradle/caches/transforms-4/a69b098f23c67b1716abc9a5229c0a44/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.6.6] /home/mahdi/.gradle/caches/transforms-4/6db6746033438c85ecb9d60890b7410c/transformed/runtime-saveable-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-android:1.6.6] /home/mahdi/.gradle/caches/transforms-4/4ca407a619f729c36b880a972241efd5/transformed/runtime-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] /home/mahdi/.gradle/caches/transforms-4/0300561a4178077e31ee6ff3272927a4/transformed/sqlite-framework-2.4.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite:2.4.0] /home/mahdi/.gradle/caches/transforms-4/5d3089ff6ddd9e74c1bb8f0ddd4142dd/transformed/sqlite-2.4.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/mahdi/.gradle/caches/transforms-4/275395a61126d5a2ef6eba940a57a981/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /home/mahdi/.gradle/caches/transforms-4/cf330f788ae597554acc8a1cca782b69/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/6263df362929879eb1798b3bc932d1fa/transformed/profileinstaller-1.3.1/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/mahdi/.gradle/caches/transforms-4/76c07afd7a97d73ecbc775a46e1cda01/transformed/startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /home/mahdi/.gradle/caches/transforms-4/e3cb1a6abd3c5fef1acf17373625b00a/transformed/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/mahdi/.gradle/caches/transforms-4/32be54690a24fce7336f78f7f6baf6a3/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/mahdi/.gradle/caches/transforms-4/1fb0f65efe59af77e25711aa04e5399a/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/mahdi/.gradle/caches/transforms-4/d8a980480d3535b3263610ec06817fe9/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/mahdi/.gradle/caches/transforms-4/2a3168aa9596e325134eb62e5db59015/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/mahdi/.gradle/caches/transforms-4/461a575cfc86314ab13756140444196b/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/25cb94ea9784bec22a9fc6579d9bc0bc/transformed/myket-billing-client-1.7/AndroidManifest.xml:2:1-48:12
 	package
 		ADDED from /home/mahdi/w/android/StudyWithMe/app/src/main/AndroidManifest.xml:4:5-40
 		INJECTED from /home/mahdi/w/android/StudyWithMe/app/src/main/AndroidManifest.xml
@@ -105,8 +105,8 @@ MERGED from [:user-data] /home/mahdi/w/android/StudyWithMe/user-data/build/inter
 MERGED from [:user-data] /home/mahdi/w/android/StudyWithMe/user-data/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:7:5-67
 MERGED from [:core] /home/mahdi/w/android/StudyWithMe/core/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:7:5-67
 MERGED from [:core] /home/mahdi/w/android/StudyWithMe/core/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:7:5-67
-MERGED from [com.bugsnag:bugsnag-android-core:6.5.0] /home/mahdi/.gradle/caches/transforms-4/aec383e02fa888e893d6abe2a49709f3/transformed/bugsnag-android-core-6.5.0/AndroidManifest.xml:8:5-67
-MERGED from [com.bugsnag:bugsnag-android-core:6.5.0] /home/mahdi/.gradle/caches/transforms-4/aec383e02fa888e893d6abe2a49709f3/transformed/bugsnag-android-core-6.5.0/AndroidManifest.xml:8:5-67
+MERGED from [com.bugsnag:bugsnag-android-core:6.5.0] /home/mahdi/.gradle/caches/transforms-4/2847f5eee16c96b0b5c0ccfc355fd89e/transformed/bugsnag-android-core-6.5.0/AndroidManifest.xml:8:5-67
+MERGED from [com.bugsnag:bugsnag-android-core:6.5.0] /home/mahdi/.gradle/caches/transforms-4/2847f5eee16c96b0b5c0ccfc355fd89e/transformed/bugsnag-android-core-6.5.0/AndroidManifest.xml:8:5-67
 	android:name
 		ADDED from /home/mahdi/w/android/StudyWithMe/app/src/main/AndroidManifest.xml:6:22-64
 uses-permission#android.permission.POST_NOTIFICATIONS
@@ -119,7 +119,7 @@ ADDED from /home/mahdi/w/android/StudyWithMe/app/src/main/AndroidManifest.xml:8:
 		ADDED from /home/mahdi/w/android/StudyWithMe/app/src/main/AndroidManifest.xml:8:22-74
 uses-permission#ir.mservices.market.BILLING
 ADDED from /home/mahdi/w/android/StudyWithMe/app/src/main/AndroidManifest.xml:9:5-67
-MERGED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/a757ebdd7492fe0be9bff62bb1019773/transformed/myket-billing-client-1.7/AndroidManifest.xml:9:5-59
+MERGED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/25cb94ea9784bec22a9fc6579d9bc0bc/transformed/myket-billing-client-1.7/AndroidManifest.xml:9:5-59
 	android:name
 		ADDED from /home/mahdi/w/android/StudyWithMe/app/src/main/AndroidManifest.xml:9:22-64
 application
@@ -127,32 +127,32 @@ ADDED from /home/mahdi/w/android/StudyWithMe/app/src/main/AndroidManifest.xml:11
 INJECTED from /home/mahdi/w/android/StudyWithMe/app/src/main/AndroidManifest.xml:11:5-58:19
 MERGED from [:user-data] /home/mahdi/w/android/StudyWithMe/user-data/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:9:5-81
 MERGED from [:user-data] /home/mahdi/w/android/StudyWithMe/user-data/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:9:5-81
-MERGED from [com.google.android.material:material:1.12.0] /home/mahdi/.gradle/caches/transforms-4/13f99fd5a3c56d88aed339e59798ba3f/transformed/material-1.12.0/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.material:material:1.12.0] /home/mahdi/.gradle/caches/transforms-4/13f99fd5a3c56d88aed339e59798ba3f/transformed/material-1.12.0/AndroidManifest.xml:22:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/mahdi/.gradle/caches/transforms-4/f1a3b5951c380de48429be8a76112e3d/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/mahdi/.gradle/caches/transforms-4/f1a3b5951c380de48429be8a76112e3d/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
-MERGED from [androidx.emoji2:emoji2:1.3.0] /home/mahdi/.gradle/caches/transforms-4/d9fe1cef82e8514a189fc0745051173d/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
-MERGED from [androidx.emoji2:emoji2:1.3.0] /home/mahdi/.gradle/caches/transforms-4/d9fe1cef82e8514a189fc0745051173d/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
-MERGED from [androidx.core:core:1.13.1] /home/mahdi/.gradle/caches/transforms-4/a7803d77b345a5dd8a44341f36777cac/transformed/core-1.13.1/AndroidManifest.xml:28:5-89
-MERGED from [androidx.core:core:1.13.1] /home/mahdi/.gradle/caches/transforms-4/a7803d77b345a5dd8a44341f36777cac/transformed/core-1.13.1/AndroidManifest.xml:28:5-89
-MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /home/mahdi/.gradle/caches/transforms-4/c35e0415aa5a54f708f1726bb4dec6b6/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:23:5-33:19
-MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /home/mahdi/.gradle/caches/transforms-4/c35e0415aa5a54f708f1726bb4dec6b6/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:23:5-33:19
-MERGED from [com.bugsnag:bugsnag-android-core:6.5.0] /home/mahdi/.gradle/caches/transforms-4/aec383e02fa888e893d6abe2a49709f3/transformed/bugsnag-android-core-6.5.0/AndroidManifest.xml:11:5-17:19
-MERGED from [com.bugsnag:bugsnag-android-core:6.5.0] /home/mahdi/.gradle/caches/transforms-4/aec383e02fa888e893d6abe2a49709f3/transformed/bugsnag-android-core-6.5.0/AndroidManifest.xml:11:5-17:19
-MERGED from [androidx.room:room-runtime:2.6.1] /home/mahdi/.gradle/caches/transforms-4/cc2d1789b0184bb33b352bda983f700c/transformed/room-runtime-2.6.1/AndroidManifest.xml:23:5-29:19
-MERGED from [androidx.room:room-runtime:2.6.1] /home/mahdi/.gradle/caches/transforms-4/cc2d1789b0184bb33b352bda983f700c/transformed/room-runtime-2.6.1/AndroidManifest.xml:23:5-29:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/mahdi/.gradle/caches/transforms-4/0b6fab192eb283f0fc2b5393eca8f5f0/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/mahdi/.gradle/caches/transforms-4/0b6fab192eb283f0fc2b5393eca8f5f0/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/d5c646a2bf8a243a25e56be43289d72a/transformed/profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/d5c646a2bf8a243a25e56be43289d72a/transformed/profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
-MERGED from [androidx.startup:startup-runtime:1.1.1] /home/mahdi/.gradle/caches/transforms-4/34dfb35fcb5fc7824d50827b5c521f35/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
-MERGED from [androidx.startup:startup-runtime:1.1.1] /home/mahdi/.gradle/caches/transforms-4/34dfb35fcb5fc7824d50827b5c521f35/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
-MERGED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/a757ebdd7492fe0be9bff62bb1019773/transformed/myket-billing-client-1.7/AndroidManifest.xml:21:5-46:19
-MERGED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/a757ebdd7492fe0be9bff62bb1019773/transformed/myket-billing-client-1.7/AndroidManifest.xml:21:5-46:19
+MERGED from [com.google.android.material:material:1.12.0] /home/mahdi/.gradle/caches/transforms-4/f6f56747f455a5a8de47c476cf9cddd5/transformed/material-1.12.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.12.0] /home/mahdi/.gradle/caches/transforms-4/f6f56747f455a5a8de47c476cf9cddd5/transformed/material-1.12.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/mahdi/.gradle/caches/transforms-4/915046c8f956576883758973f2ede55c/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/mahdi/.gradle/caches/transforms-4/915046c8f956576883758973f2ede55c/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/mahdi/.gradle/caches/transforms-4/f2e387c71d99e140aa9bfad9e6c29f67/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/mahdi/.gradle/caches/transforms-4/f2e387c71d99e140aa9bfad9e6c29f67/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.13.1] /home/mahdi/.gradle/caches/transforms-4/285ee1e8940310167867875534681738/transformed/core-1.13.1/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.13.1] /home/mahdi/.gradle/caches/transforms-4/285ee1e8940310167867875534681738/transformed/core-1.13.1/AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /home/mahdi/.gradle/caches/transforms-4/95f51edf3ff15a9a0eb1065b3ec1f56c/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /home/mahdi/.gradle/caches/transforms-4/95f51edf3ff15a9a0eb1065b3ec1f56c/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:23:5-33:19
+MERGED from [com.bugsnag:bugsnag-android-core:6.5.0] /home/mahdi/.gradle/caches/transforms-4/2847f5eee16c96b0b5c0ccfc355fd89e/transformed/bugsnag-android-core-6.5.0/AndroidManifest.xml:11:5-17:19
+MERGED from [com.bugsnag:bugsnag-android-core:6.5.0] /home/mahdi/.gradle/caches/transforms-4/2847f5eee16c96b0b5c0ccfc355fd89e/transformed/bugsnag-android-core-6.5.0/AndroidManifest.xml:11:5-17:19
+MERGED from [androidx.room:room-runtime:2.6.1] /home/mahdi/.gradle/caches/transforms-4/f46d6b91ec6ff3810c649dc7b4cfd1a8/transformed/room-runtime-2.6.1/AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.room:room-runtime:2.6.1] /home/mahdi/.gradle/caches/transforms-4/f46d6b91ec6ff3810c649dc7b4cfd1a8/transformed/room-runtime-2.6.1/AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/mahdi/.gradle/caches/transforms-4/a69b098f23c67b1716abc9a5229c0a44/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/mahdi/.gradle/caches/transforms-4/a69b098f23c67b1716abc9a5229c0a44/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/6263df362929879eb1798b3bc932d1fa/transformed/profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/6263df362929879eb1798b3bc932d1fa/transformed/profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/mahdi/.gradle/caches/transforms-4/76c07afd7a97d73ecbc775a46e1cda01/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/mahdi/.gradle/caches/transforms-4/76c07afd7a97d73ecbc775a46e1cda01/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/25cb94ea9784bec22a9fc6579d9bc0bc/transformed/myket-billing-client-1.7/AndroidManifest.xml:21:5-46:19
+MERGED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/25cb94ea9784bec22a9fc6579d9bc0bc/transformed/myket-billing-client-1.7/AndroidManifest.xml:21:5-46:19
 	android:extractNativeLibs
 		INJECTED from /home/mahdi/w/android/StudyWithMe/app/src/main/AndroidManifest.xml
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.13.1] /home/mahdi/.gradle/caches/transforms-4/a7803d77b345a5dd8a44341f36777cac/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+		ADDED from [androidx.core:core:1.13.1] /home/mahdi/.gradle/caches/transforms-4/285ee1e8940310167867875534681738/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
 	android:supportsRtl
 		ADDED from /home/mahdi/w/android/StudyWithMe/app/src/main/AndroidManifest.xml:20:9-35
 	android:label
@@ -247,389 +247,389 @@ MERGED from [:core] /home/mahdi/w/android/StudyWithMe/core/build/intermediates/m
 MERGED from [:core] /home/mahdi/w/android/StudyWithMe/core/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
 MERGED from [:home-datastore] /home/mahdi/w/android/StudyWithMe/home-datastore/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
 MERGED from [:home-datastore] /home/mahdi/w/android/StudyWithMe/home-datastore/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
-MERGED from [androidx.databinding:viewbinding:8.4.1] /home/mahdi/.gradle/caches/transforms-4/8f7a62df9c81879a1d67fd1bbcead2d5/transformed/viewbinding-8.4.1/AndroidManifest.xml:5:5-44
-MERGED from [androidx.databinding:viewbinding:8.4.1] /home/mahdi/.gradle/caches/transforms-4/8f7a62df9c81879a1d67fd1bbcead2d5/transformed/viewbinding-8.4.1/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.material:material:1.12.0] /home/mahdi/.gradle/caches/transforms-4/13f99fd5a3c56d88aed339e59798ba3f/transformed/material-1.12.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.material:material:1.12.0] /home/mahdi/.gradle/caches/transforms-4/13f99fd5a3c56d88aed339e59798ba3f/transformed/material-1.12.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/mahdi/.gradle/caches/transforms-4/f1a3b5951c380de48429be8a76112e3d/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/mahdi/.gradle/caches/transforms-4/f1a3b5951c380de48429be8a76112e3d/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /home/mahdi/.gradle/caches/transforms-4/827de6bdc202f5799c0098e43c17da2f/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /home/mahdi/.gradle/caches/transforms-4/827de6bdc202f5799c0098e43c17da2f/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.appcompat:appcompat:1.6.1] /home/mahdi/.gradle/caches/transforms-4/18a5e950874fd70ef1b5c470363eb99a/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.appcompat:appcompat:1.6.1] /home/mahdi/.gradle/caches/transforms-4/18a5e950874fd70ef1b5c470363eb99a/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/mahdi/.gradle/caches/transforms-4/dc55a7d01bb151a06e7ad07de306f041/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/mahdi/.gradle/caches/transforms-4/dc55a7d01bb151a06e7ad07de306f041/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.3.6] /home/mahdi/.gradle/caches/transforms-4/1dd73d3b5384737e3d76a1cbe185f912/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.3.6] /home/mahdi/.gradle/caches/transforms-4/1dd73d3b5384737e3d76a1cbe185f912/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.compose.material3:material3-android:1.2.1] /home/mahdi/.gradle/caches/transforms-4/3ac19da54421e327e762a9b201ffa189/transformed/material3-release/AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.material3:material3-android:1.2.1] /home/mahdi/.gradle/caches/transforms-4/3ac19da54421e327e762a9b201ffa189/transformed/material3-release/AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity-compose:1.9.0] /home/mahdi/.gradle/caches/transforms-4/7a5107d1c0dbea2327aa996c7f804da0/transformed/activity-compose-1.9.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.activity:activity-compose:1.9.0] /home/mahdi/.gradle/caches/transforms-4/7a5107d1c0dbea2327aa996c7f804da0/transformed/activity-compose-1.9.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.activity:activity:1.9.0] /home/mahdi/.gradle/caches/transforms-4/34e66f940305421c3f166ac3250a65c6/transformed/activity-1.9.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity:1.9.0] /home/mahdi/.gradle/caches/transforms-4/34e66f940305421c3f166ac3250a65c6/transformed/activity-1.9.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.material:material-ripple-android:1.6.6] /home/mahdi/.gradle/caches/transforms-4/9ade74dec6009afb3b2925c8b99c4d32/transformed/material-ripple-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.material:material-ripple-android:1.6.6] /home/mahdi/.gradle/caches/transforms-4/9ade74dec6009afb3b2925c8b99c4d32/transformed/material-ripple-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.material:material-icons-core-android:1.6.6] /home/mahdi/.gradle/caches/transforms-4/c142fd1b6ce298c28003b7ba361616c4/transformed/material-icons-core-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.material:material-icons-core-android:1.6.6] /home/mahdi/.gradle/caches/transforms-4/c142fd1b6ce298c28003b7ba361616c4/transformed/material-icons-core-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.material:material-android:1.6.6] /home/mahdi/.gradle/caches/transforms-4/7434104f8ea8c926b3d7ef798b61f414/transformed/material-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.material:material-android:1.6.6] /home/mahdi/.gradle/caches/transforms-4/7434104f8ea8c926b3d7ef798b61f414/transformed/material-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.foundation:foundation-android:1.6.6] /home/mahdi/.gradle/caches/transforms-4/75cd16732e4756063141d749f5fc9d97/transformed/foundation-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.foundation:foundation-android:1.6.6] /home/mahdi/.gradle/caches/transforms-4/75cd16732e4756063141d749f5fc9d97/transformed/foundation-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.animation:animation-android:1.6.6] /home/mahdi/.gradle/caches/transforms-4/71d3a266e4996d444106cd977f2c20f1/transformed/animation-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.animation:animation-android:1.6.6] /home/mahdi/.gradle/caches/transforms-4/71d3a266e4996d444106cd977f2c20f1/transformed/animation-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.foundation:foundation-layout-android:1.6.6] /home/mahdi/.gradle/caches/transforms-4/d3aa2059af791d624ddd673c54e1a8ba/transformed/foundation-layout-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.foundation:foundation-layout-android:1.6.6] /home/mahdi/.gradle/caches/transforms-4/d3aa2059af791d624ddd673c54e1a8ba/transformed/foundation-layout-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.animation:animation-core-android:1.6.6] /home/mahdi/.gradle/caches/transforms-4/bd6d7cefc5ccde410e3e4c6e6ef617b5/transformed/animation-core-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.animation:animation-core-android:1.6.6] /home/mahdi/.gradle/caches/transforms-4/bd6d7cefc5ccde410e3e4c6e6ef617b5/transformed/animation-core-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-unit-android:1.6.6] /home/mahdi/.gradle/caches/transforms-4/8dacd4a252edfb64ea797e94c9062c93/transformed/ui-unit-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-unit-android:1.6.6] /home/mahdi/.gradle/caches/transforms-4/8dacd4a252edfb64ea797e94c9062c93/transformed/ui-unit-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-geometry-android:1.6.6] /home/mahdi/.gradle/caches/transforms-4/642968b3ca4cbbeef4e472ed5430cf20/transformed/ui-geometry-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-geometry-android:1.6.6] /home/mahdi/.gradle/caches/transforms-4/642968b3ca4cbbeef4e472ed5430cf20/transformed/ui-geometry-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-util-android:1.6.6] /home/mahdi/.gradle/caches/transforms-4/5277ae971c8481599ddcf28f6a62d588/transformed/ui-util-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-util-android:1.6.6] /home/mahdi/.gradle/caches/transforms-4/5277ae971c8481599ddcf28f6a62d588/transformed/ui-util-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-text-android:1.6.6] /home/mahdi/.gradle/caches/transforms-4/e815836fb664fa7a9a51231248eb843b/transformed/ui-text-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-text-android:1.6.6] /home/mahdi/.gradle/caches/transforms-4/e815836fb664fa7a9a51231248eb843b/transformed/ui-text-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-graphics-android:1.6.6] /home/mahdi/.gradle/caches/transforms-4/e8adc056adda8f5cfbc0e13b6dd31bae/transformed/ui-graphics-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-graphics-android:1.6.6] /home/mahdi/.gradle/caches/transforms-4/e8adc056adda8f5cfbc0e13b6dd31bae/transformed/ui-graphics-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.6.6] /home/mahdi/.gradle/caches/transforms-4/c6590cddd75fc2a55186fa1248ff17f1/transformed/ui-tooling-preview-release/AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.6.6] /home/mahdi/.gradle/caches/transforms-4/c6590cddd75fc2a55186fa1248ff17f1/transformed/ui-tooling-preview-release/AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.ui:ui-android:1.6.6] /home/mahdi/.gradle/caches/transforms-4/216d74b3a39f8a0472322ddadd3f031f/transformed/ui-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-android:1.6.6] /home/mahdi/.gradle/caches/transforms-4/216d74b3a39f8a0472322ddadd3f031f/transformed/ui-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.activity:activity-ktx:1.9.0] /home/mahdi/.gradle/caches/transforms-4/8737e2c474625fd79c64276ebb95f686/transformed/activity-ktx-1.9.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.activity:activity-ktx:1.9.0] /home/mahdi/.gradle/caches/transforms-4/8737e2c474625fd79c64276ebb95f686/transformed/activity-ktx-1.9.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/mahdi/.gradle/caches/transforms-4/0a5b4e2706b5d9dc2963b592873f1452/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/mahdi/.gradle/caches/transforms-4/0a5b4e2706b5d9dc2963b592873f1452/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/mahdi/.gradle/caches/transforms-4/5563cce05ad4c3bdd269aa906af480ee/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/mahdi/.gradle/caches/transforms-4/5563cce05ad4c3bdd269aa906af480ee/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.transition:transition:1.5.0] /home/mahdi/.gradle/caches/transforms-4/4c214f9b53cd69bbd57d639b7344e272/transformed/transition-1.5.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.transition:transition:1.5.0] /home/mahdi/.gradle/caches/transforms-4/4c214f9b53cd69bbd57d639b7344e272/transformed/transition-1.5.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/mahdi/.gradle/caches/transforms-4/3eab078ca249edeb4fe469b6740ca7ff/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/mahdi/.gradle/caches/transforms-4/3eab078ca249edeb4fe469b6740ca7ff/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/mahdi/.gradle/caches/transforms-4/0753ec80a808f7b9d4fa9380ddc7ed62/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/mahdi/.gradle/caches/transforms-4/0753ec80a808f7b9d4fa9380ddc7ed62/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/mahdi/.gradle/caches/transforms-4/2061feec41d155b432c04f7d5e84db0f/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/mahdi/.gradle/caches/transforms-4/2061feec41d155b432c04f7d5e84db0f/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager:viewpager:1.0.0] /home/mahdi/.gradle/caches/transforms-4/5c9bfda73bc04f4904a9c5abd4d01df3/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] /home/mahdi/.gradle/caches/transforms-4/5c9bfda73bc04f4904a9c5abd4d01df3/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/mahdi/.gradle/caches/transforms-4/b37725a54983e4fbfa2d16221d501c64/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/mahdi/.gradle/caches/transforms-4/b37725a54983e4fbfa2d16221d501c64/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /home/mahdi/.gradle/caches/transforms-4/5d5ef5e9517a28fb218d4ae60aeca929/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /home/mahdi/.gradle/caches/transforms-4/5d5ef5e9517a28fb218d4ae60aeca929/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/mahdi/.gradle/caches/transforms-4/8c476cc931bcf0267dbcbc52bb3c757b/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/mahdi/.gradle/caches/transforms-4/8c476cc931bcf0267dbcbc52bb3c757b/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.customview:customview:1.1.0] /home/mahdi/.gradle/caches/transforms-4/514dc23bdd4b199a2c309e617e5df8f7/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.customview:customview:1.1.0] /home/mahdi/.gradle/caches/transforms-4/514dc23bdd4b199a2c309e617e5df8f7/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.autofill:autofill:1.0.0] /home/mahdi/.gradle/caches/transforms-4/d44dad85349e99494a39504fc471afac/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.autofill:autofill:1.0.0] /home/mahdi/.gradle/caches/transforms-4/d44dad85349e99494a39504fc471afac/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /home/mahdi/.gradle/caches/transforms-4/5e791c991b69028c6b3e993ff5af54da/transformed/emoji2-views-helper-1.3.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /home/mahdi/.gradle/caches/transforms-4/5e791c991b69028c6b3e993ff5af54da/transformed/emoji2-views-helper-1.3.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.emoji2:emoji2:1.3.0] /home/mahdi/.gradle/caches/transforms-4/d9fe1cef82e8514a189fc0745051173d/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
-MERGED from [androidx.emoji2:emoji2:1.3.0] /home/mahdi/.gradle/caches/transforms-4/d9fe1cef82e8514a189fc0745051173d/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
-MERGED from [androidx.core:core:1.13.1] /home/mahdi/.gradle/caches/transforms-4/a7803d77b345a5dd8a44341f36777cac/transformed/core-1.13.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.13.1] /home/mahdi/.gradle/caches/transforms-4/a7803d77b345a5dd8a44341f36777cac/transformed/core-1.13.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /home/mahdi/.gradle/caches/transforms-4/dc469e58fe2526d51dab3ff78042f29c/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
-MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /home/mahdi/.gradle/caches/transforms-4/dc469e58fe2526d51dab3ff78042f29c/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
-MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /home/mahdi/.gradle/caches/transforms-4/32dad410896b971cf293e13cfe9cdab6/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /home/mahdi/.gradle/caches/transforms-4/32dad410896b971cf293e13cfe9cdab6/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate:1.2.1] /home/mahdi/.gradle/caches/transforms-4/c61afa4df79b6c7e16c4d73cc2783059/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate:1.2.1] /home/mahdi/.gradle/caches/transforms-4/c61afa4df79b6c7e16c4d73cc2783059/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /home/mahdi/.gradle/caches/transforms-4/c35e0415aa5a54f708f1726bb4dec6b6/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:21:5-44
-MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /home/mahdi/.gradle/caches/transforms-4/c35e0415aa5a54f708f1726bb4dec6b6/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:21:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.2] /home/mahdi/.gradle/caches/transforms-4/211d9d03a11866e3d6f16c41f8347c79/transformed/lifecycle-livedata-core-ktx-2.6.2/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.2] /home/mahdi/.gradle/caches/transforms-4/211d9d03a11866e3d6f16c41f8347c79/transformed/lifecycle-livedata-core-ktx-2.6.2/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] /home/mahdi/.gradle/caches/transforms-4/0188086e06e4651db4b0988355f11764/transformed/lifecycle-livedata-2.6.2/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] /home/mahdi/.gradle/caches/transforms-4/0188086e06e4651db4b0988355f11764/transformed/lifecycle-livedata-2.6.2/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] /home/mahdi/.gradle/caches/transforms-4/8c1064299cb313e9f6dae01a78b2af39/transformed/lifecycle-viewmodel-ktx-2.6.2/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] /home/mahdi/.gradle/caches/transforms-4/8c1064299cb313e9f6dae01a78b2af39/transformed/lifecycle-viewmodel-ktx-2.6.2/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] /home/mahdi/.gradle/caches/transforms-4/d6b397e530b0529d2cb20f7db83cc29b/transformed/lifecycle-viewmodel-2.6.2/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] /home/mahdi/.gradle/caches/transforms-4/d6b397e530b0529d2cb20f7db83cc29b/transformed/lifecycle-viewmodel-2.6.2/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] /home/mahdi/.gradle/caches/transforms-4/e18792c6f31addd2192020cff5bf8b16/transformed/lifecycle-runtime-ktx-2.6.2/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] /home/mahdi/.gradle/caches/transforms-4/e18792c6f31addd2192020cff5bf8b16/transformed/lifecycle-runtime-ktx-2.6.2/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.6.2] /home/mahdi/.gradle/caches/transforms-4/e64da87dd3c49222774ce605025a3e00/transformed/lifecycle-livedata-ktx-2.6.2/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.6.2] /home/mahdi/.gradle/caches/transforms-4/e64da87dd3c49222774ce605025a3e00/transformed/lifecycle-livedata-ktx-2.6.2/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] /home/mahdi/.gradle/caches/transforms-4/7788521e6014460811f3a58a5c8459b7/transformed/lifecycle-livedata-core-2.6.2/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] /home/mahdi/.gradle/caches/transforms-4/7788521e6014460811f3a58a5c8459b7/transformed/lifecycle-livedata-core-2.6.2/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] /home/mahdi/.gradle/caches/transforms-4/b87dfd6449c736341e120eb3351f1e24/transformed/lifecycle-runtime-2.6.2/AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] /home/mahdi/.gradle/caches/transforms-4/b87dfd6449c736341e120eb3351f1e24/transformed/lifecycle-runtime-2.6.2/AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] /home/mahdi/.gradle/caches/transforms-4/555ce4f4cddda293c198b04a1b5d02c1/transformed/lifecycle-viewmodel-savedstate-2.6.2/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] /home/mahdi/.gradle/caches/transforms-4/555ce4f4cddda293c198b04a1b5d02c1/transformed/lifecycle-viewmodel-savedstate-2.6.2/AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core-ktx:1.13.1] /home/mahdi/.gradle/caches/transforms-4/e27d918f6ff0cef47a310fc29e2a01ad/transformed/core-ktx-1.13.1/AndroidManifest.xml:5:5-44
-MERGED from [androidx.core:core-ktx:1.13.1] /home/mahdi/.gradle/caches/transforms-4/e27d918f6ff0cef47a310fc29e2a01ad/transformed/core-ktx-1.13.1/AndroidManifest.xml:5:5-44
-MERGED from [com.bugsnag:bugsnag-android:6.5.0] /home/mahdi/.gradle/caches/transforms-4/ad2745ee051fcf50bfb1517ea2b2be67/transformed/bugsnag-android-6.5.0/AndroidManifest.xml:5:5-44
-MERGED from [com.bugsnag:bugsnag-android:6.5.0] /home/mahdi/.gradle/caches/transforms-4/ad2745ee051fcf50bfb1517ea2b2be67/transformed/bugsnag-android-6.5.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.datastore:datastore-preferences-android:1.1.1] /home/mahdi/.gradle/caches/transforms-4/12160aaefc4013b7186c50cfbe45e50e/transformed/datastore-preferences-release/AndroidManifest.xml:20:5-44
-MERGED from [androidx.datastore:datastore-preferences-android:1.1.1] /home/mahdi/.gradle/caches/transforms-4/12160aaefc4013b7186c50cfbe45e50e/transformed/datastore-preferences-release/AndroidManifest.xml:20:5-44
-MERGED from [androidx.datastore:datastore-android:1.1.1] /home/mahdi/.gradle/caches/transforms-4/b13bef9489a18c85bb570610eaf5b695/transformed/datastore-release/AndroidManifest.xml:20:5-44
-MERGED from [androidx.datastore:datastore-android:1.1.1] /home/mahdi/.gradle/caches/transforms-4/b13bef9489a18c85bb570610eaf5b695/transformed/datastore-release/AndroidManifest.xml:20:5-44
-MERGED from [androidx.datastore:datastore-core-android:1.1.1] /home/mahdi/.gradle/caches/transforms-4/8261a7263442340af16e7c965adfcace/transformed/datastore-core-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.datastore:datastore-core-android:1.1.1] /home/mahdi/.gradle/caches/transforms-4/8261a7263442340af16e7c965adfcace/transformed/datastore-core-release/AndroidManifest.xml:5:5-44
-MERGED from [com.bugsnag:bugsnag-plugin-android-anr:6.5.0] /home/mahdi/.gradle/caches/transforms-4/e1b0d18574162189266fee2f30d1258d/transformed/bugsnag-plugin-android-anr-6.5.0/AndroidManifest.xml:5:5-44
-MERGED from [com.bugsnag:bugsnag-plugin-android-anr:6.5.0] /home/mahdi/.gradle/caches/transforms-4/e1b0d18574162189266fee2f30d1258d/transformed/bugsnag-plugin-android-anr-6.5.0/AndroidManifest.xml:5:5-44
-MERGED from [com.bugsnag:bugsnag-plugin-android-ndk:6.5.0] /home/mahdi/.gradle/caches/transforms-4/91108328f2ec1ee8a0be1279921652b9/transformed/bugsnag-plugin-android-ndk-6.5.0/AndroidManifest.xml:5:5-44
-MERGED from [com.bugsnag:bugsnag-plugin-android-ndk:6.5.0] /home/mahdi/.gradle/caches/transforms-4/91108328f2ec1ee8a0be1279921652b9/transformed/bugsnag-plugin-android-ndk-6.5.0/AndroidManifest.xml:5:5-44
-MERGED from [com.bugsnag:bugsnag-android-core:6.5.0] /home/mahdi/.gradle/caches/transforms-4/aec383e02fa888e893d6abe2a49709f3/transformed/bugsnag-android-core-6.5.0/AndroidManifest.xml:5:5-44
-MERGED from [com.bugsnag:bugsnag-android-core:6.5.0] /home/mahdi/.gradle/caches/transforms-4/aec383e02fa888e893d6abe2a49709f3/transformed/bugsnag-android-core-6.5.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.room:room-paging:2.6.1] /home/mahdi/.gradle/caches/transforms-4/e4c87c1c81ca5f708b2345a35c7af126/transformed/room-paging-2.6.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.room:room-paging:2.6.1] /home/mahdi/.gradle/caches/transforms-4/e4c87c1c81ca5f708b2345a35c7af126/transformed/room-paging-2.6.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.room:room-ktx:2.6.1] /home/mahdi/.gradle/caches/transforms-4/2d914a3c667f93315c6051e8263db8d8/transformed/room-ktx-2.6.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.room:room-ktx:2.6.1] /home/mahdi/.gradle/caches/transforms-4/2d914a3c667f93315c6051e8263db8d8/transformed/room-ktx-2.6.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.room:room-runtime:2.6.1] /home/mahdi/.gradle/caches/transforms-4/cc2d1789b0184bb33b352bda983f700c/transformed/room-runtime-2.6.1/AndroidManifest.xml:21:5-44
-MERGED from [androidx.room:room-runtime:2.6.1] /home/mahdi/.gradle/caches/transforms-4/cc2d1789b0184bb33b352bda983f700c/transformed/room-runtime-2.6.1/AndroidManifest.xml:21:5-44
-MERGED from [androidx.annotation:annotation-experimental:1.4.0] /home/mahdi/.gradle/caches/transforms-4/50efae8394f494f88d33ac28fa6245c3/transformed/annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.annotation:annotation-experimental:1.4.0] /home/mahdi/.gradle/caches/transforms-4/50efae8394f494f88d33ac28fa6245c3/transformed/annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/mahdi/.gradle/caches/transforms-4/0b6fab192eb283f0fc2b5393eca8f5f0/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/mahdi/.gradle/caches/transforms-4/0b6fab192eb283f0fc2b5393eca8f5f0/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.compose.runtime:runtime-saveable-android:1.6.6] /home/mahdi/.gradle/caches/transforms-4/df1a5d1fab52731c0748678482a3350d/transformed/runtime-saveable-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.runtime:runtime-saveable-android:1.6.6] /home/mahdi/.gradle/caches/transforms-4/df1a5d1fab52731c0748678482a3350d/transformed/runtime-saveable-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.runtime:runtime-android:1.6.6] /home/mahdi/.gradle/caches/transforms-4/1af6dd1b7f06082bdb0d4895db1dbd4c/transformed/runtime-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.runtime:runtime-android:1.6.6] /home/mahdi/.gradle/caches/transforms-4/1af6dd1b7f06082bdb0d4895db1dbd4c/transformed/runtime-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.sqlite:sqlite-framework:2.4.0] /home/mahdi/.gradle/caches/transforms-4/eca9bb6f03b50d49e674899e06ca6d0e/transformed/sqlite-framework-2.4.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.sqlite:sqlite-framework:2.4.0] /home/mahdi/.gradle/caches/transforms-4/eca9bb6f03b50d49e674899e06ca6d0e/transformed/sqlite-framework-2.4.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.sqlite:sqlite:2.4.0] /home/mahdi/.gradle/caches/transforms-4/e3dffcc77755d98741680e2e0a7b7d2e/transformed/sqlite-2.4.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.sqlite:sqlite:2.4.0] /home/mahdi/.gradle/caches/transforms-4/e3dffcc77755d98741680e2e0a7b7d2e/transformed/sqlite-2.4.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/mahdi/.gradle/caches/transforms-4/1b56fc0b2fb674196be24764d9eb39a3/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/mahdi/.gradle/caches/transforms-4/1b56fc0b2fb674196be24764d9eb39a3/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] /home/mahdi/.gradle/caches/transforms-4/595790b99daae4f169bab623acb847c9/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] /home/mahdi/.gradle/caches/transforms-4/595790b99daae4f169bab623acb847c9/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/d5c646a2bf8a243a25e56be43289d72a/transformed/profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/d5c646a2bf8a243a25e56be43289d72a/transformed/profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
-MERGED from [androidx.startup:startup-runtime:1.1.1] /home/mahdi/.gradle/caches/transforms-4/34dfb35fcb5fc7824d50827b5c521f35/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.startup:startup-runtime:1.1.1] /home/mahdi/.gradle/caches/transforms-4/34dfb35fcb5fc7824d50827b5c521f35/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.tracing:tracing:1.0.0] /home/mahdi/.gradle/caches/transforms-4/4b6f6f20fc018469a2f9be18d8a8d21f/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.tracing:tracing:1.0.0] /home/mahdi/.gradle/caches/transforms-4/4b6f6f20fc018469a2f9be18d8a8d21f/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.interpolator:interpolator:1.0.0] /home/mahdi/.gradle/caches/transforms-4/05bb91875ef16e5a9a5fa11bc14b4875/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /home/mahdi/.gradle/caches/transforms-4/05bb91875ef16e5a9a5fa11bc14b4875/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/mahdi/.gradle/caches/transforms-4/5f54c4d6314fd4ad5725f8eb299fa081/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/mahdi/.gradle/caches/transforms-4/5f54c4d6314fd4ad5725f8eb299fa081/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] /home/mahdi/.gradle/caches/transforms-4/a09c80dfad6f7c0a829dc64d733c99b5/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] /home/mahdi/.gradle/caches/transforms-4/a09c80dfad6f7c0a829dc64d733c99b5/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/mahdi/.gradle/caches/transforms-4/b91af3fc666866beafb75d7ad54a73a1/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/mahdi/.gradle/caches/transforms-4/b91af3fc666866beafb75d7ad54a73a1/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] /home/mahdi/.gradle/caches/transforms-4/eb573de0cd4d3de3767f5ad25402b696/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] /home/mahdi/.gradle/caches/transforms-4/eb573de0cd4d3de3767f5ad25402b696/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/a757ebdd7492fe0be9bff62bb1019773/transformed/myket-billing-client-1.7/AndroidManifest.xml:5:5-7:41
-MERGED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/a757ebdd7492fe0be9bff62bb1019773/transformed/myket-billing-client-1.7/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.databinding:viewbinding:8.4.1] /home/mahdi/.gradle/caches/transforms-4/1073ac35088d6a522b38ecdd51db95f7/transformed/viewbinding-8.4.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:viewbinding:8.4.1] /home/mahdi/.gradle/caches/transforms-4/1073ac35088d6a522b38ecdd51db95f7/transformed/viewbinding-8.4.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.material:material:1.12.0] /home/mahdi/.gradle/caches/transforms-4/f6f56747f455a5a8de47c476cf9cddd5/transformed/material-1.12.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.12.0] /home/mahdi/.gradle/caches/transforms-4/f6f56747f455a5a8de47c476cf9cddd5/transformed/material-1.12.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/mahdi/.gradle/caches/transforms-4/915046c8f956576883758973f2ede55c/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/mahdi/.gradle/caches/transforms-4/915046c8f956576883758973f2ede55c/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /home/mahdi/.gradle/caches/transforms-4/c512d2afcbbcd589204627dfdc35684f/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /home/mahdi/.gradle/caches/transforms-4/c512d2afcbbcd589204627dfdc35684f/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] /home/mahdi/.gradle/caches/transforms-4/4cfe0731be121a97aaab790aec82fa46/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] /home/mahdi/.gradle/caches/transforms-4/4cfe0731be121a97aaab790aec82fa46/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/mahdi/.gradle/caches/transforms-4/54f6a68f483c800e578e4cebb9edbdc5/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/mahdi/.gradle/caches/transforms-4/54f6a68f483c800e578e4cebb9edbdc5/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /home/mahdi/.gradle/caches/transforms-4/46c83a13019cf2af9970ce95f3717d5c/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /home/mahdi/.gradle/caches/transforms-4/46c83a13019cf2af9970ce95f3717d5c/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.material3:material3-android:1.2.1] /home/mahdi/.gradle/caches/transforms-4/86b584f1b00c6c3819593a537468c970/transformed/material3-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material3:material3-android:1.2.1] /home/mahdi/.gradle/caches/transforms-4/86b584f1b00c6c3819593a537468c970/transformed/material3-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-compose:1.9.0] /home/mahdi/.gradle/caches/transforms-4/446f105f88097ddfb528ca5920698499/transformed/activity-compose-1.9.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.9.0] /home/mahdi/.gradle/caches/transforms-4/446f105f88097ddfb528ca5920698499/transformed/activity-compose-1.9.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity:1.9.0] /home/mahdi/.gradle/caches/transforms-4/9b9bc38f5eb6b4846f2828b2c8f59607/transformed/activity-1.9.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.9.0] /home/mahdi/.gradle/caches/transforms-4/9b9bc38f5eb6b4846f2828b2c8f59607/transformed/activity-1.9.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.6.6] /home/mahdi/.gradle/caches/transforms-4/ca326a7d2db3b00b4fb6e8f049c63d0b/transformed/material-ripple-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.6.6] /home/mahdi/.gradle/caches/transforms-4/ca326a7d2db3b00b4fb6e8f049c63d0b/transformed/material-ripple-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.6] /home/mahdi/.gradle/caches/transforms-4/d76f6f8d48480519f06f9268a35a61a2/transformed/material-icons-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.6] /home/mahdi/.gradle/caches/transforms-4/d76f6f8d48480519f06f9268a35a61a2/transformed/material-icons-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-android:1.6.6] /home/mahdi/.gradle/caches/transforms-4/35d2b3ae9a5aec1d56c1eb49a91e4f8b/transformed/material-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-android:1.6.6] /home/mahdi/.gradle/caches/transforms-4/35d2b3ae9a5aec1d56c1eb49a91e4f8b/transformed/material-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.6.6] /home/mahdi/.gradle/caches/transforms-4/fd1cfd3fb3b4203ac2ce529157527d07/transformed/foundation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.6.6] /home/mahdi/.gradle/caches/transforms-4/fd1cfd3fb3b4203ac2ce529157527d07/transformed/foundation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.6.6] /home/mahdi/.gradle/caches/transforms-4/d496dc0ae2b7988134248f68362637de/transformed/animation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.6.6] /home/mahdi/.gradle/caches/transforms-4/d496dc0ae2b7988134248f68362637de/transformed/animation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.6.6] /home/mahdi/.gradle/caches/transforms-4/8c58896ed360d407e401325ee982e6d5/transformed/foundation-layout-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.6.6] /home/mahdi/.gradle/caches/transforms-4/8c58896ed360d407e401325ee982e6d5/transformed/foundation-layout-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.6.6] /home/mahdi/.gradle/caches/transforms-4/5732ef08425690d2f995ce2f716b9a86/transformed/animation-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.6.6] /home/mahdi/.gradle/caches/transforms-4/5732ef08425690d2f995ce2f716b9a86/transformed/animation-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.6.6] /home/mahdi/.gradle/caches/transforms-4/db2e83f99a42f731f58ef3457ba34d7c/transformed/ui-unit-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.6.6] /home/mahdi/.gradle/caches/transforms-4/db2e83f99a42f731f58ef3457ba34d7c/transformed/ui-unit-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.6.6] /home/mahdi/.gradle/caches/transforms-4/7614678d8e5b82d8dd8f403a2ef66469/transformed/ui-geometry-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.6.6] /home/mahdi/.gradle/caches/transforms-4/7614678d8e5b82d8dd8f403a2ef66469/transformed/ui-geometry-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.6.6] /home/mahdi/.gradle/caches/transforms-4/a86f4f90bff41da47e62147acc216dc0/transformed/ui-util-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.6.6] /home/mahdi/.gradle/caches/transforms-4/a86f4f90bff41da47e62147acc216dc0/transformed/ui-util-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.6.6] /home/mahdi/.gradle/caches/transforms-4/6187f2632dc1782c78eb82f7ec59aff2/transformed/ui-text-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.6.6] /home/mahdi/.gradle/caches/transforms-4/6187f2632dc1782c78eb82f7ec59aff2/transformed/ui-text-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.6.6] /home/mahdi/.gradle/caches/transforms-4/24a3872a24f69952d55d949e21f2f4a3/transformed/ui-graphics-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.6.6] /home/mahdi/.gradle/caches/transforms-4/24a3872a24f69952d55d949e21f2f4a3/transformed/ui-graphics-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.6.6] /home/mahdi/.gradle/caches/transforms-4/d6ffb8bbd97aec3bf8010c4d27d7559b/transformed/ui-tooling-preview-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.6.6] /home/mahdi/.gradle/caches/transforms-4/d6ffb8bbd97aec3bf8010c4d27d7559b/transformed/ui-tooling-preview-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-android:1.6.6] /home/mahdi/.gradle/caches/transforms-4/14926a7cb19631e5d97b1a47bd0534cc/transformed/ui-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.6.6] /home/mahdi/.gradle/caches/transforms-4/14926a7cb19631e5d97b1a47bd0534cc/transformed/ui-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.9.0] /home/mahdi/.gradle/caches/transforms-4/f1d833b9909d093bdf70d6b823768a08/transformed/activity-ktx-1.9.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.9.0] /home/mahdi/.gradle/caches/transforms-4/f1d833b9909d093bdf70d6b823768a08/transformed/activity-ktx-1.9.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/mahdi/.gradle/caches/transforms-4/14d8568fd71047d58ff6d7f582ef0222/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/mahdi/.gradle/caches/transforms-4/14d8568fd71047d58ff6d7f582ef0222/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/mahdi/.gradle/caches/transforms-4/c98674d7ae9e793c50d1db42501dbd22/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/mahdi/.gradle/caches/transforms-4/c98674d7ae9e793c50d1db42501dbd22/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.5.0] /home/mahdi/.gradle/caches/transforms-4/d0588ec0e021ff0210d99ae8a53820d6/transformed/transition-1.5.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.transition:transition:1.5.0] /home/mahdi/.gradle/caches/transforms-4/d0588ec0e021ff0210d99ae8a53820d6/transformed/transition-1.5.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/mahdi/.gradle/caches/transforms-4/11e2bd8cbf2c6c92fc54dcfd45e041d7/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/mahdi/.gradle/caches/transforms-4/11e2bd8cbf2c6c92fc54dcfd45e041d7/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/mahdi/.gradle/caches/transforms-4/90eca703df184ac962e8bddd8e75643a/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/mahdi/.gradle/caches/transforms-4/90eca703df184ac962e8bddd8e75643a/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/mahdi/.gradle/caches/transforms-4/5a966ecddafff226c310b6027b3bd696/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/mahdi/.gradle/caches/transforms-4/5a966ecddafff226c310b6027b3bd696/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/mahdi/.gradle/caches/transforms-4/660ce51fd04281d2b111d863ee46c213/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/mahdi/.gradle/caches/transforms-4/660ce51fd04281d2b111d863ee46c213/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/mahdi/.gradle/caches/transforms-4/295d8ccedd4eb23a02b993662e8b68ec/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/mahdi/.gradle/caches/transforms-4/295d8ccedd4eb23a02b993662e8b68ec/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/mahdi/.gradle/caches/transforms-4/4703c01f36f6298ddac9240a7486edf7/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/mahdi/.gradle/caches/transforms-4/4703c01f36f6298ddac9240a7486edf7/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/mahdi/.gradle/caches/transforms-4/b55f1c466c61168bf18ccc9aa987c2d5/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/mahdi/.gradle/caches/transforms-4/b55f1c466c61168bf18ccc9aa987c2d5/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /home/mahdi/.gradle/caches/transforms-4/4e2b4d5476b92800a725bc636eba6a6a/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /home/mahdi/.gradle/caches/transforms-4/4e2b4d5476b92800a725bc636eba6a6a/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] /home/mahdi/.gradle/caches/transforms-4/8eb4cc2584ac98918a58e6558f5b1aee/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] /home/mahdi/.gradle/caches/transforms-4/8eb4cc2584ac98918a58e6558f5b1aee/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /home/mahdi/.gradle/caches/transforms-4/ad42ee72b67f2829893c2e4010e109f4/transformed/emoji2-views-helper-1.3.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /home/mahdi/.gradle/caches/transforms-4/ad42ee72b67f2829893c2e4010e109f4/transformed/emoji2-views-helper-1.3.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/mahdi/.gradle/caches/transforms-4/f2e387c71d99e140aa9bfad9e6c29f67/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/mahdi/.gradle/caches/transforms-4/f2e387c71d99e140aa9bfad9e6c29f67/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.core:core:1.13.1] /home/mahdi/.gradle/caches/transforms-4/285ee1e8940310167867875534681738/transformed/core-1.13.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.1] /home/mahdi/.gradle/caches/transforms-4/285ee1e8940310167867875534681738/transformed/core-1.13.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /home/mahdi/.gradle/caches/transforms-4/c2b5735389f7e3cc805cf171557eabb9/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /home/mahdi/.gradle/caches/transforms-4/c2b5735389f7e3cc805cf171557eabb9/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /home/mahdi/.gradle/caches/transforms-4/c3054ee89baf2278e3b4fc1b4b81ad11/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /home/mahdi/.gradle/caches/transforms-4/c3054ee89baf2278e3b4fc1b4b81ad11/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/mahdi/.gradle/caches/transforms-4/1f95558120b7fcd7caa2451872caf86f/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/mahdi/.gradle/caches/transforms-4/1f95558120b7fcd7caa2451872caf86f/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /home/mahdi/.gradle/caches/transforms-4/95f51edf3ff15a9a0eb1065b3ec1f56c/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /home/mahdi/.gradle/caches/transforms-4/95f51edf3ff15a9a0eb1065b3ec1f56c/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.2] /home/mahdi/.gradle/caches/transforms-4/713ac1d56eed32ecf385e3752b7f105c/transformed/lifecycle-livedata-core-ktx-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.2] /home/mahdi/.gradle/caches/transforms-4/713ac1d56eed32ecf385e3752b7f105c/transformed/lifecycle-livedata-core-ktx-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] /home/mahdi/.gradle/caches/transforms-4/790c0c9323d8e4a9d42acc084641c3a6/transformed/lifecycle-livedata-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] /home/mahdi/.gradle/caches/transforms-4/790c0c9323d8e4a9d42acc084641c3a6/transformed/lifecycle-livedata-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] /home/mahdi/.gradle/caches/transforms-4/cfba0524c66d8a73cb905014f1918c49/transformed/lifecycle-viewmodel-ktx-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] /home/mahdi/.gradle/caches/transforms-4/cfba0524c66d8a73cb905014f1918c49/transformed/lifecycle-viewmodel-ktx-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] /home/mahdi/.gradle/caches/transforms-4/65e8e684b05be54511dadc2c61d01794/transformed/lifecycle-viewmodel-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] /home/mahdi/.gradle/caches/transforms-4/65e8e684b05be54511dadc2c61d01794/transformed/lifecycle-viewmodel-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] /home/mahdi/.gradle/caches/transforms-4/abb9df0c4a6550bd0fd39d005b8af9a4/transformed/lifecycle-runtime-ktx-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] /home/mahdi/.gradle/caches/transforms-4/abb9df0c4a6550bd0fd39d005b8af9a4/transformed/lifecycle-runtime-ktx-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.6.2] /home/mahdi/.gradle/caches/transforms-4/8bf6cf1596ad3a8cf3328b3d0d98f254/transformed/lifecycle-livedata-ktx-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.6.2] /home/mahdi/.gradle/caches/transforms-4/8bf6cf1596ad3a8cf3328b3d0d98f254/transformed/lifecycle-livedata-ktx-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] /home/mahdi/.gradle/caches/transforms-4/52e578ce6eafdab05699707dd0728003/transformed/lifecycle-livedata-core-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] /home/mahdi/.gradle/caches/transforms-4/52e578ce6eafdab05699707dd0728003/transformed/lifecycle-livedata-core-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] /home/mahdi/.gradle/caches/transforms-4/e83090aae0c997c79c287ad38a391bfc/transformed/lifecycle-runtime-2.6.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] /home/mahdi/.gradle/caches/transforms-4/e83090aae0c997c79c287ad38a391bfc/transformed/lifecycle-runtime-2.6.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] /home/mahdi/.gradle/caches/transforms-4/07f33d61acfc4ebabd7b15629c062e53/transformed/lifecycle-viewmodel-savedstate-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] /home/mahdi/.gradle/caches/transforms-4/07f33d61acfc4ebabd7b15629c062e53/transformed/lifecycle-viewmodel-savedstate-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] /home/mahdi/.gradle/caches/transforms-4/14525b76d53b721e4e33ec4ff5f4ceaa/transformed/core-ktx-1.13.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] /home/mahdi/.gradle/caches/transforms-4/14525b76d53b721e4e33ec4ff5f4ceaa/transformed/core-ktx-1.13.1/AndroidManifest.xml:5:5-44
+MERGED from [com.bugsnag:bugsnag-android:6.5.0] /home/mahdi/.gradle/caches/transforms-4/53620d67a1929cf90d55ebb0a8ab6908/transformed/bugsnag-android-6.5.0/AndroidManifest.xml:5:5-44
+MERGED from [com.bugsnag:bugsnag-android:6.5.0] /home/mahdi/.gradle/caches/transforms-4/53620d67a1929cf90d55ebb0a8ab6908/transformed/bugsnag-android-6.5.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.datastore:datastore-preferences-android:1.1.1] /home/mahdi/.gradle/caches/transforms-4/fa3c5239e3dd11b8d584c4d4d05dd1f7/transformed/datastore-preferences-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-preferences-android:1.1.1] /home/mahdi/.gradle/caches/transforms-4/fa3c5239e3dd11b8d584c4d4d05dd1f7/transformed/datastore-preferences-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-android:1.1.1] /home/mahdi/.gradle/caches/transforms-4/3d91b3f96a68d19a561deb359c891909/transformed/datastore-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-android:1.1.1] /home/mahdi/.gradle/caches/transforms-4/3d91b3f96a68d19a561deb359c891909/transformed/datastore-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-core-android:1.1.1] /home/mahdi/.gradle/caches/transforms-4/efde6093e8df5542ec1c8d52f5304b96/transformed/datastore-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.datastore:datastore-core-android:1.1.1] /home/mahdi/.gradle/caches/transforms-4/efde6093e8df5542ec1c8d52f5304b96/transformed/datastore-core-release/AndroidManifest.xml:5:5-44
+MERGED from [com.bugsnag:bugsnag-plugin-android-anr:6.5.0] /home/mahdi/.gradle/caches/transforms-4/f73db34ce54cfc1904bb58a8e49fd226/transformed/bugsnag-plugin-android-anr-6.5.0/AndroidManifest.xml:5:5-44
+MERGED from [com.bugsnag:bugsnag-plugin-android-anr:6.5.0] /home/mahdi/.gradle/caches/transforms-4/f73db34ce54cfc1904bb58a8e49fd226/transformed/bugsnag-plugin-android-anr-6.5.0/AndroidManifest.xml:5:5-44
+MERGED from [com.bugsnag:bugsnag-plugin-android-ndk:6.5.0] /home/mahdi/.gradle/caches/transforms-4/97003fff3588caaec816cd5b337b37bd/transformed/bugsnag-plugin-android-ndk-6.5.0/AndroidManifest.xml:5:5-44
+MERGED from [com.bugsnag:bugsnag-plugin-android-ndk:6.5.0] /home/mahdi/.gradle/caches/transforms-4/97003fff3588caaec816cd5b337b37bd/transformed/bugsnag-plugin-android-ndk-6.5.0/AndroidManifest.xml:5:5-44
+MERGED from [com.bugsnag:bugsnag-android-core:6.5.0] /home/mahdi/.gradle/caches/transforms-4/2847f5eee16c96b0b5c0ccfc355fd89e/transformed/bugsnag-android-core-6.5.0/AndroidManifest.xml:5:5-44
+MERGED from [com.bugsnag:bugsnag-android-core:6.5.0] /home/mahdi/.gradle/caches/transforms-4/2847f5eee16c96b0b5c0ccfc355fd89e/transformed/bugsnag-android-core-6.5.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.room:room-paging:2.6.1] /home/mahdi/.gradle/caches/transforms-4/c22c5fc61911f488bc9e8939e373951d/transformed/room-paging-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-paging:2.6.1] /home/mahdi/.gradle/caches/transforms-4/c22c5fc61911f488bc9e8939e373951d/transformed/room-paging-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-ktx:2.6.1] /home/mahdi/.gradle/caches/transforms-4/517bd6f2d5ba7f877dc05c567619e4f0/transformed/room-ktx-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-ktx:2.6.1] /home/mahdi/.gradle/caches/transforms-4/517bd6f2d5ba7f877dc05c567619e4f0/transformed/room-ktx-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-runtime:2.6.1] /home/mahdi/.gradle/caches/transforms-4/f46d6b91ec6ff3810c649dc7b4cfd1a8/transformed/room-runtime-2.6.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-runtime:2.6.1] /home/mahdi/.gradle/caches/transforms-4/f46d6b91ec6ff3810c649dc7b4cfd1a8/transformed/room-runtime-2.6.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /home/mahdi/.gradle/caches/transforms-4/591b4692672ef7f7e409f3cd56b184d3/transformed/annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /home/mahdi/.gradle/caches/transforms-4/591b4692672ef7f7e409f3cd56b184d3/transformed/annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/mahdi/.gradle/caches/transforms-4/a69b098f23c67b1716abc9a5229c0a44/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/mahdi/.gradle/caches/transforms-4/a69b098f23c67b1716abc9a5229c0a44/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.6.6] /home/mahdi/.gradle/caches/transforms-4/6db6746033438c85ecb9d60890b7410c/transformed/runtime-saveable-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.6.6] /home/mahdi/.gradle/caches/transforms-4/6db6746033438c85ecb9d60890b7410c/transformed/runtime-saveable-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.6.6] /home/mahdi/.gradle/caches/transforms-4/4ca407a619f729c36b880a972241efd5/transformed/runtime-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.6.6] /home/mahdi/.gradle/caches/transforms-4/4ca407a619f729c36b880a972241efd5/transformed/runtime-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] /home/mahdi/.gradle/caches/transforms-4/0300561a4178077e31ee6ff3272927a4/transformed/sqlite-framework-2.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] /home/mahdi/.gradle/caches/transforms-4/0300561a4178077e31ee6ff3272927a4/transformed/sqlite-framework-2.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.4.0] /home/mahdi/.gradle/caches/transforms-4/5d3089ff6ddd9e74c1bb8f0ddd4142dd/transformed/sqlite-2.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.4.0] /home/mahdi/.gradle/caches/transforms-4/5d3089ff6ddd9e74c1bb8f0ddd4142dd/transformed/sqlite-2.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/mahdi/.gradle/caches/transforms-4/275395a61126d5a2ef6eba940a57a981/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/mahdi/.gradle/caches/transforms-4/275395a61126d5a2ef6eba940a57a981/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/mahdi/.gradle/caches/transforms-4/cf330f788ae597554acc8a1cca782b69/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/mahdi/.gradle/caches/transforms-4/cf330f788ae597554acc8a1cca782b69/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/6263df362929879eb1798b3bc932d1fa/transformed/profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/6263df362929879eb1798b3bc932d1fa/transformed/profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/mahdi/.gradle/caches/transforms-4/76c07afd7a97d73ecbc775a46e1cda01/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/mahdi/.gradle/caches/transforms-4/76c07afd7a97d73ecbc775a46e1cda01/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/mahdi/.gradle/caches/transforms-4/e3cb1a6abd3c5fef1acf17373625b00a/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/mahdi/.gradle/caches/transforms-4/e3cb1a6abd3c5fef1acf17373625b00a/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/mahdi/.gradle/caches/transforms-4/32be54690a24fce7336f78f7f6baf6a3/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/mahdi/.gradle/caches/transforms-4/32be54690a24fce7336f78f7f6baf6a3/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/mahdi/.gradle/caches/transforms-4/1fb0f65efe59af77e25711aa04e5399a/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/mahdi/.gradle/caches/transforms-4/1fb0f65efe59af77e25711aa04e5399a/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/mahdi/.gradle/caches/transforms-4/d8a980480d3535b3263610ec06817fe9/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/mahdi/.gradle/caches/transforms-4/d8a980480d3535b3263610ec06817fe9/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/mahdi/.gradle/caches/transforms-4/2a3168aa9596e325134eb62e5db59015/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/mahdi/.gradle/caches/transforms-4/2a3168aa9596e325134eb62e5db59015/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/mahdi/.gradle/caches/transforms-4/461a575cfc86314ab13756140444196b/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/mahdi/.gradle/caches/transforms-4/461a575cfc86314ab13756140444196b/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/25cb94ea9784bec22a9fc6579d9bc0bc/transformed/myket-billing-client-1.7/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/25cb94ea9784bec22a9fc6579d9bc0bc/transformed/myket-billing-client-1.7/AndroidManifest.xml:5:5-7:41
 	android:targetSdkVersion
 		INJECTED from /home/mahdi/w/android/StudyWithMe/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
 		INJECTED from /home/mahdi/w/android/StudyWithMe/app/src/main/AndroidManifest.xml
 provider#androidx.startup.InitializationProvider
-ADDED from [androidx.emoji2:emoji2:1.3.0] /home/mahdi/.gradle/caches/transforms-4/d9fe1cef82e8514a189fc0745051173d/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /home/mahdi/.gradle/caches/transforms-4/c35e0415aa5a54f708f1726bb4dec6b6/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /home/mahdi/.gradle/caches/transforms-4/c35e0415aa5a54f708f1726bb4dec6b6/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/d5c646a2bf8a243a25e56be43289d72a/transformed/profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/d5c646a2bf8a243a25e56be43289d72a/transformed/profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.startup:startup-runtime:1.1.1] /home/mahdi/.gradle/caches/transforms-4/34dfb35fcb5fc7824d50827b5c521f35/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
-MERGED from [androidx.startup:startup-runtime:1.1.1] /home/mahdi/.gradle/caches/transforms-4/34dfb35fcb5fc7824d50827b5c521f35/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+ADDED from [androidx.emoji2:emoji2:1.3.0] /home/mahdi/.gradle/caches/transforms-4/f2e387c71d99e140aa9bfad9e6c29f67/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /home/mahdi/.gradle/caches/transforms-4/95f51edf3ff15a9a0eb1065b3ec1f56c/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /home/mahdi/.gradle/caches/transforms-4/95f51edf3ff15a9a0eb1065b3ec1f56c/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/6263df362929879eb1798b3bc932d1fa/transformed/profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/6263df362929879eb1798b3bc932d1fa/transformed/profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/mahdi/.gradle/caches/transforms-4/76c07afd7a97d73ecbc775a46e1cda01/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/mahdi/.gradle/caches/transforms-4/76c07afd7a97d73ecbc775a46e1cda01/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
 	tools:node
-		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/mahdi/.gradle/caches/transforms-4/d9fe1cef82e8514a189fc0745051173d/transformed/emoji2-1.3.0/AndroidManifest.xml:28:13-31
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/mahdi/.gradle/caches/transforms-4/f2e387c71d99e140aa9bfad9e6c29f67/transformed/emoji2-1.3.0/AndroidManifest.xml:28:13-31
 	android:authorities
-		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/mahdi/.gradle/caches/transforms-4/d9fe1cef82e8514a189fc0745051173d/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/mahdi/.gradle/caches/transforms-4/f2e387c71d99e140aa9bfad9e6c29f67/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
 	android:exported
-		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/mahdi/.gradle/caches/transforms-4/d9fe1cef82e8514a189fc0745051173d/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/mahdi/.gradle/caches/transforms-4/f2e387c71d99e140aa9bfad9e6c29f67/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
 	android:name
-		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/mahdi/.gradle/caches/transforms-4/d9fe1cef82e8514a189fc0745051173d/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/mahdi/.gradle/caches/transforms-4/f2e387c71d99e140aa9bfad9e6c29f67/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
 meta-data#androidx.emoji2.text.EmojiCompatInitializer
-ADDED from [androidx.emoji2:emoji2:1.3.0] /home/mahdi/.gradle/caches/transforms-4/d9fe1cef82e8514a189fc0745051173d/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+ADDED from [androidx.emoji2:emoji2:1.3.0] /home/mahdi/.gradle/caches/transforms-4/f2e387c71d99e140aa9bfad9e6c29f67/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
 	android:value
-		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/mahdi/.gradle/caches/transforms-4/d9fe1cef82e8514a189fc0745051173d/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/mahdi/.gradle/caches/transforms-4/f2e387c71d99e140aa9bfad9e6c29f67/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
 	android:name
-		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/mahdi/.gradle/caches/transforms-4/d9fe1cef82e8514a189fc0745051173d/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/mahdi/.gradle/caches/transforms-4/f2e387c71d99e140aa9bfad9e6c29f67/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
 permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.13.1] /home/mahdi/.gradle/caches/transforms-4/a7803d77b345a5dd8a44341f36777cac/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+ADDED from [androidx.core:core:1.13.1] /home/mahdi/.gradle/caches/transforms-4/285ee1e8940310167867875534681738/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
 	android:protectionLevel
-		ADDED from [androidx.core:core:1.13.1] /home/mahdi/.gradle/caches/transforms-4/a7803d77b345a5dd8a44341f36777cac/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+		ADDED from [androidx.core:core:1.13.1] /home/mahdi/.gradle/caches/transforms-4/285ee1e8940310167867875534681738/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
 	android:name
-		ADDED from [androidx.core:core:1.13.1] /home/mahdi/.gradle/caches/transforms-4/a7803d77b345a5dd8a44341f36777cac/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+		ADDED from [androidx.core:core:1.13.1] /home/mahdi/.gradle/caches/transforms-4/285ee1e8940310167867875534681738/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
 permission#com.m3.rahmani.studywithme.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.13.1] /home/mahdi/.gradle/caches/transforms-4/a7803d77b345a5dd8a44341f36777cac/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+ADDED from [androidx.core:core:1.13.1] /home/mahdi/.gradle/caches/transforms-4/285ee1e8940310167867875534681738/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
 	android:protectionLevel
-		ADDED from [androidx.core:core:1.13.1] /home/mahdi/.gradle/caches/transforms-4/a7803d77b345a5dd8a44341f36777cac/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+		ADDED from [androidx.core:core:1.13.1] /home/mahdi/.gradle/caches/transforms-4/285ee1e8940310167867875534681738/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
 	android:name
-		ADDED from [androidx.core:core:1.13.1] /home/mahdi/.gradle/caches/transforms-4/a7803d77b345a5dd8a44341f36777cac/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+		ADDED from [androidx.core:core:1.13.1] /home/mahdi/.gradle/caches/transforms-4/285ee1e8940310167867875534681738/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
 uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.13.1] /home/mahdi/.gradle/caches/transforms-4/a7803d77b345a5dd8a44341f36777cac/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+ADDED from [androidx.core:core:1.13.1] /home/mahdi/.gradle/caches/transforms-4/285ee1e8940310167867875534681738/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
 	android:name
-		ADDED from [androidx.core:core:1.13.1] /home/mahdi/.gradle/caches/transforms-4/a7803d77b345a5dd8a44341f36777cac/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+		ADDED from [androidx.core:core:1.13.1] /home/mahdi/.gradle/caches/transforms-4/285ee1e8940310167867875534681738/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
 uses-permission#com.m3.rahmani.studywithme.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.13.1] /home/mahdi/.gradle/caches/transforms-4/a7803d77b345a5dd8a44341f36777cac/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+ADDED from [androidx.core:core:1.13.1] /home/mahdi/.gradle/caches/transforms-4/285ee1e8940310167867875534681738/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
 	android:name
-		ADDED from [androidx.core:core:1.13.1] /home/mahdi/.gradle/caches/transforms-4/a7803d77b345a5dd8a44341f36777cac/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+		ADDED from [androidx.core:core:1.13.1] /home/mahdi/.gradle/caches/transforms-4/285ee1e8940310167867875534681738/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
 meta-data#androidx.lifecycle.ProcessLifecycleInitializer
-ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] /home/mahdi/.gradle/caches/transforms-4/c35e0415aa5a54f708f1726bb4dec6b6/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:29:13-31:52
+ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] /home/mahdi/.gradle/caches/transforms-4/95f51edf3ff15a9a0eb1065b3ec1f56c/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:29:13-31:52
 	android:value
-		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] /home/mahdi/.gradle/caches/transforms-4/c35e0415aa5a54f708f1726bb4dec6b6/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:31:17-49
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] /home/mahdi/.gradle/caches/transforms-4/95f51edf3ff15a9a0eb1065b3ec1f56c/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:31:17-49
 	android:name
-		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] /home/mahdi/.gradle/caches/transforms-4/c35e0415aa5a54f708f1726bb4dec6b6/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:30:17-78
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] /home/mahdi/.gradle/caches/transforms-4/95f51edf3ff15a9a0eb1065b3ec1f56c/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:30:17-78
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [com.bugsnag:bugsnag-android-core:6.5.0] /home/mahdi/.gradle/caches/transforms-4/aec383e02fa888e893d6abe2a49709f3/transformed/bugsnag-android-core-6.5.0/AndroidManifest.xml:9:5-79
+ADDED from [com.bugsnag:bugsnag-android-core:6.5.0] /home/mahdi/.gradle/caches/transforms-4/2847f5eee16c96b0b5c0ccfc355fd89e/transformed/bugsnag-android-core-6.5.0/AndroidManifest.xml:9:5-79
 	android:name
-		ADDED from [com.bugsnag:bugsnag-android-core:6.5.0] /home/mahdi/.gradle/caches/transforms-4/aec383e02fa888e893d6abe2a49709f3/transformed/bugsnag-android-core-6.5.0/AndroidManifest.xml:9:22-76
+		ADDED from [com.bugsnag:bugsnag-android-core:6.5.0] /home/mahdi/.gradle/caches/transforms-4/2847f5eee16c96b0b5c0ccfc355fd89e/transformed/bugsnag-android-core-6.5.0/AndroidManifest.xml:9:22-76
 provider#com.bugsnag.android.internal.BugsnagContentProvider
-ADDED from [com.bugsnag:bugsnag-android-core:6.5.0] /home/mahdi/.gradle/caches/transforms-4/aec383e02fa888e893d6abe2a49709f3/transformed/bugsnag-android-core-6.5.0/AndroidManifest.xml:12:9-16:40
+ADDED from [com.bugsnag:bugsnag-android-core:6.5.0] /home/mahdi/.gradle/caches/transforms-4/2847f5eee16c96b0b5c0ccfc355fd89e/transformed/bugsnag-android-core-6.5.0/AndroidManifest.xml:12:9-16:40
 	android:authorities
-		ADDED from [com.bugsnag:bugsnag-android-core:6.5.0] /home/mahdi/.gradle/caches/transforms-4/aec383e02fa888e893d6abe2a49709f3/transformed/bugsnag-android-core-6.5.0/AndroidManifest.xml:14:13-67
+		ADDED from [com.bugsnag:bugsnag-android-core:6.5.0] /home/mahdi/.gradle/caches/transforms-4/2847f5eee16c96b0b5c0ccfc355fd89e/transformed/bugsnag-android-core-6.5.0/AndroidManifest.xml:14:13-67
 	android:exported
-		ADDED from [com.bugsnag:bugsnag-android-core:6.5.0] /home/mahdi/.gradle/caches/transforms-4/aec383e02fa888e893d6abe2a49709f3/transformed/bugsnag-android-core-6.5.0/AndroidManifest.xml:15:13-37
+		ADDED from [com.bugsnag:bugsnag-android-core:6.5.0] /home/mahdi/.gradle/caches/transforms-4/2847f5eee16c96b0b5c0ccfc355fd89e/transformed/bugsnag-android-core-6.5.0/AndroidManifest.xml:15:13-37
 	android:initOrder
-		ADDED from [com.bugsnag:bugsnag-android-core:6.5.0] /home/mahdi/.gradle/caches/transforms-4/aec383e02fa888e893d6abe2a49709f3/transformed/bugsnag-android-core-6.5.0/AndroidManifest.xml:16:13-37
+		ADDED from [com.bugsnag:bugsnag-android-core:6.5.0] /home/mahdi/.gradle/caches/transforms-4/2847f5eee16c96b0b5c0ccfc355fd89e/transformed/bugsnag-android-core-6.5.0/AndroidManifest.xml:16:13-37
 	android:name
-		ADDED from [com.bugsnag:bugsnag-android-core:6.5.0] /home/mahdi/.gradle/caches/transforms-4/aec383e02fa888e893d6abe2a49709f3/transformed/bugsnag-android-core-6.5.0/AndroidManifest.xml:13:13-79
+		ADDED from [com.bugsnag:bugsnag-android-core:6.5.0] /home/mahdi/.gradle/caches/transforms-4/2847f5eee16c96b0b5c0ccfc355fd89e/transformed/bugsnag-android-core-6.5.0/AndroidManifest.xml:13:13-79
 service#androidx.room.MultiInstanceInvalidationService
-ADDED from [androidx.room:room-runtime:2.6.1] /home/mahdi/.gradle/caches/transforms-4/cc2d1789b0184bb33b352bda983f700c/transformed/room-runtime-2.6.1/AndroidManifest.xml:24:9-28:63
+ADDED from [androidx.room:room-runtime:2.6.1] /home/mahdi/.gradle/caches/transforms-4/f46d6b91ec6ff3810c649dc7b4cfd1a8/transformed/room-runtime-2.6.1/AndroidManifest.xml:24:9-28:63
 	android:exported
-		ADDED from [androidx.room:room-runtime:2.6.1] /home/mahdi/.gradle/caches/transforms-4/cc2d1789b0184bb33b352bda983f700c/transformed/room-runtime-2.6.1/AndroidManifest.xml:27:13-37
+		ADDED from [androidx.room:room-runtime:2.6.1] /home/mahdi/.gradle/caches/transforms-4/f46d6b91ec6ff3810c649dc7b4cfd1a8/transformed/room-runtime-2.6.1/AndroidManifest.xml:27:13-37
 	tools:ignore
-		ADDED from [androidx.room:room-runtime:2.6.1] /home/mahdi/.gradle/caches/transforms-4/cc2d1789b0184bb33b352bda983f700c/transformed/room-runtime-2.6.1/AndroidManifest.xml:28:13-60
+		ADDED from [androidx.room:room-runtime:2.6.1] /home/mahdi/.gradle/caches/transforms-4/f46d6b91ec6ff3810c649dc7b4cfd1a8/transformed/room-runtime-2.6.1/AndroidManifest.xml:28:13-60
 	android:directBootAware
-		ADDED from [androidx.room:room-runtime:2.6.1] /home/mahdi/.gradle/caches/transforms-4/cc2d1789b0184bb33b352bda983f700c/transformed/room-runtime-2.6.1/AndroidManifest.xml:26:13-43
+		ADDED from [androidx.room:room-runtime:2.6.1] /home/mahdi/.gradle/caches/transforms-4/f46d6b91ec6ff3810c649dc7b4cfd1a8/transformed/room-runtime-2.6.1/AndroidManifest.xml:26:13-43
 	android:name
-		ADDED from [androidx.room:room-runtime:2.6.1] /home/mahdi/.gradle/caches/transforms-4/cc2d1789b0184bb33b352bda983f700c/transformed/room-runtime-2.6.1/AndroidManifest.xml:25:13-74
+		ADDED from [androidx.room:room-runtime:2.6.1] /home/mahdi/.gradle/caches/transforms-4/f46d6b91ec6ff3810c649dc7b4cfd1a8/transformed/room-runtime-2.6.1/AndroidManifest.xml:25:13-74
 meta-data#androidx.profileinstaller.ProfileInstallerInitializer
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/d5c646a2bf8a243a25e56be43289d72a/transformed/profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/6263df362929879eb1798b3bc932d1fa/transformed/profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
 	android:value
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/d5c646a2bf8a243a25e56be43289d72a/transformed/profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/6263df362929879eb1798b3bc932d1fa/transformed/profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/d5c646a2bf8a243a25e56be43289d72a/transformed/profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/6263df362929879eb1798b3bc932d1fa/transformed/profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
 receiver#androidx.profileinstaller.ProfileInstallReceiver
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/d5c646a2bf8a243a25e56be43289d72a/transformed/profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/6263df362929879eb1798b3bc932d1fa/transformed/profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
 	android:enabled
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/d5c646a2bf8a243a25e56be43289d72a/transformed/profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/6263df362929879eb1798b3bc932d1fa/transformed/profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
 	android:exported
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/d5c646a2bf8a243a25e56be43289d72a/transformed/profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/6263df362929879eb1798b3bc932d1fa/transformed/profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
 	android:permission
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/d5c646a2bf8a243a25e56be43289d72a/transformed/profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/6263df362929879eb1798b3bc932d1fa/transformed/profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
 	android:directBootAware
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/d5c646a2bf8a243a25e56be43289d72a/transformed/profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/6263df362929879eb1798b3bc932d1fa/transformed/profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/d5c646a2bf8a243a25e56be43289d72a/transformed/profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/6263df362929879eb1798b3bc932d1fa/transformed/profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
 intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/d5c646a2bf8a243a25e56be43289d72a/transformed/profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/6263df362929879eb1798b3bc932d1fa/transformed/profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
 action#androidx.profileinstaller.action.INSTALL_PROFILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/d5c646a2bf8a243a25e56be43289d72a/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/6263df362929879eb1798b3bc932d1fa/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/d5c646a2bf8a243a25e56be43289d72a/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/6263df362929879eb1798b3bc932d1fa/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
 intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/d5c646a2bf8a243a25e56be43289d72a/transformed/profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/6263df362929879eb1798b3bc932d1fa/transformed/profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
 action#androidx.profileinstaller.action.SKIP_FILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/d5c646a2bf8a243a25e56be43289d72a/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/6263df362929879eb1798b3bc932d1fa/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/d5c646a2bf8a243a25e56be43289d72a/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/6263df362929879eb1798b3bc932d1fa/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
 intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/d5c646a2bf8a243a25e56be43289d72a/transformed/profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/6263df362929879eb1798b3bc932d1fa/transformed/profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
 action#androidx.profileinstaller.action.SAVE_PROFILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/d5c646a2bf8a243a25e56be43289d72a/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/6263df362929879eb1798b3bc932d1fa/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/d5c646a2bf8a243a25e56be43289d72a/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/6263df362929879eb1798b3bc932d1fa/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
 intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/d5c646a2bf8a243a25e56be43289d72a/transformed/profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/6263df362929879eb1798b3bc932d1fa/transformed/profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
 action#androidx.profileinstaller.action.BENCHMARK_OPERATION
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/d5c646a2bf8a243a25e56be43289d72a/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/6263df362929879eb1798b3bc932d1fa/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/d5c646a2bf8a243a25e56be43289d72a/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/mahdi/.gradle/caches/transforms-4/6263df362929879eb1798b3bc932d1fa/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
 uses-permission#${marketPermission}
-MERGED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/a757ebdd7492fe0be9bff62bb1019773/transformed/myket-billing-client-1.7/AndroidManifest.xml:9:5-59
+MERGED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/25cb94ea9784bec22a9fc6579d9bc0bc/transformed/myket-billing-client-1.7/AndroidManifest.xml:9:5-59
 queries
-ADDED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/a757ebdd7492fe0be9bff62bb1019773/transformed/myket-billing-client-1.7/AndroidManifest.xml:11:5-19:15
+ADDED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/25cb94ea9784bec22a9fc6579d9bc0bc/transformed/myket-billing-client-1.7/AndroidManifest.xml:11:5-19:15
 package#${marketApplicationId}
-ADDED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/a757ebdd7492fe0be9bff62bb1019773/transformed/myket-billing-client-1.7/AndroidManifest.xml:12:9-58
+ADDED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/25cb94ea9784bec22a9fc6579d9bc0bc/transformed/myket-billing-client-1.7/AndroidManifest.xml:12:9-58
 	android:name
-		ADDED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/a757ebdd7492fe0be9bff62bb1019773/transformed/myket-billing-client-1.7/AndroidManifest.xml:12:18-55
+		ADDED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/25cb94ea9784bec22a9fc6579d9bc0bc/transformed/myket-billing-client-1.7/AndroidManifest.xml:12:18-55
 package#ir.mservices.market
-ADDED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/a757ebdd7492fe0be9bff62bb1019773/transformed/myket-billing-client-1.7/AndroidManifest.xml:12:9-58
+ADDED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/25cb94ea9784bec22a9fc6579d9bc0bc/transformed/myket-billing-client-1.7/AndroidManifest.xml:12:9-58
 	android:name
-		ADDED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/a757ebdd7492fe0be9bff62bb1019773/transformed/myket-billing-client-1.7/AndroidManifest.xml:12:18-55
+		ADDED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/25cb94ea9784bec22a9fc6579d9bc0bc/transformed/myket-billing-client-1.7/AndroidManifest.xml:12:18-55
 intent#action:name:${marketBindAddress}+data:mimeType:*/*
-ADDED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/a757ebdd7492fe0be9bff62bb1019773/transformed/myket-billing-client-1.7/AndroidManifest.xml:14:9-18:18
+ADDED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/25cb94ea9784bec22a9fc6579d9bc0bc/transformed/myket-billing-client-1.7/AndroidManifest.xml:14:9-18:18
 intent#action:name:ir.mservices.market.InAppBillingService.BIND+data:mimeType:*/*
-ADDED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/a757ebdd7492fe0be9bff62bb1019773/transformed/myket-billing-client-1.7/AndroidManifest.xml:14:9-18:18
+ADDED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/25cb94ea9784bec22a9fc6579d9bc0bc/transformed/myket-billing-client-1.7/AndroidManifest.xml:14:9-18:18
 action#${marketBindAddress}
-ADDED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/a757ebdd7492fe0be9bff62bb1019773/transformed/myket-billing-client-1.7/AndroidManifest.xml:15:13-59
+ADDED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/25cb94ea9784bec22a9fc6579d9bc0bc/transformed/myket-billing-client-1.7/AndroidManifest.xml:15:13-59
 	android:name
-		ADDED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/a757ebdd7492fe0be9bff62bb1019773/transformed/myket-billing-client-1.7/AndroidManifest.xml:15:21-56
+		ADDED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/25cb94ea9784bec22a9fc6579d9bc0bc/transformed/myket-billing-client-1.7/AndroidManifest.xml:15:21-56
 action#ir.mservices.market.InAppBillingService.BIND
-ADDED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/a757ebdd7492fe0be9bff62bb1019773/transformed/myket-billing-client-1.7/AndroidManifest.xml:15:13-59
+ADDED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/25cb94ea9784bec22a9fc6579d9bc0bc/transformed/myket-billing-client-1.7/AndroidManifest.xml:15:13-59
 	android:name
-		ADDED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/a757ebdd7492fe0be9bff62bb1019773/transformed/myket-billing-client-1.7/AndroidManifest.xml:15:21-56
+		ADDED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/25cb94ea9784bec22a9fc6579d9bc0bc/transformed/myket-billing-client-1.7/AndroidManifest.xml:15:21-56
 data
-ADDED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/a757ebdd7492fe0be9bff62bb1019773/transformed/myket-billing-client-1.7/AndroidManifest.xml:17:13-44
+ADDED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/25cb94ea9784bec22a9fc6579d9bc0bc/transformed/myket-billing-client-1.7/AndroidManifest.xml:17:13-44
 	android:mimeType
-		ADDED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/a757ebdd7492fe0be9bff62bb1019773/transformed/myket-billing-client-1.7/AndroidManifest.xml:17:19-41
+		ADDED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/25cb94ea9784bec22a9fc6579d9bc0bc/transformed/myket-billing-client-1.7/AndroidManifest.xml:17:19-41
 activity#ir.myket.billingclient.util.ProxyBillingActivity
-ADDED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/a757ebdd7492fe0be9bff62bb1019773/transformed/myket-billing-client-1.7/AndroidManifest.xml:22:9-25:56
+ADDED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/25cb94ea9784bec22a9fc6579d9bc0bc/transformed/myket-billing-client-1.7/AndroidManifest.xml:22:9-25:56
 	android:exported
-		ADDED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/a757ebdd7492fe0be9bff62bb1019773/transformed/myket-billing-client-1.7/AndroidManifest.xml:24:13-36
+		ADDED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/25cb94ea9784bec22a9fc6579d9bc0bc/transformed/myket-billing-client-1.7/AndroidManifest.xml:24:13-36
 	android:theme
-		ADDED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/a757ebdd7492fe0be9bff62bb1019773/transformed/myket-billing-client-1.7/AndroidManifest.xml:25:13-53
+		ADDED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/25cb94ea9784bec22a9fc6579d9bc0bc/transformed/myket-billing-client-1.7/AndroidManifest.xml:25:13-53
 	android:name
-		ADDED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/a757ebdd7492fe0be9bff62bb1019773/transformed/myket-billing-client-1.7/AndroidManifest.xml:23:13-76
+		ADDED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/25cb94ea9784bec22a9fc6579d9bc0bc/transformed/myket-billing-client-1.7/AndroidManifest.xml:23:13-76
 meta-data#market_id
-ADDED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/a757ebdd7492fe0be9bff62bb1019773/transformed/myket-billing-client-1.7/AndroidManifest.xml:27:9-29:54
+ADDED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/25cb94ea9784bec22a9fc6579d9bc0bc/transformed/myket-billing-client-1.7/AndroidManifest.xml:27:9-29:54
 	android:value
-		ADDED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/a757ebdd7492fe0be9bff62bb1019773/transformed/myket-billing-client-1.7/AndroidManifest.xml:29:13-51
+		ADDED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/25cb94ea9784bec22a9fc6579d9bc0bc/transformed/myket-billing-client-1.7/AndroidManifest.xml:29:13-51
 	android:name
-		ADDED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/a757ebdd7492fe0be9bff62bb1019773/transformed/myket-billing-client-1.7/AndroidManifest.xml:28:13-37
+		ADDED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/25cb94ea9784bec22a9fc6579d9bc0bc/transformed/myket-billing-client-1.7/AndroidManifest.xml:28:13-37
 meta-data#market_bind_address
-ADDED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/a757ebdd7492fe0be9bff62bb1019773/transformed/myket-billing-client-1.7/AndroidManifest.xml:30:9-32:52
+ADDED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/25cb94ea9784bec22a9fc6579d9bc0bc/transformed/myket-billing-client-1.7/AndroidManifest.xml:30:9-32:52
 	android:value
-		ADDED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/a757ebdd7492fe0be9bff62bb1019773/transformed/myket-billing-client-1.7/AndroidManifest.xml:32:13-49
+		ADDED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/25cb94ea9784bec22a9fc6579d9bc0bc/transformed/myket-billing-client-1.7/AndroidManifest.xml:32:13-49
 	android:name
-		ADDED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/a757ebdd7492fe0be9bff62bb1019773/transformed/myket-billing-client-1.7/AndroidManifest.xml:31:13-47
+		ADDED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/25cb94ea9784bec22a9fc6579d9bc0bc/transformed/myket-billing-client-1.7/AndroidManifest.xml:31:13-47
 receiver#ir.myket.billingclient.util.IABReceiver
-ADDED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/a757ebdd7492fe0be9bff62bb1019773/transformed/myket-billing-client-1.7/AndroidManifest.xml:34:9-45:20
+ADDED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/25cb94ea9784bec22a9fc6579d9bc0bc/transformed/myket-billing-client-1.7/AndroidManifest.xml:34:9-45:20
 	android:exported
-		ADDED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/a757ebdd7492fe0be9bff62bb1019773/transformed/myket-billing-client-1.7/AndroidManifest.xml:36:13-36
+		ADDED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/25cb94ea9784bec22a9fc6579d9bc0bc/transformed/myket-billing-client-1.7/AndroidManifest.xml:36:13-36
 	android:name
-		ADDED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/a757ebdd7492fe0be9bff62bb1019773/transformed/myket-billing-client-1.7/AndroidManifest.xml:35:13-67
+		ADDED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/25cb94ea9784bec22a9fc6579d9bc0bc/transformed/myket-billing-client-1.7/AndroidManifest.xml:35:13-67
 intent-filter#action:name:${marketApplicationId}.billingSupport+action:name:${marketApplicationId}.consume+action:name:${marketApplicationId}.getPurchase+action:name:${marketApplicationId}.ping+action:name:${marketApplicationId}.purchase+action:name:${marketApplicationId}.skuDetail
-ADDED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/a757ebdd7492fe0be9bff62bb1019773/transformed/myket-billing-client-1.7/AndroidManifest.xml:37:13-44:29
+ADDED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/25cb94ea9784bec22a9fc6579d9bc0bc/transformed/myket-billing-client-1.7/AndroidManifest.xml:37:13-44:29
 intent-filter#action:name:ir.mservices.market.billingSupport+action:name:ir.mservices.market.consume+action:name:ir.mservices.market.getPurchase+action:name:ir.mservices.market.ping+action:name:ir.mservices.market.purchase+action:name:ir.mservices.market.skuDetail
-ADDED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/a757ebdd7492fe0be9bff62bb1019773/transformed/myket-billing-client-1.7/AndroidManifest.xml:37:13-44:29
+ADDED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/25cb94ea9784bec22a9fc6579d9bc0bc/transformed/myket-billing-client-1.7/AndroidManifest.xml:37:13-44:29
 action#${marketApplicationId}.ping
-ADDED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/a757ebdd7492fe0be9bff62bb1019773/transformed/myket-billing-client-1.7/AndroidManifest.xml:38:17-70
+ADDED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/25cb94ea9784bec22a9fc6579d9bc0bc/transformed/myket-billing-client-1.7/AndroidManifest.xml:38:17-70
 	android:name
-		ADDED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/a757ebdd7492fe0be9bff62bb1019773/transformed/myket-billing-client-1.7/AndroidManifest.xml:38:25-67
+		ADDED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/25cb94ea9784bec22a9fc6579d9bc0bc/transformed/myket-billing-client-1.7/AndroidManifest.xml:38:25-67
 action#ir.mservices.market.ping
-ADDED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/a757ebdd7492fe0be9bff62bb1019773/transformed/myket-billing-client-1.7/AndroidManifest.xml:38:17-70
+ADDED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/25cb94ea9784bec22a9fc6579d9bc0bc/transformed/myket-billing-client-1.7/AndroidManifest.xml:38:17-70
 	android:name
-		ADDED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/a757ebdd7492fe0be9bff62bb1019773/transformed/myket-billing-client-1.7/AndroidManifest.xml:38:25-67
+		ADDED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/25cb94ea9784bec22a9fc6579d9bc0bc/transformed/myket-billing-client-1.7/AndroidManifest.xml:38:25-67
 action#${marketApplicationId}.purchase
-ADDED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/a757ebdd7492fe0be9bff62bb1019773/transformed/myket-billing-client-1.7/AndroidManifest.xml:39:17-74
+ADDED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/25cb94ea9784bec22a9fc6579d9bc0bc/transformed/myket-billing-client-1.7/AndroidManifest.xml:39:17-74
 	android:name
-		ADDED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/a757ebdd7492fe0be9bff62bb1019773/transformed/myket-billing-client-1.7/AndroidManifest.xml:39:25-71
+		ADDED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/25cb94ea9784bec22a9fc6579d9bc0bc/transformed/myket-billing-client-1.7/AndroidManifest.xml:39:25-71
 action#ir.mservices.market.purchase
-ADDED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/a757ebdd7492fe0be9bff62bb1019773/transformed/myket-billing-client-1.7/AndroidManifest.xml:39:17-74
+ADDED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/25cb94ea9784bec22a9fc6579d9bc0bc/transformed/myket-billing-client-1.7/AndroidManifest.xml:39:17-74
 	android:name
-		ADDED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/a757ebdd7492fe0be9bff62bb1019773/transformed/myket-billing-client-1.7/AndroidManifest.xml:39:25-71
+		ADDED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/25cb94ea9784bec22a9fc6579d9bc0bc/transformed/myket-billing-client-1.7/AndroidManifest.xml:39:25-71
 action#${marketApplicationId}.getPurchase
-ADDED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/a757ebdd7492fe0be9bff62bb1019773/transformed/myket-billing-client-1.7/AndroidManifest.xml:40:17-77
+ADDED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/25cb94ea9784bec22a9fc6579d9bc0bc/transformed/myket-billing-client-1.7/AndroidManifest.xml:40:17-77
 	android:name
-		ADDED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/a757ebdd7492fe0be9bff62bb1019773/transformed/myket-billing-client-1.7/AndroidManifest.xml:40:25-74
+		ADDED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/25cb94ea9784bec22a9fc6579d9bc0bc/transformed/myket-billing-client-1.7/AndroidManifest.xml:40:25-74
 action#ir.mservices.market.getPurchase
-ADDED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/a757ebdd7492fe0be9bff62bb1019773/transformed/myket-billing-client-1.7/AndroidManifest.xml:40:17-77
+ADDED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/25cb94ea9784bec22a9fc6579d9bc0bc/transformed/myket-billing-client-1.7/AndroidManifest.xml:40:17-77
 	android:name
-		ADDED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/a757ebdd7492fe0be9bff62bb1019773/transformed/myket-billing-client-1.7/AndroidManifest.xml:40:25-74
+		ADDED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/25cb94ea9784bec22a9fc6579d9bc0bc/transformed/myket-billing-client-1.7/AndroidManifest.xml:40:25-74
 action#${marketApplicationId}.billingSupport
-ADDED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/a757ebdd7492fe0be9bff62bb1019773/transformed/myket-billing-client-1.7/AndroidManifest.xml:41:17-80
+ADDED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/25cb94ea9784bec22a9fc6579d9bc0bc/transformed/myket-billing-client-1.7/AndroidManifest.xml:41:17-80
 	android:name
-		ADDED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/a757ebdd7492fe0be9bff62bb1019773/transformed/myket-billing-client-1.7/AndroidManifest.xml:41:25-77
+		ADDED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/25cb94ea9784bec22a9fc6579d9bc0bc/transformed/myket-billing-client-1.7/AndroidManifest.xml:41:25-77
 action#ir.mservices.market.billingSupport
-ADDED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/a757ebdd7492fe0be9bff62bb1019773/transformed/myket-billing-client-1.7/AndroidManifest.xml:41:17-80
+ADDED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/25cb94ea9784bec22a9fc6579d9bc0bc/transformed/myket-billing-client-1.7/AndroidManifest.xml:41:17-80
 	android:name
-		ADDED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/a757ebdd7492fe0be9bff62bb1019773/transformed/myket-billing-client-1.7/AndroidManifest.xml:41:25-77
+		ADDED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/25cb94ea9784bec22a9fc6579d9bc0bc/transformed/myket-billing-client-1.7/AndroidManifest.xml:41:25-77
 action#${marketApplicationId}.skuDetail
-ADDED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/a757ebdd7492fe0be9bff62bb1019773/transformed/myket-billing-client-1.7/AndroidManifest.xml:42:17-75
+ADDED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/25cb94ea9784bec22a9fc6579d9bc0bc/transformed/myket-billing-client-1.7/AndroidManifest.xml:42:17-75
 	android:name
-		ADDED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/a757ebdd7492fe0be9bff62bb1019773/transformed/myket-billing-client-1.7/AndroidManifest.xml:42:25-72
+		ADDED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/25cb94ea9784bec22a9fc6579d9bc0bc/transformed/myket-billing-client-1.7/AndroidManifest.xml:42:25-72
 action#ir.mservices.market.skuDetail
-ADDED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/a757ebdd7492fe0be9bff62bb1019773/transformed/myket-billing-client-1.7/AndroidManifest.xml:42:17-75
+ADDED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/25cb94ea9784bec22a9fc6579d9bc0bc/transformed/myket-billing-client-1.7/AndroidManifest.xml:42:17-75
 	android:name
-		ADDED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/a757ebdd7492fe0be9bff62bb1019773/transformed/myket-billing-client-1.7/AndroidManifest.xml:42:25-72
+		ADDED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/25cb94ea9784bec22a9fc6579d9bc0bc/transformed/myket-billing-client-1.7/AndroidManifest.xml:42:25-72
 action#${marketApplicationId}.consume
-ADDED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/a757ebdd7492fe0be9bff62bb1019773/transformed/myket-billing-client-1.7/AndroidManifest.xml:43:17-73
+ADDED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/25cb94ea9784bec22a9fc6579d9bc0bc/transformed/myket-billing-client-1.7/AndroidManifest.xml:43:17-73
 	android:name
-		ADDED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/a757ebdd7492fe0be9bff62bb1019773/transformed/myket-billing-client-1.7/AndroidManifest.xml:43:25-70
+		ADDED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/25cb94ea9784bec22a9fc6579d9bc0bc/transformed/myket-billing-client-1.7/AndroidManifest.xml:43:25-70
 action#ir.mservices.market.consume
-ADDED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/a757ebdd7492fe0be9bff62bb1019773/transformed/myket-billing-client-1.7/AndroidManifest.xml:43:17-73
+ADDED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/25cb94ea9784bec22a9fc6579d9bc0bc/transformed/myket-billing-client-1.7/AndroidManifest.xml:43:17-73
 	android:name
-		ADDED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/a757ebdd7492fe0be9bff62bb1019773/transformed/myket-billing-client-1.7/AndroidManifest.xml:43:25-70
+		ADDED from [com.github.myketstore:myket-billing-client:1.7] /home/mahdi/.gradle/caches/transforms-4/25cb94ea9784bec22a9fc6579d9bc0bc/transformed/myket-billing-client-1.7/AndroidManifest.xml:43:25-70

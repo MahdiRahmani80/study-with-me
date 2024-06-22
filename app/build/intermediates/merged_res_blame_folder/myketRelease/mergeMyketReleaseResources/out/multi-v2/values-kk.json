@@ -4,24 +4,7 @@
             "outputFile": "ir.m3.rahmani.studywithme.app-mergeMyketReleaseResources-63:/values-kk/values-kk.xml",
             "map": [
                 {
-                    "source": "/home/mahdi/.gradle/caches/transforms-4/75cd16732e4756063141d749f5fc9d97/transformed/foundation-release/res/values-kk/values-kk.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,147",
-                        "endColumns": "91,95",
-                        "endOffsets": "142,238"
-                    },
-                    "to": {
-                        "startLines": "190,191",
-                        "startColumns": "4,4",
-                        "startOffsets": "17526,17618",
-                        "endColumns": "91,95",
-                        "endOffsets": "17613,17709"
-                    }
-                },
-                {
-                    "source": "/home/mahdi/.gradle/caches/transforms-4/13f99fd5a3c56d88aed339e59798ba3f/transformed/material-1.12.0/res/values-kk/values-kk.xml",
+                    "source": "/home/mahdi/.gradle/caches/transforms-4/8457e88b3b1c596a0ad2f6b5a90b5842/transformed/material-1.12.0/res/values-kk/values-kk.xml",
                     "from": {
                         "startLines": "2,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -40,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "/home/mahdi/.gradle/caches/transforms-4/18a5e950874fd70ef1b5c470363eb99a/transformed/appcompat-1.6.1/res/values-kk/values-kk.xml",
+                    "source": "/home/mahdi/.gradle/caches/transforms-4/1a7e381f980907b9bcf1762e15864bfc/transformed/appcompat-1.6.1/res/values-kk/values-kk.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -57,7 +40,7 @@
                     }
                 },
                 {
-                    "source": "/home/mahdi/.gradle/caches/transforms-4/a7803d77b345a5dd8a44341f36777cac/transformed/core-1.13.1/res/values-kk/values-kk.xml",
+                    "source": "/home/mahdi/.gradle/caches/transforms-4/57014aa3c66cfd655f5d8d676c71bf22/transformed/core-1.13.1/res/values-kk/values-kk.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -74,7 +57,7 @@
                     }
                 },
                 {
-                    "source": "/home/mahdi/.gradle/caches/transforms-4/3ac19da54421e327e762a9b201ffa189/transformed/material3-release/res/values-kk/values-kk.xml",
+                    "source": "/home/mahdi/.gradle/caches/transforms-4/b4ae0c9674f70db76424976930f971c4/transformed/material3-release/res/values-kk/values-kk.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -91,7 +74,24 @@
                     }
                 },
                 {
-                    "source": "/home/mahdi/.gradle/caches/transforms-4/216d74b3a39f8a0472322ddadd3f031f/transformed/ui-release/res/values-kk/values-kk.xml",
+                    "source": "/home/mahdi/.gradle/caches/transforms-4/5bc8c93aa014a5a6276ac40760ad4b62/transformed/foundation-release/res/values-kk/values-kk.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,147",
+                        "endColumns": "91,95",
+                        "endOffsets": "142,238"
+                    },
+                    "to": {
+                        "startLines": "190,191",
+                        "startColumns": "4,4",
+                        "startOffsets": "17526,17618",
+                        "endColumns": "91,95",
+                        "endOffsets": "17613,17709"
+                    }
+                },
+                {
+                    "source": "/home/mahdi/.gradle/caches/transforms-4/e37450f53232807e1da063fae81ad75d/transformed/ui-release/res/values-kk/values-kk.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

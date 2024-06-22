@@ -1,0 +1,32 @@
+<variant
+    name="cofeBazaarRelease"
+    package="ir.m3.rahmani.studywithme"
+    minSdkVersion="24"
+    targetSdkVersion="34"
+    mergedManifest="build/intermediates/merged_manifest/cofeBazaarRelease/processCofeBazaarReleaseMainManifest/AndroidManifest.xml"
+    proguardFiles="build/intermediates/default_proguard_files/global/proguard-android-optimize.txt-8.4.1:proguard-rules.pro"
+    partialResultsDir="build/intermediates/lint_vital_partial_results/cofeBazaarRelease/lintVitalAnalyzeCofeBazaarRelease/out"
+    desugaredMethodsFiles="/home/mahdi/.gradle/caches/transforms-4/7eca7303f8a9c2bf4eb193c79b8ab1e2/transformed/D8BackportedDesugaredMethods.txt">
+  <buildFeatures
+      viewBinding="true"
+      namespacing="REQUIRED"/>
+  <sourceProviders>
+    <sourceProvider
+        manifests="src/main/AndroidManifest.xml"
+        javaDirectories="src/main/java:src/cofeBazaar/java:src/release/java:src/cofeBazaarRelease/java:src/main/kotlin:src/cofeBazaar/kotlin:src/release/kotlin:src/cofeBazaarRelease/kotlin"
+        resDirectories="src/main/res:src/cofeBazaar/res:src/release/res:src/cofeBazaarRelease/res"
+        assetsDirectories="src/main/assets:src/cofeBazaar/assets:src/release/assets:src/cofeBazaarRelease/assets"/>
+  </sourceProviders>
+  <testSourceProviders>
+  </testSourceProviders>
+  <testFixturesSourceProviders>
+  </testFixturesSourceProviders>
+  <artifact
+      classOutputs="build/intermediates/javac/cofeBazaarRelease/compileCofeBazaarReleaseJavaWithJavac/classes:build/tmp/kotlin-classes/cofeBazaarRelease:build/tmp/kapt3/classes/cofeBazaarRelease:build/kotlinToolingMetadata:build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/cofeBazaarRelease/processCofeBazaarReleaseResources/R.jar"
+      type="MAIN"
+      applicationId="com.m3.rahmani.studywithme"
+      generatedSourceFolders="build/generated/source/kapt/cofeBazaarRelease:build/generated/ap_generated_sources/cofeBazaarRelease/out:build/generated/data_binding_base_class_source_out/cofeBazaarRelease/out"
+      generatedResourceFolders="build/generated/res/resValues/cofeBazaar/release"
+      desugaredMethodsFiles="/home/mahdi/.gradle/caches/transforms-4/7eca7303f8a9c2bf4eb193c79b8ab1e2/transformed/D8BackportedDesugaredMethods.txt">
+  </artifact>
+</variant>

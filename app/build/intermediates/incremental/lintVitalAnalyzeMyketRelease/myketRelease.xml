@@ -6,7 +6,7 @@
     mergedManifest="build/intermediates/merged_manifest/myketRelease/processMyketReleaseMainManifest/AndroidManifest.xml"
     proguardFiles="build/intermediates/default_proguard_files/global/proguard-android-optimize.txt-8.4.1:proguard-rules.pro"
     partialResultsDir="build/intermediates/lint_vital_partial_results/myketRelease/lintVitalAnalyzeMyketRelease/out"
-    desugaredMethodsFiles="/home/mahdi/.gradle/caches/transforms-4/7963002875ba2f7f930d1b806cef542c/transformed/D8BackportedDesugaredMethods.txt">
+    desugaredMethodsFiles="/home/mahdi/.gradle/caches/transforms-4/b7a83ee49533a4750532de64a5674681/transformed/D8BackportedDesugaredMethods.txt">
   <buildFeatures
       viewBinding="true"
       namespacing="REQUIRED"/>
@@ -38,6 +38,6 @@
       applicationId="com.m3.rahmani.studywithme"
       generatedSourceFolders="build/generated/source/kapt/myketRelease:build/generated/ap_generated_sources/myketRelease/out:build/generated/data_binding_base_class_source_out/myketRelease/out"
       generatedResourceFolders="build/generated/res/resValues/myket/release"
-      desugaredMethodsFiles="/home/mahdi/.gradle/caches/transforms-4/7963002875ba2f7f930d1b806cef542c/transformed/D8BackportedDesugaredMethods.txt">
+      desugaredMethodsFiles="/home/mahdi/.gradle/caches/transforms-4/b7a83ee49533a4750532de64a5674681/transformed/D8BackportedDesugaredMethods.txt">
   </artifact>
 </variant>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+<!--
+    todo: fix select to change color when pressed
+-->
+<item android:state_pressed="true" >
+    <shape>
+        <corners android:radius="@dimen/big_btn_radius"/>
+        <solid android:color="?colorTertiary"/>
+    </shape>
+</item>
+
+    <item>
+        <shape>
+            <corners android:radius="@dimen/big_btn_radius"/>
+            <solid android:color="?colorPrimary"/>
+        </shape>
+    </item>
+</selector>

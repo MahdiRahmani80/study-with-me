@@ -1,15 +1,12 @@
 package ir.m3.rahmani.studywithme.home
 
-import android.icu.util.Calendar
 import android.os.Bundle
 import android.view.View
-import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import com.google.android.material.navigation.NavigationBarView
 import com.google.android.material.snackbar.Snackbar
 import ir.m3.rahmani.studywithme.R
-import ir.m3.rahmani.studywithme.convertToPurchase
 import ir.m3.rahmani.studywithme.databinding.ActivityHomeBinding
 import ir.m3.rahmani.studywithme.di.Injector
 import ir.m3.rahmani.studywithme.home.challenge.ChallengeFragment

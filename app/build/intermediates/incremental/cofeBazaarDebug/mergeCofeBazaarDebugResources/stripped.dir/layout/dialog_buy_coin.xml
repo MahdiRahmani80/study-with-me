@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center_horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/buy_coin_hint"
+            android:padding="6dp"
+            style="?textAppearanceBodySmall"
+            android:textColor="?colorOnPrimaryContainer"/>
+
+        <TextView
+            android:id="@+id/buy_500"
+            style="?textAppearanceBodyMedium"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:padding="@dimen/space_between_buy_coin_items"
+            android:text="@string/buy_500_coin" />
+
+        <TextView
+            android:id="@+id/buy_1000"
+            style="?textAppearanceBodyMedium"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:padding="@dimen/space_between_buy_coin_items"
+            android:text="@string/buy_1000_coin" />
+
+        <TextView
+            android:id="@+id/buy_2000"
+            style="?textAppearanceBodyMedium"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:padding="@dimen/space_between_buy_coin_items"
+            android:text="@string/buy_2000_coin"/>
+
+        <TextView
+            android:id="@+id/buy_10000"
+            style="?textAppearanceBodyMedium"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:padding="@dimen/space_between_buy_coin_items"
+            android:text="@string/buy_10000_coin" />
+
+    </LinearLayout>
+</RelativeLayout>

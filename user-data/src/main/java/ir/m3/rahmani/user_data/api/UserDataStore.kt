@@ -6,7 +6,7 @@ import kotlinx.coroutines.flow.Flow
 
 interface UserDataStore {
 
-    fun getUser(phone:String): Flow<UserApiModel>
+    fun getUser(phone:String): Flow<UserApiModel?>
 
     suspend fun addUser(user: UserApiModel): Flow<Boolean>
 
